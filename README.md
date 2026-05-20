@@ -18,7 +18,10 @@ Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `the
 
 | Theme | Palette | Modes | Source |
 |-------|---------|-------|--------|
-| [Flexoki](themes/flexoki/) | Warm paper tones by [Steph Ango](https://stephango.com/flexoki) | Light + dark | [`theme.css`](themes/flexoki/theme.css) |
+| [Flexoki](themes/flexoki/) | Inky, minimalist palette by [Steph Ango](https://stephango.com/flexoki) — calibrated for legibility & perceptual balance across light/dark | Light + dark | [`theme.css`](themes/flexoki/theme.css) |
+
+> [!INFO]
+> **Flexoki** is designed for reading and writing on digital screens, inspired by analog inks and warm shades of paper. Learn about its design philosophy, extended palette (50–950 ramps), and mappings at [stephango.com/flexoki](https://stephango.com/flexoki). The full palette reference is documented in the theme's CSS header.
 
 ## Install
 
