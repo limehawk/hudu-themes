@@ -703,39 +703,42 @@ i.fas[style*="background"], i.far[style*="background"], i.fab[style*="background
    Markup: <div class="asset-icon" style="background:#XXX">
              <i class="fas fa-foo" style="color:#FFF"></i>
            </div>
-   Hudu picks a per-layout inline background from a fixed bright palette.
-   Map each Hudu hex to its nearest Flexoki accent so layouts stay visually
-   distinct without breaking the warm-paper tone. Glyph always paper-#FFFCF0. */
+   Strip the bright circle, color the glyph itself with the nearest Flexoki
+   accent. Each Hudu picker hex maps to a Flexoki family so layouts stay
+   visually distinct against the paper background. */
 
-/* Catch-all fallback for any Hudu color not enumerated below. */
-.asset-icon[style*="background"] { background: #24837B !important; } /* cyan default */
+/* Kill the wrapper circle entirely. */
+.asset-icon[style*="background"] {
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
+/* Fallback glyph color for any Hudu hex not enumerated below. */
+.asset-icon[style*="background"] > i { color: #24837B !important; }
 
 /* Cyan family → Flexoki cyan */
-.asset-icon[style*="#00caed" i],
-.asset-icon[style*="#00e2eb" i] { background: #24837B !important; }
+.asset-icon[style*="#00caed" i] > i,
+.asset-icon[style*="#00e2eb" i] > i { color: #24837B !important; }
 
 /* Blue family → Flexoki blue */
-.asset-icon[style*="#0081fa" i],
-.asset-icon[style*="#b2c9ec" i] { background: #205EA6 !important; }
+.asset-icon[style*="#0081fa" i] > i,
+.asset-icon[style*="#b2c9ec" i] > i { color: #205EA6 !important; }
 
 /* Green family → Flexoki green */
-.asset-icon[style*="#5bb686" i],
-.asset-icon[style*="#00d875" i] { background: #66800B !important; }
+.asset-icon[style*="#5bb686" i] > i,
+.asset-icon[style*="#00d875" i] > i { color: #66800B !important; }
 
 /* Yellow → Flexoki yellow */
-.asset-icon[style*="#f2b600" i] { background: #AD8301 !important; }
+.asset-icon[style*="#f2b600" i] > i { color: #AD8301 !important; }
 
 /* Orange / red-orange → Flexoki orange */
-.asset-icon[style*="#fc4200" i] { background: #BC5215 !important; }
+.asset-icon[style*="#fc4200" i] > i { color: #BC5215 !important; }
 
 /* Purple / indigo family → Flexoki purple */
-.asset-icon[style*="#a74af1" i],
-.asset-icon[style*="#9b0af2" i],
-.asset-icon[style*="#5b17f2" i],
-.asset-icon[style*="#300c83" i] { background: #5E409D !important; }
-
-/* Glyph color — always paper, regardless of Hudu's inline choice. */
-.asset-icon > i[style*="color"] { color: #FFFCF0 !important; }
+.asset-icon[style*="#a74af1" i] > i,
+.asset-icon[style*="#9b0af2" i] > i,
+.asset-icon[style*="#5b17f2" i] > i,
+.asset-icon[style*="#300c83" i] > i { color: #5E409D !important; }
 
 /* Avatar containers — pure black (#000) → Flexoki black */
 .index__list__avatar, img.profile-image { background-color: #100F0F !important; }
