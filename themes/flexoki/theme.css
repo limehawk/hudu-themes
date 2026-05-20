@@ -853,14 +853,22 @@ i.fas[style*="#300c83" i], i.far[style*="#300c83" i], i.fab[style*="#300c83" i] 
    .nasa .index__item:not(.index__item--task) i { background: var(--primary); color: white; border-radius: 100% }
    That hits company / KB / site / etc. icons in My Recents, Expiring Soon,
    Activity Feed. Strip the circle, color the glyph teal to match the rest. */
-.nasa .index__item:not(.index__item--task) i {
+.nasa .index__item:not(.index__item--task) i:not([style]) {
   background: transparent !important;
   border-radius: 0 !important;
   width: auto !important;
   height: auto !important;
   color: #24837B !important;
 }
-.dark-portal .nasa .index__item:not(.index__item--task) i { color: #3AA99F !important; }
+.dark-portal .nasa .index__item:not(.index__item--task) i:not([style]) { color: #3AA99F !important; }
+/* Inline-styled icons get the circle stripped via the bare-i rule above;
+   family color comes from the family selectors. */
+.nasa .index__item:not(.index__item--task) i[style] {
+  background: transparent !important;
+  border-radius: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
 
 /* Dashboard chart — canvas bars are pixel-painted from a server-baked
    Tailwind blue (#3B82F6). Pure CSS can't recolor canvas content, so apply
