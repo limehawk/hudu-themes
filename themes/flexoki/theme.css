@@ -708,13 +708,13 @@ i.fas[style*="background"], i.far[style*="background"], i.fab[style*="background
    visually distinct against the paper background. */
 
 /* Kill the wrapper circle entirely. */
-.asset-icon[style*="background"] {
+.asset-icon[style*="background: #"] {
   background: transparent !important;
   border-radius: 0 !important;
 }
 
 /* Fallback glyph color for any Hudu hex not enumerated below. */
-.asset-icon[style*="background"] > i { color: #24837B !important; }
+.asset-icon[style*="background: #"] > i { color: #24837B !important; }
 
 /* Cyan family → Flexoki cyan */
 .asset-icon[style*="#00caed" i] > i,
