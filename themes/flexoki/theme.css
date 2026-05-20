@@ -696,12 +696,12 @@ body:not(.dark-portal) a.admin__a:hover { background-color: #F2F0E5 !important; 
    Markup: <i class="fas fa-laptop" style="background:#XXX;color:#FFF"></i>
    Strip the circle, color the glyph itself with the matching Flexoki accent.
    Mirrors the .asset-icon family map below. */
-i.fas[style*="background: #"], i.far[style*="background: #"], i.fab[style*="background: #"] {
+i.fas[style*="background"][style*="#"], i.far[style*="background"][style*="#"], i.fab[style*="background"][style*="#"] {
   background: transparent !important;
   border-radius: 0 !important;
 }
 /* Fallback */
-i.fas[style*="background: #"], i.far[style*="background: #"], i.fab[style*="background: #"] {
+i.fas[style*="background"][style*="#"], i.far[style*="background"][style*="#"], i.fab[style*="background"][style*="#"] {
   color: #24837B !important;
 }
 /* Cyan */
@@ -732,13 +732,13 @@ i.fas[style*="#300c83" i], i.far[style*="#300c83" i], i.fab[style*="#300c83" i] 
    visually distinct against the paper background. */
 
 /* Kill the wrapper circle entirely. */
-.asset-icon[style*="background: #"] {
+.asset-icon[style*="background"][style*="#"] {
   background: transparent !important;
   border-radius: 0 !important;
 }
 
 /* Fallback glyph color for any Hudu hex not enumerated below. */
-.asset-icon[style*="background: #"] > i { color: #24837B !important; }
+.asset-icon[style*="background"][style*="#"] > i { color: #24837B !important; }
 
 /* Cyan family → Flexoki cyan */
 .asset-icon[style*="#00caed" i] > i,
@@ -763,6 +763,19 @@ i.fas[style*="#300c83" i], i.far[style*="#300c83" i], i.fab[style*="#300c83" i] 
 .asset-icon[style*="#9b0af2" i] > i,
 .asset-icon[style*="#5b17f2" i] > i,
 .asset-icon[style*="#300c83" i] > i { color: #5E409D !important; }
+
+/* Dashboard widget items without inline color — Hudu's base CSS paints them
+   .nasa .index__item:not(.index__item--task) i { background: var(--primary); color: white; border-radius: 100% }
+   That hits company / KB / site / etc. icons in My Recents, Expiring Soon,
+   Activity Feed. Strip the circle, color the glyph teal to match the rest. */
+.nasa .index__item:not(.index__item--task) i {
+  background: transparent !important;
+  border-radius: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  color: #24837B !important;
+}
+.dark-portal .nasa .index__item:not(.index__item--task) i { color: #3AA99F !important; }
 
 /* Dashboard chart — canvas bars are pixel-painted from a server-baked
    Tailwind blue (#3B82F6). Pure CSS can't recolor canvas content, so apply
