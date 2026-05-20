@@ -861,6 +861,25 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
   color: #24837B !important;
 }
 .dark-portal .nasa .index__item:not(.index__item--task) i:not([style]) { color: #3AA99F !important; }
+
+/* Per-entity glyph color — non-asset-layout entities (companies, KB, websites)
+   that Hudu renders without inline color. Maps each glyph to a Flexoki accent
+   matching its semantic role, so the dashboard widgets read at a glance. */
+.nasa .index__item i.fa-store-alt:not([style]),
+.nasa .index__item i.fa-building:not([style]) { color: #205EA6 !important; } /* companies → blue */
+.nasa .index__item i.fa-book-reader:not([style]),
+.nasa .index__item i.fa-book:not([style]) { color: #5E409D !important; } /* KB articles → purple */
+.nasa .index__item i.fa-globe:not([style]) { color: #66800B !important; } /* websites → green */
+.nasa .index__item i.fa-key:not([style]) { color: #AD8301 !important; } /* passwords → yellow */
+.nasa .index__item i.fa-camera:not([style]) { color: #A02F6F !important; } /* photos → magenta */
+
+.dark-portal .nasa .index__item i.fa-store-alt:not([style]),
+.dark-portal .nasa .index__item i.fa-building:not([style]) { color: #4385BE !important; }
+.dark-portal .nasa .index__item i.fa-book-reader:not([style]),
+.dark-portal .nasa .index__item i.fa-book:not([style]) { color: #8B7EC8 !important; }
+.dark-portal .nasa .index__item i.fa-globe:not([style]) { color: #879A39 !important; }
+.dark-portal .nasa .index__item i.fa-key:not([style]) { color: #D0A215 !important; }
+.dark-portal .nasa .index__item i.fa-camera:not([style]) { color: #CE5D97 !important; }
 /* Inline-styled icons get the circle stripped via the bare-i rule above;
    family color comes from the family selectors. */
 .nasa .index__item:not(.index__item--task) i[style] {
