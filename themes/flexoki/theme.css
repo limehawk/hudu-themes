@@ -699,6 +699,18 @@ i.fas[style*="background"], i.far[style*="background"], i.fab[style*="background
   color: #FFFCF0 !important;
 }
 
+/* Asset-layout icons — sidebar OTHER section + page-header badges.
+   Markup: <div class="asset-icon" style="background:#XXX">
+             <i class="fas fa-foo" style="color:#FFF"></i>
+           </div>
+   Per-asset-layout inline colors must yield to Flexoki palette. */
+.asset-icon[style*="background"] {
+  background: #24837B !important;
+}
+.asset-icon[style*="background"] > i[style*="color"] {
+  color: #FFFCF0 !important;
+}
+
 /* Avatar containers — pure black (#000) → Flexoki black */
 .index__list__avatar, img.profile-image { background-color: #100F0F !important; }
 
