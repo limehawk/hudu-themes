@@ -1,0 +1,720 @@
+/* ========================================
+   FLEXOKI THEME FOR HUDU
+   https://stephango.com/flexoki
+   ======================================== */
+
+:root {
+  /* === Flexoki Base Colors (Light Mode defaults) === */
+  /* bg = paper #FFFCF0, bg-2 = base-50 #F2F0E5 */
+  /* ui = base-100 #E6E4D9, ui-2 = base-150 #DAD8CE, ui-3 = base-200 #CECDC3 */
+  /* tx = black #100F0F, tx-2 = base-600 #6F6E69, tx-3 = base-300 #B7B5AC */
+
+  /* === Primary / Accent (cyan) === */
+  --primary: #3AA99F;
+  --primaryl1: #24837B;
+
+  /* === Light Mode Backgrounds === */
+  --background---neutral---light--1--default: #FFFCF0;
+  --background---neutral---light--1--hover: #F2F0E5;
+  --background---neutral---light--1--pressed: #E6E4D9;
+  --background---neutral---light--1--selected: #E6E4D9;
+  --background---neutral---light--2--default: #F2F0E5;
+  --background---neutral---light--2--hover: #E6E4D9;
+  --background---neutral---light--2--pressed: #DAD8CE;
+  --background---neutral---light--2--selected: #DAD8CE;
+  --background---neutral---light--3--default: #F2F0E5;
+  --background---neutral---light--3--hover: #E6E4D9;
+  --background---neutral---light--3--pressed: #DAD8CE;
+  --background---neutral---light--3--selected: #DAD8CE;
+  --background---neutral---light---disabled: #F2F0E5;
+
+  /* === Dark Mode Backgrounds === */
+  /* bg = black #100F0F, bg-2 = base-950 #1C1B1A */
+  /* ui = base-900 #282726, ui-2 = base-850 #343331, ui-3 = base-800 #403E3C */
+  --background---neutral---dark--1--default: #1C1B1A;
+  --background---neutral---dark--1--hover: #282726;
+  --background---neutral---dark--1--pressed: #100F0F;
+  --background---neutral---dark--1--selected: #343331;
+  --background---neutral---dark--1--disabled: #403E3C;
+  --background---neutral---dark--2--default: #100F0F;
+  --background---neutral---dark--2--hover: #1C1B1A;
+  --background---neutral---dark--2--pressed: #100F0F;
+  --background---neutral---dark--2--selected: #282726;
+  --background---neutral---dark--3--default: #100F0F;
+
+  /* === Light Mode Text === */
+  --text---neutral---light--1--default: #100F0F;
+  --text---neutral---light--1--hover: #100F0F;
+  --text---neutral---light--1--pressed: #100F0F;
+  --text---neutral---light--1--selected: #100F0F;
+  --text---neutral---light--2--default: #6F6E69;
+  --text---neutral---light--2--hover: #575653;
+  --text---neutral---light--2--pressed: #575653;
+  --text---neutral---light--2--selected: #575653;
+  --text---neutral---light--3--default: #B7B5AC;
+  --text---neutral---light--3--hover: #6F6E69;
+  --text---neutral---light--3--pressed: #6F6E69;
+  --text---neutral---light--3--selected: #6F6E69;
+  --text---neutral---light---disabled: #B7B5AC;
+
+  /* === Dark Mode Text === */
+  /* tx = base-200 #CECDC3, tx-2 = base-500 #878580, tx-3 = base-700 #575653 */
+  --text---neutral---dark--1--default: #CECDC3;
+  --text---neutral---dark--1--hover: #CECDC3;
+  --text---neutral---dark--1--pressed: #CECDC3;
+  --text---neutral---dark--1--selected: #CECDC3;
+  --text---neutral---dark---disabled: #575653;
+  --text---neutral---dark--2--default: #878580;
+  --text---neutral---dark--2--hover: #B7B5AC;
+  --text---neutral---dark--2--pressed: #B7B5AC;
+  --text---neutral---dark--2--selected: #B7B5AC;
+
+  /* === Links (cyan) === */
+  --link-default: #24837B;
+  --link-hover: #1C6C66;
+  --link-pressed: #1C6C66;
+  --link-visited: #24837B;
+  --link---light---default: #24837B;
+  --link---light---hover: #1C6C66;
+  --link---light---pressed: #1C6C66;
+  --link---light---visited: #24837B;
+  --link-default-dark: #3AA99F;
+  --link-hover-dark: #5ABDAC;
+  --link-pressed-dark: #5ABDAC;
+  --link-visited-dark: #3AA99F;
+  --link---dark---default: #3AA99F;
+  --link---dark---hover: #5ABDAC;
+  --link---dark---pressed: #5ABDAC;
+  --link---dark---visited: #3AA99F;
+
+  /* === Base color overrides === */
+  --black: #100F0F;
+  --blackl1: #1C1B1A;
+  --cobalt: #100F0F;
+  --blackl0point5: #100F0F;
+  --blackl1point5: #282726;
+  --blackl2: #343331;
+  --blackl3: #575653;
+  --white: #FFFCF0;
+  --whites1: #F2F0E5;
+  --whites1point5: #F2F0E5;
+  --whites2: #E6E4D9;
+  --whites3: #DAD8CE;
+  --whites4: #CECDC3;
+
+  /* === Accent Colors - Light === */
+  --accent---light---blue---default: #205EA6;
+  --accent---light---blue---hover: #4385BE;
+  --accent---light---blue---pressed: #1A4F8C;
+  --accent---light---blue---disabled: #205EA6;
+  --accent---light---orange---default: #BC5215;
+  --accent---light---orange---hover: #DA702C;
+  --accent---light---orange---pressed: #9D4310;
+  --accent---light---orange---selected: #FFE7CE;
+  --accent---light---orange---disabled: #BC5215;
+  --accent---light---golden---default: #AD8301;
+  --accent---light---golden---hover: #D0A215;
+  --accent---light---golden---pressed: #8E6B01;
+  --accent---light---golden---selected: #FAEEC6;
+  --accent---light---golden---disabled: #AD8301;
+  --accent---light---teal---default: #24837B;
+  --accent---light---teal---hover: #3AA99F;
+  --accent---light---teal---pressed: #1C6C66;
+  --accent---light---teal---selected: #DDF1E4;
+  --accent---light---teal---disabled: #24837B;
+  --accent---light---purple---default: #5E409D;
+  --accent---light---purple---hover: #8B7EC8;
+  --accent---light---purple---pressed: #4F3685;
+  --accent---light---purple---selected: #F0EAEC;
+  --accent---light---purple---disabled: #5E409D;
+  --accent---light---green---default: #66800B;
+  --accent---light---green---hover: #879A39;
+  --accent---light---green---pressed: #536907;
+  --accent---light---green---selected: #EDEECF;
+  --accent---light---green---disabled: #66800B;
+  --accent---selected: #DDF1E4;
+  --accent---selected---hover: #BFE8D9;
+
+  /* === Accent Colors - Dark === */
+  --accent---dark---blue---default: #4385BE;
+  --accent---dark---blue---hover: #66A0C8;
+  --accent---dark---blue---pressed: #3171B2;
+  --accent---dark---blue---selected: #163B66;
+  --accent---dark---blue---disabled: #4385BE;
+  --accent---dark---orange---default: #DA702C;
+  --accent---dark---orange---hover: #EC8B49;
+  --accent---dark---orange---pressed: #CB6120;
+  --accent---dark---orange---selected: #40200D;
+  --accent---dark---orange---disabled: #DA702C;
+  --accent---dark---golden---default: #D0A215;
+  --accent---dark---golden---hover: #DFB431;
+  --accent---dark---golden---pressed: #BE9207;
+  --accent---dark---golden---selected: #3A2D04;
+  --accent---dark---golden---disabled: #D0A215;
+  --accent---dark---teal---default: #3AA99F;
+  --accent---dark---teal---hover: #5ABDAC;
+  --accent---dark---teal---pressed: #2F968D;
+  --accent---dark---teal---selected: #122F2C;
+  --accent---dark---teal---disabled: #3AA99F;
+  --accent---dark---purple---default: #8B7EC8;
+  --accent---dark---purple---hover: #A699D0;
+  --accent---dark---purple---pressed: #735EB5;
+  --accent---dark---purple---selected: #261C39;
+  --accent---dark---purple---disabled: #8B7EC8;
+  --accent---dark---green---default: #879A39;
+  --accent---dark---green---hover: #A0AF54;
+  --accent---dark---green---pressed: #768D21;
+  --accent---dark---green---selected: #252D09;
+  --accent---dark---green---disabled: #879A39;
+
+  /* === Alerts (mapped to Flexoki accents) === */
+  --alert---error---01: #FFE1D5;
+  --alert---error---02: #FFCABB;
+  --alert---error---03: #D14D41;
+  --alert---error---04: #AF3029;
+  --alert---error---05: #AF3029;
+  --alert---error---06: #942822;
+  --alert---error---07: #6C201C;
+  --alert---warning---01: #FAEEC6;
+  --alert---warning---02: #F6E2A0;
+  --alert---warning---03: #DA702C;
+  --alert---warning---04: #BC5215;
+  --alert---warning---05: #9D4310;
+  --alert---success---01: #EDEECF;
+  --alert---success---02: #A0AF54;
+  --alert---success---03: #879A39;
+  --alert---success---04: #66800B;
+  --alert---success---05: #536907;
+  --alert---info---01: #E1ECEB;
+  --alert---info---02: #92BFDB;
+  --alert---info---03: #4385BE;
+  --alert---info---04: #205EA6;
+
+  /* === Flags (mapped to Flexoki 600 values) === */
+  --flag---red: #AF3029;
+  --flag---blue: #205EA6;
+  --flag---green: #66800B;
+  --flag---purple: #5E409D;
+  --flag---orange: #BC5215;
+  --flag---yellow: #AD8301;
+  --flag---light-pink: #F9B9CF;
+  --flag---light-blue: #ABCFE2;
+  --flag---light-green: #CDD597;
+  --flag---light-purple: #D3CAE6;
+  --flag---light-orange: #FCC192;
+  --flag---light-yellow: #F1D67E;
+  --flag---white: #FFFCF0;
+  --flag---grey: #878580;
+}
+
+/* === Light: fix hardcoded white bgs === */
+
+body:not(.dark-portal) table.vgt-table,
+body:not(.dark-portal) .vgt-table.polar-bear,
+body:not(.dark-portal) .vgt-table.polar-bear.bordered td,
+body:not(.dark-portal) .table-scroll,
+body:not(.dark-portal) .table-scroll--fixed-column,
+body:not(.dark-portal) #datatable,
+body:not(.dark-portal) td,
+body:not(.dark-portal) .company-summary,
+body:not(.dark-portal) .box,
+body:not(.dark-portal) .box--form,
+body:not(.dark-portal) .card,
+body:not(.dark-portal) .card__info,
+body:not(.dark-portal) .nasa__block,
+body:not(.dark-portal) .grid-item,
+body:not(.dark-portal) .widget,
+body:not(.dark-portal) .info-panel,
+body:not(.dark-portal) .asset-sidebar__box,
+body:not(.dark-portal) .asset-sidebar__condensed,
+body:not(.dark-portal) .asset-folder-card,
+body:not(.dark-portal) .asset-columns__box,
+body:not(.dark-portal) .historical__box,
+body:not(.dark-portal) .box-list__item,
+body:not(.dark-portal) .box-list__entity-item,
+body:not(.dark-portal) .box-list--options,
+body:not(.dark-portal) .box-list--historical,
+body:not(.dark-portal) .header__search,
+body:not(.dark-portal) input:not([type="submit"]):not([type="checkbox"]),
+body:not(.dark-portal) select,
+body:not(.dark-portal) textarea,
+body:not(.dark-portal) .ts-control,
+body:not(.dark-portal) .ts-dropdown,
+body:not(.dark-portal) .ts-dropdown .optgroup-header,
+body:not(.dark-portal) .multiselect__tags,
+body:not(.dark-portal) .multiselect__input,
+body:not(.dark-portal) .multiselect__single,
+body:not(.dark-portal) .multiselect__content-wrapper,
+body:not(.dark-portal) .multiselect__spinner,
+body:not(.dark-portal) .inputer,
+body:not(.dark-portal) .form__nested,
+body:not(.dark-portal) .form-section,
+body:not(.dark-portal) .form-split .form-tip.form-tip--sidebar,
+body:not(.dark-portal) .password-editor,
+body:not(.dark-portal) .ql-editor,
+body:not(.dark-portal) .ql-snow .ql-picker-options,
+body:not(.dark-portal) .ql-snow .ql-tooltip,
+body:not(.dark-portal) .menubar__form input,
+body:not(.dark-portal) .writer__content,
+body:not(.dark-portal) .otp-inputer,
+body:not(.dark-portal) .button--secondary,
+body:not(.dark-portal) .button--danger-secondary,
+body:not(.dark-portal) .dropdown__content,
+body:not(.dark-portal) .drop__content,
+body:not(.dark-portal) .table__dropdown__content,
+body:not(.dark-portal) .floating-menu__content,
+body:not(.dark-portal) .company-jump,
+body:not(.dark-portal) .company-jump__item a.company-jump__link,
+body:not(.dark-portal) .company-switcher__dropdown,
+body:not(.dark-portal) .contact-dashboard,
+body:not(.dark-portal) .cpanel__aside,
+body:not(.dark-portal) .mkb .cpanel,
+body:not(.dark-portal) .mkb__content,
+body:not(.dark-portal) .photos__container,
+body:not(.dark-portal) .explainer,
+body:not(.dark-portal) .welcome,
+body:not(.dark-portal) .user-page__block,
+body:not(.dark-portal) .process-runs-welcome,
+body:not(.dark-portal) .process-runs-welcome__sidebar,
+body:not(.dark-portal) .drafter__finish,
+body:not(.dark-portal) .drafter__titlebar,
+body:not(.dark-portal) .duplicator,
+body:not(.dark-portal) .template,
+body:not(.dark-portal) a.admin__a,
+body:not(.dark-portal) .api-keys__create,
+body:not(.dark-portal) .api-keys__key,
+body:not(.dark-portal) a.index__folder,
+body:not(.dark-portal) .doorkeeper-container,
+body:not(.dark-portal) .doorkeeper__authorize-grants,
+body:not(.dark-portal) .roler__table,
+body:not(.dark-portal) .sort-rules section,
+body:not(.dark-portal) .task-sorter__task,
+body:not(.dark-portal) .external_app,
+body:not(.dark-portal) .fast-facts__header .explainer,
+body:not(.dark-portal) .updater,
+body:not(.dark-portal) .billing,
+body:not(.dark-portal) .custom-fast-fact,
+body:not(.dark-portal) .custom-fast-fact__opened,
+body:not(.dark-portal) .color-section,
+body:not(.dark-portal) .article__public,
+body:not(.dark-portal) .asset_layout_field,
+body:not(.dark-portal) .connector,
+body:not(.dark-portal) .company-portal,
+body:not(.dark-portal) .company-portal__option,
+body:not(.dark-portal) .company-portal__warning,
+body:not(.dark-portal) .dash__top__logo,
+body:not(.dark-portal) .dropzone,
+body:not(.dark-portal) .onboarder__modal,
+body:not(.dark-portal) .company-logo,
+body:not(.dark-portal) .color-grid,
+body:not(.dark-portal) .alert {
+  background: #FFFCF0 !important;
+}
+
+body:not(.dark-portal) th,
+body:not(.dark-portal) .simple-crud th,
+body:not(.dark-portal) .vgt-table thead th,
+body:not(.dark-portal) .search__header,
+body:not(.dark-portal) .search-form,
+body:not(.dark-portal) .layout-sorter-v2 .sort-rules section,
+body:not(.dark-portal) .column-form__rules,
+body:not(.dark-portal) .disabled .ts-control {
+  background: #F2F0E5 !important;
+}
+
+body:not(.dark-portal) .nasa__item:hover,
+body:not(.dark-portal) .vgt-table.black-rhino tr.clickable:hover,
+body:not(.dark-portal) .box-list__item:hover,
+body:not(.dark-portal) .box-list__entity-item:hover {
+  background: #F2F0E5 !important;
+}
+
+/* === Dark: fix hardcoded white bgs === */
+
+.dark-portal table.vgt-table, .dark-portal .vgt-table.polar-bear,
+.dark-portal .vgt-table.polar-bear.bordered td,
+.dark-portal .table-scroll, .dark-portal .table-scroll--fixed-column,
+.dark-portal #datatable, .dark-portal td,
+.dark-portal .company-summary, .dark-portal .box, .dark-portal .box--form,
+.dark-portal .card, .dark-portal .card__info, .dark-portal .nasa__block,
+.dark-portal .grid-item, .dark-portal .widget, .dark-portal .info-panel,
+.dark-portal .asset-sidebar__box, .dark-portal .asset-sidebar__condensed,
+.dark-portal .asset-folder-card, .dark-portal .asset-columns__box,
+.dark-portal .historical__box, .dark-portal .box-list__item,
+.dark-portal .box-list__entity-item,
+.dark-portal .header__search, .dark-portal input:not([type="submit"]):not([type="checkbox"]),
+.dark-portal select, .dark-portal textarea,
+.dark-portal .ts-control, .dark-portal .ts-dropdown,
+.dark-portal .multiselect__tags, .dark-portal .multiselect__input,
+.dark-portal .multiselect__single, .dark-portal .multiselect__content-wrapper,
+.dark-portal .inputer, .dark-portal .form__nested,
+.dark-portal .form-section, .dark-portal .password-editor,
+.dark-portal .writer__content,
+.dark-portal .button--secondary, .dark-portal .button--danger-secondary,
+.dark-portal .dropdown__content, .dark-portal .drop__content,
+.dark-portal .table__dropdown__content, .dark-portal .floating-menu__content,
+.dark-portal .company-jump, .dark-portal .contact-dashboard,
+.dark-portal .cpanel__aside, .dark-portal .mkb .cpanel,
+.dark-portal .mkb__content, .dark-portal .explainer,
+.dark-portal .welcome, .dark-portal .user-page__block,
+.dark-portal .process-runs-welcome, .dark-portal .drafter__finish,
+.dark-portal .doorkeeper-container, .dark-portal .api-keys__create,
+.dark-portal .api-keys__key, .dark-portal .sort-rules section,
+.dark-portal .task-sorter__task, .dark-portal .external_app,
+.dark-portal .updater, .dark-portal .billing, .dark-portal .roler__table,
+.dark-portal .article__public, .dark-portal .asset_layout_field,
+.dark-portal .connector, .dark-portal .company-portal,
+.dark-portal .company-portal__option, .dark-portal .dropzone,
+.dark-portal .onboarder__modal, .dark-portal .company-logo,
+.dark-portal .alert {
+  background: #1C1B1A !important;
+}
+
+.dark-portal th, .dark-portal .simple-crud th,
+.dark-portal .search__header, .dark-portal .search-form {
+  background: #282726 !important;
+}
+
+.dark-portal .nasa__item:hover,
+.dark-portal .vgt-table.black-rhino tr.clickable:hover,
+.dark-portal .box-list__item:hover {
+  background: #282726 !important;
+}
+
+
+/* ============================================================
+   Color-coded admin tile sections (Flexoki)
+   Basic Setup = teal, Core = blue, Account Admin = orange
+   ============================================================ */
+.dark-portal a.admin__a i,
+body:not(.dark-portal) a.admin__a i {
+  background: transparent !important;
+  border: none !important;
+}
+.dark-portal   .admin__section:nth-of-type(1) a.admin__a i { color: var(--accent---dark---teal---default) !important; }
+body:not(.dark-portal) .admin__section:nth-of-type(1) a.admin__a i { color: var(--accent---light---teal---default) !important; }
+.dark-portal   .admin__section:nth-of-type(2) a.admin__a i { color: var(--accent---dark---blue---default) !important; }
+body:not(.dark-portal) .admin__section:nth-of-type(2) a.admin__a i { color: var(--accent---light---blue---default) !important; }
+.dark-portal   .admin__section:nth-of-type(3) a.admin__a i { color: var(--accent---dark---orange---default) !important; }
+body:not(.dark-portal) .admin__section:nth-of-type(3) a.admin__a i { color: var(--accent---light---orange---default) !important; }
+
+/* ============================================================
+   FLEXOKI MAPPINGS — KB article prose (.rich_text_content)
+   ============================================================ */
+
+/* Headings → Flexoki tx (not pure white) */
+.dark-portal .rich_text_content h1,
+.dark-portal .rich_text_content h2,
+.dark-portal .rich_text_content h3,
+.dark-portal .rich_text_content h4,
+.dark-portal .rich_text_content h5,
+.dark-portal .rich_text_content h6 { color: var(--text---neutral---dark--1--default) !important; }
+body:not(.dark-portal) .rich_text_content h1,
+body:not(.dark-portal) .rich_text_content h2,
+body:not(.dark-portal) .rich_text_content h3,
+body:not(.dark-portal) .rich_text_content h4,
+body:not(.dark-portal) .rich_text_content h5,
+body:not(.dark-portal) .rich_text_content h6 { color: var(--text---neutral---light--1--default) !important; }
+
+/* Strong / bold → tx */
+.dark-portal .rich_text_content strong,
+.dark-portal .rich_text_content b { color: var(--text---neutral---dark--1--default) !important; }
+body:not(.dark-portal) .rich_text_content strong,
+body:not(.dark-portal) .rich_text_content b { color: var(--text---neutral---light--1--default) !important; }
+
+/* Em / italic → tx (not forced; inherits italic from browser) */
+.dark-portal .rich_text_content em,
+.dark-portal .rich_text_content i:not([class*="fa-"]) {font-style: italic !important; }
+body:not(.dark-portal) .rich_text_content em,
+body:not(.dark-portal) .rich_text_content i:not([class*="fa-"]) {font-style: italic !important; }
+
+/* Inline code → magenta on bg-2 */
+.dark-portal .rich_text_content code,
+.dark-portal .rich_text_content :not(pre) > code {
+  color: #CE5D97 !important;
+  background: var(--background---neutral---dark--2--default) !important;
+  border: 1px solid var(--accent---dark---teal---selected) !important;
+  border-radius: 3px !important;
+  padding: 0.1em 0.35em !important;
+  font-size: 0.9em !important;
+}
+body:not(.dark-portal) .rich_text_content code,
+body:not(.dark-portal) .rich_text_content :not(pre) > code {
+  color: #A02F6F !important;
+  background: var(--background---neutral---light--2--default) !important;
+  border: 1px solid #DAD8CE !important;
+  border-radius: 3px !important;
+  padding: 0.1em 0.35em !important;
+  font-size: 0.9em !important;
+}
+
+/* Code blocks (pre) */
+.dark-portal .rich_text_content pre {
+  background: var(--background---neutral---dark--2--default) !important;
+  border: 1px solid #282726 !important;
+  color: var(--text---neutral---dark--1--default) !important;
+  border-radius: 4px !important;
+  padding: 1em !important;
+}
+body:not(.dark-portal) .rich_text_content pre {
+  background: var(--background---neutral---light--2--default) !important;
+  border: 1px solid #DAD8CE !important;
+  color: var(--text---neutral---light--1--default) !important;
+  border-radius: 4px !important;
+  padding: 1em !important;
+}
+.dark-portal .rich_text_content pre code,
+body:not(.dark-portal) .rich_text_content pre code {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  font-size: 1em !important;
+  color: inherit !important;
+}
+
+/* Syntax highlighting (Prism + highlight.js) — Flexoki palette */
+.dark-portal .rich_text_content .token.comment,
+.dark-portal .rich_text_content .hljs-comment { color: #878580 !important; }
+.dark-portal .rich_text_content .token.punctuation,
+.dark-portal .rich_text_content .token.operator,
+.dark-portal .rich_text_content .hljs-punctuation,
+.dark-portal .rich_text_content .hljs-operator { color: #B7B5AC !important; }
+.dark-portal .rich_text_content .token.string,
+.dark-portal .rich_text_content .hljs-string { color: #3AA99F !important; }
+.dark-portal .rich_text_content .token.variable,
+.dark-portal .rich_text_content .token.attr-name,
+.dark-portal .rich_text_content .hljs-variable,
+.dark-portal .rich_text_content .hljs-attr { color: #4385BE !important; }
+.dark-portal .rich_text_content .token.number,
+.dark-portal .rich_text_content .hljs-number { color: #8B7EC8 !important; }
+.dark-portal .rich_text_content .token.constant,
+.dark-portal .rich_text_content .hljs-literal { color: #D0A215 !important; }
+.dark-portal .rich_text_content .token.function,
+.dark-portal .rich_text_content .hljs-title.function_ { color: #DA702C !important; }
+.dark-portal .rich_text_content .token.keyword,
+.dark-portal .rich_text_content .hljs-keyword { color: #879A39 !important; }
+.dark-portal .rich_text_content .token.important,
+.dark-portal .rich_text_content .token.tag,
+.dark-portal .rich_text_content .hljs-section,
+.dark-portal .rich_text_content .hljs-name { color: #CE5D97 !important; }
+.dark-portal .rich_text_content .token.deleted,
+.dark-portal .rich_text_content .hljs-deletion { color: #D14D41 !important; }
+
+/* Blockquote */
+.dark-portal .rich_text_content blockquote {
+  background: var(--background---neutral---dark--2--default) !important;
+  border-left: 3px solid var(--accent---dark---teal---default) !important;
+  color: var(--text---neutral---dark--2--default) !important;
+  padding: 0.75em 1em !important;
+  margin: 1em 0 !important;
+  border-radius: 0 4px 4px 0 !important;
+}
+body:not(.dark-portal) .rich_text_content blockquote {
+  background: var(--background---neutral---light--2--default) !important;
+  border-left: 3px solid var(--accent---light---teal---default) !important;
+  color: var(--text---neutral---light--2--default) !important;
+  padding: 0.75em 1em !important;
+  margin: 1em 0 !important;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+/* kbd */
+.dark-portal .rich_text_content kbd {
+  background: var(--background---neutral---dark--2--default) !important;
+  border: 1px solid #403E3C !important;
+  border-bottom-width: 2px !important;
+  color: var(--text---neutral---dark--1--default) !important;
+  padding: 0.1em 0.4em !important;
+  border-radius: 3px !important;
+  font-size: 0.85em !important;
+  font-family: RobotoMono, ui-monospace, monospace !important;
+}
+body:not(.dark-portal) .rich_text_content kbd {
+  background: var(--background---neutral---light--2--default) !important;
+  border: 1px solid #B7B5AC !important;
+  border-bottom-width: 2px !important;
+  color: var(--text---neutral---light--1--default) !important;
+  padding: 0.1em 0.4em !important;
+  border-radius: 3px !important;
+  font-size: 0.85em !important;
+  font-family: RobotoMono, ui-monospace, monospace !important;
+}
+
+/* hr */
+.dark-portal .rich_text_content hr { border: 0 !important; border-top: 1px solid #282726 !important; margin: 1.5em 0 !important; }
+body:not(.dark-portal) .rich_text_content hr { border: 0 !important; border-top: 1px solid #E6E4D9 !important; margin: 1.5em 0 !important; }
+
+/* Tables */
+.dark-portal .rich_text_content table { border-collapse: collapse !important; width: 100% !important; }
+.dark-portal .rich_text_content table th {
+  background: #282726 !important;
+  color: var(--text---neutral---dark--1--default) !important;
+  border-bottom: 2px solid #403E3C !important;
+  text-align: left !important; padding: 0.5em 0.75em !important;
+}
+.dark-portal .rich_text_content table td { border-bottom: 1px solid #282726 !important; padding: 0.5em 0.75em !important; }
+.dark-portal .rich_text_content table tr:nth-child(even) td { background: var(--background---neutral---dark--2--default) !important; }
+
+/* Link hover underline */
+.dark-portal .rich_text_content a:hover,
+body:not(.dark-portal) .rich_text_content a:hover { text-decoration: underline !important; }
+
+/* ========================================
+   MISSED OVERRIDES — 2026-05-18
+   ======================================== */
+
+/* Callouts keep light backgrounds in dark mode, but the global
+   .rich_text_content strong/b rule repainted bold text to tx (#CECDC3),
+   making bold words inside callouts unreadable (~1.1 contrast).
+   Restore each callout's own dark text color. */
+.rich_text_content .callout strong,
+.rich_text_content .callout b { color: inherit !important; }
+
+/* The blanket `input` background rules (both modes) also caught
+   input[type="submit"], repainting primary buttons (e.g. "Update Profile")
+   to the surface color — dark-on-dark / white-on-cream, invisible.
+   Restore the accent fill. Each selector carries an extra attribute over
+   the blanket rules so specificity wins regardless of source order.
+   Fill is cyan-700 — dark enough that paper text clears WCAG AA (6:1)
+   in both modes. The 600/400 ramp split is for syntax text, not UI
+   fills; cyan-600 is the murky dead-zone (white 4.4 / dark 4.2). */
+.dark-portal input[type="submit"],
+body:not(.dark-portal) input[type="submit"] {
+  background-color: #1C6C66 !important;  /* cyan-700 */
+  color: #FFFCF0 !important;             /* paper */
+  border-color: #1C6C66 !important;
+}
+
+/* ========================================
+   Scrollbars — thin, theme-matched
+   ======================================== */
+body:not(.dark-portal) * { scrollbar-width: thin; scrollbar-color: #CECDC3 transparent; }
+body:not(.dark-portal) ::-webkit-scrollbar { width: 10px; height: 10px; }
+body:not(.dark-portal) ::-webkit-scrollbar-track { background: transparent; }
+body:not(.dark-portal) ::-webkit-scrollbar-thumb {
+  background: #CECDC3 !important;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+body:not(.dark-portal) ::-webkit-scrollbar-thumb:hover { background: #B7B5AC !important; }
+body:not(.dark-portal) ::-webkit-scrollbar-corner { background: transparent; }
+
+.dark-portal * { scrollbar-width: thin; scrollbar-color: #403E3C transparent; }
+.dark-portal ::-webkit-scrollbar { width: 10px; height: 10px; }
+.dark-portal ::-webkit-scrollbar-track { background: transparent; }
+.dark-portal ::-webkit-scrollbar-thumb {
+  background: #403E3C !important;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.dark-portal ::-webkit-scrollbar-thumb:hover { background: #575653 !important; }
+.dark-portal ::-webkit-scrollbar-corner { background: transparent; }
+
+/* ========================================
+   Checkbox hover — keep teal when checked
+   Hudu's default :checked:hover flips the box to neutral bg + black
+   check, so a checked box looks like it un-checked on hover. Hold the
+   teal identity, just shift one ramp step.
+   ======================================== */
+body:not(.dark-portal) input[type="checkbox"]:checked:hover,
+.dark-portal input[type="checkbox"]:checked:hover {
+  background-color: #2F968D !important;  /* cyan-500 */
+  border-color: #2F968D !important;
+}
+body:not(.dark-portal) input[type="checkbox"]:checked:hover::before,
+.dark-portal input[type="checkbox"]:checked:hover::before {
+  background-color: #FFFCF0 !important;
+}
+
+/* ========================================
+   /admin page — banded sections
+   Color-coded header bands (teal / blue / orange) + accent-bordered
+   tiles so the three groups read at a glance and scan fast.
+   ======================================== */
+
+/* Section label → band */
+main:has(.admin__subheader) > header {
+  margin: 2rem 0 0.85rem !important;
+  padding: 0.6rem 0.95rem !important;
+  border-radius: 6px !important;
+}
+main:has(.admin__subheader) > header:first-of-type { margin-top: 0.5rem !important; }
+.admin__subheader {
+  text-transform: uppercase !important;
+  letter-spacing: 0.09em !important;
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  margin: 0 !important;
+}
+
+/* Band colors — light */
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) { background: #DDF1E4 !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #1C6C66 !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) { background: #E1ECEB !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #1A4F8C !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) { background: #FFE7CE !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #9D4310 !important; }
+
+/* Band colors — dark */
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(1) { background: #122F2C !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #5ABDAC !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(2) { background: #163B66 !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #66A0C8 !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(3) { background: #40200D !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #EC8B49 !important; }
+
+/* Tiles → compact list rows: icon + name only, no descriptions.
+   Flat background-tint hover — no transform, so nothing jitters. */
+.admin__section {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  gap: 3px 14px !important;
+}
+a.admin__a {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.55rem !important;
+  padding: 0.4rem 0.7rem !important;
+  min-height: 0 !important;
+  height: auto !important;
+  border-radius: 4px !important;
+  transition: background-color 0.1s ease !important;
+}
+a.admin__a i { font-size: 1rem !important; width: 1.3rem !important; text-align: center !important; flex-shrink: 0 !important; }
+a.admin__a article h2 { font-size: 0.92rem !important; font-weight: 600 !important; margin: 0 !important; }
+a.admin__a article p { display: none !important; }
+body:not(.dark-portal) a.admin__a:hover { background-color: #F2F0E5 !important; }
+.dark-portal a.admin__a:hover { background-color: #282726 !important; }
+
+/* ========================================
+   Flexoki spec cleanup — off-palette remnants
+   ======================================== */
+
+/* Widget / feed icon badges — Hudu sets per-item inline bright colors
+   (#00caed, #5bb686, #f2b600, #9b0af2 ...). Force the Flexoki teal
+   accent + paper glyph on every inline-colored icon. */
+i.fas[style*="background"], i.far[style*="background"], i.fab[style*="background"] {
+  background: #24837B !important;
+  color: #FFFCF0 !important;
+}
+
+/* Avatar containers — pure black (#000) → Flexoki black */
+.index__list__avatar, img.profile-image { background-color: #100F0F !important; }
+
+/* Gray borders (#757575 / #666666) → Flexoki base tones */
+.dark-portal .index__item,
+.dark-portal .nasa__block-header,
+.dark-portal .dropdown__content,
+.dark-portal .keyboard-shortcuts__shortcut { border-color: #403E3C !important; }
+body:not(.dark-portal) .index__item,
+body:not(.dark-portal) .nasa__block-header,
+body:not(.dark-portal) .dropdown__content,
+body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #CECDC3 !important; }
+
+/* Pure-white text (#fff) → Flexoki tx (#CECDC3). Dashboard chrome only —
+   deliberately NOT .rich_text_content: callouts have light backgrounds,
+   a blanket color override there renders unreadable (the callout trap). */
+.dark-portal .index__item,
+.dark-portal .nasa__block,
+.dark-portal turbo-frame { color: #CECDC3 !important; }
