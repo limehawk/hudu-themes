@@ -790,23 +790,23 @@ i.fas[style*="background"][style*="#"], i.far[style*="background"][style*="#"], 
   color: #24837B !important;
 }
 /* Cyan */
-i.fas[style*="#00caed" i], i.far[style*="#00caed" i], i.fab[style*="#00caed" i],
-i.fas[style*="#00e2eb" i], i.far[style*="#00e2eb" i], i.fab[style*="#00e2eb" i] { color: #24837B !important; }
+i.fas[style*="background"][style*="#00caed" i], i.far[style*="background"][style*="#00caed" i], i.fab[style*="background"][style*="#00caed" i],
+i.fas[style*="background"][style*="#00e2eb" i], i.far[style*="background"][style*="#00e2eb" i], i.fab[style*="background"][style*="#00e2eb" i] { color: #24837B !important; }
 /* Blue */
-i.fas[style*="#0081fa" i], i.far[style*="#0081fa" i], i.fab[style*="#0081fa" i],
-i.fas[style*="#b2c9ec" i], i.far[style*="#b2c9ec" i], i.fab[style*="#b2c9ec" i] { color: #205EA6 !important; }
+i.fas[style*="background"][style*="#0081fa" i], i.far[style*="background"][style*="#0081fa" i], i.fab[style*="background"][style*="#0081fa" i],
+i.fas[style*="background"][style*="#b2c9ec" i], i.far[style*="background"][style*="#b2c9ec" i], i.fab[style*="background"][style*="#b2c9ec" i] { color: #205EA6 !important; }
 /* Green */
-i.fas[style*="#5bb686" i], i.far[style*="#5bb686" i], i.fab[style*="#5bb686" i],
-i.fas[style*="#00d875" i], i.far[style*="#00d875" i], i.fab[style*="#00d875" i] { color: #66800B !important; }
+i.fas[style*="background"][style*="#5bb686" i], i.far[style*="background"][style*="#5bb686" i], i.fab[style*="background"][style*="#5bb686" i],
+i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #66800B !important; }
 /* Yellow */
-i.fas[style*="#f2b600" i], i.far[style*="#f2b600" i], i.fab[style*="#f2b600" i] { color: #AD8301 !important; }
+i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #AD8301 !important; }
 /* Orange */
-i.fas[style*="#fc4200" i], i.far[style*="#fc4200" i], i.fab[style*="#fc4200" i] { color: #BC5215 !important; }
+i.fas[style*="background"][style*="#fc4200" i], i.far[style*="background"][style*="#fc4200" i], i.fab[style*="background"][style*="#fc4200" i] { color: #BC5215 !important; }
 /* Purple */
-i.fas[style*="#a74af1" i], i.far[style*="#a74af1" i], i.fab[style*="#a74af1" i],
-i.fas[style*="#9b0af2" i], i.far[style*="#9b0af2" i], i.fab[style*="#9b0af2" i],
-i.fas[style*="#5b17f2" i], i.far[style*="#5b17f2" i], i.fab[style*="#5b17f2" i],
-i.fas[style*="#300c83" i], i.far[style*="#300c83" i], i.fab[style*="#300c83" i] { color: #5E409D !important; }
+i.fas[style*="background"][style*="#a74af1" i], i.far[style*="background"][style*="#a74af1" i], i.fab[style*="background"][style*="#a74af1" i],
+i.fas[style*="background"][style*="#9b0af2" i], i.far[style*="background"][style*="#9b0af2" i], i.fab[style*="background"][style*="#9b0af2" i],
+i.fas[style*="background"][style*="#5b17f2" i], i.far[style*="background"][style*="#5b17f2" i], i.fab[style*="background"][style*="#5b17f2" i],
+i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style*="#300c83" i], i.fab[style*="background"][style*="#300c83" i] { color: #5E409D !important; }
 
 /* Asset-layout icons — sidebar OTHER section + page-header badges.
    Markup: <div class="asset-icon" style="background:#XXX">
@@ -826,28 +826,28 @@ i.fas[style*="#300c83" i], i.far[style*="#300c83" i], i.fab[style*="#300c83" i] 
 .asset-icon[style*="background"][style*="#"] > i { color: #24837B !important; }
 
 /* Cyan family → Flexoki cyan */
-.asset-icon[style*="#00caed" i] > i,
-.asset-icon[style*="#00e2eb" i] > i { color: #24837B !important; }
+.asset-icon[style*="background"][style*="#00caed" i] > i,
+.asset-icon[style*="background"][style*="#00e2eb" i] > i { color: #24837B !important; }
 
 /* Blue family → Flexoki blue */
-.asset-icon[style*="#0081fa" i] > i,
-.asset-icon[style*="#b2c9ec" i] > i { color: #205EA6 !important; }
+.asset-icon[style*="background"][style*="#0081fa" i] > i,
+.asset-icon[style*="background"][style*="#b2c9ec" i] > i { color: #205EA6 !important; }
 
 /* Green family → Flexoki green */
-.asset-icon[style*="#5bb686" i] > i,
-.asset-icon[style*="#00d875" i] > i { color: #66800B !important; }
+.asset-icon[style*="background"][style*="#5bb686" i] > i,
+.asset-icon[style*="background"][style*="#00d875" i] > i { color: #66800B !important; }
 
 /* Yellow → Flexoki yellow */
-.asset-icon[style*="#f2b600" i] > i { color: #AD8301 !important; }
+.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #AD8301 !important; }
 
 /* Orange / red-orange → Flexoki orange */
-.asset-icon[style*="#fc4200" i] > i { color: #BC5215 !important; }
+.asset-icon[style*="background"][style*="#fc4200" i] > i { color: #BC5215 !important; }
 
 /* Purple / indigo family → Flexoki purple */
-.asset-icon[style*="#a74af1" i] > i,
-.asset-icon[style*="#9b0af2" i] > i,
-.asset-icon[style*="#5b17f2" i] > i,
-.asset-icon[style*="#300c83" i] > i { color: #5E409D !important; }
+.asset-icon[style*="background"][style*="#a74af1" i] > i,
+.asset-icon[style*="background"][style*="#9b0af2" i] > i,
+.asset-icon[style*="background"][style*="#5b17f2" i] > i,
+.asset-icon[style*="background"][style*="#300c83" i] > i { color: #5E409D !important; }
 
 /* Dashboard widget items without inline color — Hudu's base CSS paints them
    .nasa .index__item:not(.index__item--task) i { background: var(--primary); color: white; border-radius: 100% }
