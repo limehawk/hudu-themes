@@ -8,35 +8,35 @@ Oklab-derived, perceptually balanced across devices. See full design philosophy 
 
 **Base** (warm monochrome) — 8 values per theme: 3 text, 3 interface, 2 background.
 
-| Token | Swatch | Hex | Light | Dark |
-|-------|--------|-----|-------|------|
-| black | <div style="width:20px;height:20px;background:#100F0F;border:1px solid #ccc;"></div> | #100F0F | tx | bg |
-| base-950 | <div style="width:20px;height:20px;background:#1C1B1A;border:1px solid #ccc;"></div> | #1C1B1A | — | bg-2 |
-| base-900 | <div style="width:20px;height:20px;background:#282726;border:1px solid #ccc;"></div> | #282726 | — | ui |
-| base-850 | <div style="width:20px;height:20px;background:#343331;border:1px solid #ccc;"></div> | #343331 | — | ui-2 |
-| base-800 | <div style="width:20px;height:20px;background:#403E3C;border:1px solid #ccc;"></div> | #403E3C | — | ui-3 |
-| base-700 | <div style="width:20px;height:20px;background:#575653;border:1px solid #ccc;"></div> | #575653 | — | tx-3 |
-| base-600 | <div style="width:20px;height:20px;background:#6F6E69;border:1px solid #ccc;"></div> | #6F6E69 | tx-2 | — |
-| base-500 | <div style="width:20px;height:20px;background:#878580;border:1px solid #ccc;"></div> | #878580 | — | tx-2 |
-| base-300 | <div style="width:20px;height:20px;background:#B7B5AC;border:1px solid #ccc;"></div> | #B7B5AC | tx-3 | — |
-| base-200 | <div style="width:20px;height:20px;background:#CECDC3;border:1px solid #ccc;"></div> | #CECDC3 | ui-3 | tx |
-| base-150 | <div style="width:20px;height:20px;background:#DAD8CE;border:1px solid #ccc;"></div> | #DAD8CE | ui-2 | — |
-| base-100 | <div style="width:20px;height:20px;background:#E6E4D9;border:1px solid #ccc;"></div> | #E6E4D9 | ui | — |
-| base-50 | <div style="width:20px;height:20px;background:#F2F0E5;border:1px solid #ccc;"></div> | #F2F0E5 | bg-2 | — |
-| paper | <div style="width:20px;height:20px;background:#FFFCF0;border:1px solid #ccc;"></div> | #FFFCF0 | bg | — |
+| Token | Hex | Light | Dark |
+|-------|-----|-------|------|
+| black | ![#100F0F](https://readme-swatches.vercel.app/100F0F) `#100F0F` | tx | bg |
+| base-950 | ![#1C1B1A](https://readme-swatches.vercel.app/1C1B1A) `#1C1B1A` | — | bg-2 |
+| base-900 | ![#282726](https://readme-swatches.vercel.app/282726) `#282726` | — | ui |
+| base-850 | ![#343331](https://readme-swatches.vercel.app/343331) `#343331` | — | ui-2 |
+| base-800 | ![#403E3C](https://readme-swatches.vercel.app/403E3C) `#403E3C` | — | ui-3 |
+| base-700 | ![#575653](https://readme-swatches.vercel.app/575653) `#575653` | — | tx-3 |
+| base-600 | ![#6F6E69](https://readme-swatches.vercel.app/6F6E69) `#6F6E69` | tx-2 | — |
+| base-500 | ![#878580](https://readme-swatches.vercel.app/878580) `#878580` | — | tx-2 |
+| base-300 | ![#B7B5AC](https://readme-swatches.vercel.app/B7B5AC) `#B7B5AC` | tx-3 | — |
+| base-200 | ![#CECDC3](https://readme-swatches.vercel.app/CECDC3) `#CECDC3` | ui-3 | tx |
+| base-150 | ![#DAD8CE](https://readme-swatches.vercel.app/DAD8CE) `#DAD8CE` | ui-2 | — |
+| base-100 | ![#E6E4D9](https://readme-swatches.vercel.app/E6E4D9) `#E6E4D9` | ui | — |
+| base-50 | ![#F2F0E5](https://readme-swatches.vercel.app/F2F0E5) `#F2F0E5` | bg-2 | — |
+| paper | ![#FFFCF0](https://readme-swatches.vercel.app/FFFCF0) `#FFFCF0` | bg | — |
 
 **Accents** (light syntax 600, dark syntax 400)
 
-| Color | 600 | Light | 400 | Dark | Light var | Dark var |
-|-------|-----|-------|-----|------|-----------|----------|
-| Red | <div style="width:20px;height:20px;background:#AF3029;border:1px solid #ccc;"></div> #AF3029 | re | <div style="width:20px;height:20px;background:#D14D41;border:1px solid #ccc;"></div> #D14D41 | re-2 |
-| Orange | <div style="width:20px;height:20px;background:#BC5215;border:1px solid #ccc;"></div> #BC5215 | or | <div style="width:20px;height:20px;background:#DA702C;border:1px solid #ccc;"></div> #DA702C | or-2 |
-| Yellow | <div style="width:20px;height:20px;background:#AD8301;border:1px solid #ccc;"></div> #AD8301 | ye | <div style="width:20px;height:20px;background:#D0A215;border:1px solid #ccc;"></div> #D0A215 | ye-2 |
-| Green | <div style="width:20px;height:20px;background:#66800B;border:1px solid #ccc;"></div> #66800B | gr | <div style="width:20px;height:20px;background:#879A39;border:1px solid #ccc;"></div> #879A39 | gr-2 |
-| Cyan | <div style="width:20px;height:20px;background:#24837B;border:1px solid #ccc;"></div> #24837B | cy | <div style="width:20px;height:20px;background:#3AA99F;border:1px solid #ccc;"></div> #3AA99F | cy-2 |
-| Blue | <div style="width:20px;height:20px;background:#205EA6;border:1px solid #ccc;"></div> #205EA6 | bl | <div style="width:20px;height:20px;background:#4385BE;border:1px solid #ccc;"></div> #4385BE | bl-2 |
-| Purple | <div style="width:20px;height:20px;background:#5E409D;border:1px solid #ccc;"></div> #5E409D | pu | <div style="width:20px;height:20px;background:#8B7EC8;border:1px solid #ccc;"></div> #8B7EC8 | pu-2 |
-| Magenta | <div style="width:20px;height:20px;background:#A02F6F;border:1px solid #ccc;"></div> #A02F6F | ma | <div style="width:20px;height:20px;background:#CE5D97;border:1px solid #ccc;"></div> #CE5D97 | ma-2 |
+| Color | 600 | Light | 400 | Dark | Var |
+|-------|-----|-------|-----|------|-----|
+| Red | ![#AF3029](https://readme-swatches.vercel.app/AF3029) `#AF3029` | re | ![#D14D41](https://readme-swatches.vercel.app/D14D41) `#D14D41` | re-2 |
+| Orange | ![#BC5215](https://readme-swatches.vercel.app/BC5215) `#BC5215` | or | ![#DA702C](https://readme-swatches.vercel.app/DA702C) `#DA702C` | or-2 |
+| Yellow | ![#AD8301](https://readme-swatches.vercel.app/AD8301) `#AD8301` | ye | ![#D0A215](https://readme-swatches.vercel.app/D0A215) `#D0A215` | ye-2 |
+| Green | ![#66800B](https://readme-swatches.vercel.app/66800B) `#66800B` | gr | ![#879A39](https://readme-swatches.vercel.app/879A39) `#879A39` | gr-2 |
+| Cyan | ![#24837B](https://readme-swatches.vercel.app/24837B) `#24837B` | cy | ![#3AA99F](https://readme-swatches.vercel.app/3AA99F) `#3AA99F` | cy-2 |
+| Blue | ![#205EA6](https://readme-swatches.vercel.app/205EA6) `#205EA6` | bl | ![#4385BE](https://readme-swatches.vercel.app/4385BE) `#4385BE` | bl-2 |
+| Purple | ![#5E409D](https://readme-swatches.vercel.app/5E409D) `#5E409D` | pu | ![#8B7EC8](https://readme-swatches.vercel.app/8B7EC8) `#8B7EC8` | pu-2 |
+| Magenta | ![#A02F6F](https://readme-swatches.vercel.app/A02F6F) `#A02F6F` | ma | ![#CE5D97](https://readme-swatches.vercel.app/CE5D97) `#CE5D97` | ma-2 |
 
 **Extended palette** (50–950 ramps per color family)
 
