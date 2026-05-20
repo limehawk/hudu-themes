@@ -8,35 +8,35 @@ Oklab-derived, perceptually balanced across devices. See full design philosophy 
 
 **Base** (warm monochrome) — 8 values per theme: 3 text, 3 interface, 2 background.
 
-| Token | Hex | Light | Dark |
-|-------|-----|-------|------|
-| black | #100F0F | tx | bg |
-| base-950 | #1C1B1A | — | bg-2 |
-| base-900 | #282726 | — | ui |
-| base-850 | #343331 | — | ui-2 |
-| base-800 | #403E3C | — | ui-3 |
-| base-700 | #575653 | — | tx-3 |
-| base-600 | #6F6E69 | tx-2 | — |
-| base-500 | #878580 | — | tx-2 |
-| base-300 | #B7B5AC | tx-3 | — |
-| base-200 | #CECDC3 | ui-3 | tx |
-| base-150 | #DAD8CE | ui-2 | — |
-| base-100 | #E6E4D9 | ui | — |
-| base-50 | #F2F0E5 | bg-2 | — |
-| paper | #FFFCF0 | bg | — |
+| Token | Swatch | Hex | Light | Dark |
+|-------|--------|-----|-------|------|
+| black | <div style="width:20px;height:20px;background:#100F0F;border:1px solid #ccc;"></div> | #100F0F | tx | bg |
+| base-950 | <div style="width:20px;height:20px;background:#1C1B1A;border:1px solid #ccc;"></div> | #1C1B1A | — | bg-2 |
+| base-900 | <div style="width:20px;height:20px;background:#282726;border:1px solid #ccc;"></div> | #282726 | — | ui |
+| base-850 | <div style="width:20px;height:20px;background:#343331;border:1px solid #ccc;"></div> | #343331 | — | ui-2 |
+| base-800 | <div style="width:20px;height:20px;background:#403E3C;border:1px solid #ccc;"></div> | #403E3C | — | ui-3 |
+| base-700 | <div style="width:20px;height:20px;background:#575653;border:1px solid #ccc;"></div> | #575653 | — | tx-3 |
+| base-600 | <div style="width:20px;height:20px;background:#6F6E69;border:1px solid #ccc;"></div> | #6F6E69 | tx-2 | — |
+| base-500 | <div style="width:20px;height:20px;background:#878580;border:1px solid #ccc;"></div> | #878580 | — | tx-2 |
+| base-300 | <div style="width:20px;height:20px;background:#B7B5AC;border:1px solid #ccc;"></div> | #B7B5AC | tx-3 | — |
+| base-200 | <div style="width:20px;height:20px;background:#CECDC3;border:1px solid #ccc;"></div> | #CECDC3 | ui-3 | tx |
+| base-150 | <div style="width:20px;height:20px;background:#DAD8CE;border:1px solid #ccc;"></div> | #DAD8CE | ui-2 | — |
+| base-100 | <div style="width:20px;height:20px;background:#E6E4D9;border:1px solid #ccc;"></div> | #E6E4D9 | ui | — |
+| base-50 | <div style="width:20px;height:20px;background:#F2F0E5;border:1px solid #ccc;"></div> | #F2F0E5 | bg-2 | — |
+| paper | <div style="width:20px;height:20px;background:#FFFCF0;border:1px solid #ccc;"></div> | #FFFCF0 | bg | — |
 
 **Accents** (light syntax 600, dark syntax 400)
 
-| Color | 600 | 400 | Light var | Dark var |
-|-------|-----|-----|-----------|----------|
-| Red | #AF3029 | #D14D41 | re | re-2 |
-| Orange | #BC5215 | #DA702C | or | or-2 |
-| Yellow | #AD8301 | #D0A215 | ye | ye-2 |
-| Green | #66800B | #879A39 | gr | gr-2 |
-| Cyan | #24837B | #3AA99F | cy | cy-2 |
-| Blue | #205EA6 | #4385BE | bl | bl-2 |
-| Purple | #5E409D | #8B7EC8 | pu | pu-2 |
-| Magenta | #A02F6F | #CE5D97 | ma | ma-2 |
+| Color | 600 | Light | 400 | Dark | Light var | Dark var |
+|-------|-----|-------|-----|------|-----------|----------|
+| Red | <div style="width:20px;height:20px;background:#AF3029;border:1px solid #ccc;"></div> #AF3029 | re | <div style="width:20px;height:20px;background:#D14D41;border:1px solid #ccc;"></div> #D14D41 | re-2 |
+| Orange | <div style="width:20px;height:20px;background:#BC5215;border:1px solid #ccc;"></div> #BC5215 | or | <div style="width:20px;height:20px;background:#DA702C;border:1px solid #ccc;"></div> #DA702C | or-2 |
+| Yellow | <div style="width:20px;height:20px;background:#AD8301;border:1px solid #ccc;"></div> #AD8301 | ye | <div style="width:20px;height:20px;background:#D0A215;border:1px solid #ccc;"></div> #D0A215 | ye-2 |
+| Green | <div style="width:20px;height:20px;background:#66800B;border:1px solid #ccc;"></div> #66800B | gr | <div style="width:20px;height:20px;background:#879A39;border:1px solid #ccc;"></div> #879A39 | gr-2 |
+| Cyan | <div style="width:20px;height:20px;background:#24837B;border:1px solid #ccc;"></div> #24837B | cy | <div style="width:20px;height:20px;background:#3AA99F;border:1px solid #ccc;"></div> #3AA99F | cy-2 |
+| Blue | <div style="width:20px;height:20px;background:#205EA6;border:1px solid #ccc;"></div> #205EA6 | bl | <div style="width:20px;height:20px;background:#4385BE;border:1px solid #ccc;"></div> #4385BE | bl-2 |
+| Purple | <div style="width:20px;height:20px;background:#5E409D;border:1px solid #ccc;"></div> #5E409D | pu | <div style="width:20px;height:20px;background:#8B7EC8;border:1px solid #ccc;"></div> #8B7EC8 | pu-2 |
+| Magenta | <div style="width:20px;height:20px;background:#A02F6F;border:1px solid #ccc;"></div> #A02F6F | ma | <div style="width:20px;height:20px;background:#CE5D97;border:1px solid #ccc;"></div> #CE5D97 | ma-2 |
 
 **Extended palette** (50–950 ramps per color family)
 
