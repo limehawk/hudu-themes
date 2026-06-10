@@ -896,8 +896,17 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 [data-controller="chart"] canvas,
 .dash__graph-graph canvas { filter: saturate(0.55) brightness(0.62) !important; }
 
-/* Avatar containers — pure black (#000) → Flexoki black */
-.index__list__avatar, img.profile-image { background-color: #100F0F !important; }
+/* Avatar containers — pure black (#000) → mode-appropriate Flexoki base.
+   Many avatars are empty placeholder circles (no photo/initials); tone
+   them to recede into the card background instead of punching holes. */
+.dark-portal .index__list__avatar,
+.dark-portal img.profile-image { background-color: #343331 !important; }
+body:not(.dark-portal) .index__list__avatar,
+body:not(.dark-portal) img.profile-image { background-color: #E6E4D9 !important; }
+
+/* Widget-header logo ring — hardcoded white border → Flexoki base tones */
+.dark-portal .nasa__title.for-bg img { border-color: #403E3C !important; }
+body:not(.dark-portal) .nasa__title.for-bg img { border-color: #CECDC3 !important; }
 
 /* Gray borders (#757575 / #666666) → Flexoki base tones */
 .dark-portal .index__item,
