@@ -373,12 +373,49 @@ def render_readme(tokens, name, dark_src, light_src, light_pinned_300):
     return "\n".join(lines)
 
 
+
+# The dashboard "Documentation Quality" chart is a <canvas> whose bars are
+# pixel-painted in a server-baked Tailwind blue. CSS can't repaint canvas
+# content, but a filter chain can map that blue onto the theme's primary
+# accent: rotate hue by the difference, scale saturation and lightness by
+# their ratios. Approximate, but lands the bars in the theme's palette.
+CHART_SOURCE_BLUE = "#3B82F6"
+
+
+def _hsl(hexstr):
+    r, g, b = hex_to_rgb(hexstr)
+    mx, mn = max(r, g, b), min(r, g, b)
+    l = (mx + mn) / 2
+    if mx == mn:
+        return 0.0, 0.0, l
+    d = mx - mn
+    s = d / (2 - mx - mn) if l > 0.5 else d / (mx + mn)
+    if mx == r:
+        h = ((g - b) / d + (6 if g < b else 0)) / 6
+    elif mx == g:
+        h = ((b - r) / d + 2) / 6
+    else:
+        h = ((r - g) / d + 4) / 6
+    return h * 360, s, l
+
+
+def chart_filter(primary_hex):
+    sh, ss, sl = _hsl(CHART_SOURCE_BLUE)
+    th, ts, tl = _hsl(primary_hex)
+    rot = round((th - sh) % 360)
+    sat = round(min(ts / ss, 2.0), 2) if ss else 1.0
+    bright = round(min(tl / sl, 1.6), 2) if sl else 1.0
+    return f"hue-rotate({rot}deg) saturate({sat}) brightness({bright})"
+
+
 def render(tokens, name, dark_src, light_src):
     template = (Path(__file__).parent / "template.css").read_text()
-    unknown = set(re.findall(r"\{\{([a-z0-9-]+)\}\}", template)) - set(tokens)
+    unknown = set(re.findall(r"\{\{([a-z0-9-]+)\}\}", template)) - set(tokens) - {"chart-filter"}
     if unknown:
         sys.exit(f"template tokens with no value: {sorted(unknown)}")
-    body = re.sub(r"\{\{([a-z0-9-]+)\}\}", lambda m: tokens[m.group(1)], template)
+    values = dict(tokens)
+    values["chart-filter"] = chart_filter(tokens.get("cyan-400") or tokens["blue-400"])
+    body = re.sub(r"\{\{([a-z0-9-]+)\}\}", lambda m: values[m.group(1)], template)
     light_note = light_src or "synthesized from dark palette"
     header = (
         "/* ========================================\n"

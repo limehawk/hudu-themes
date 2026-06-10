@@ -42,6 +42,11 @@ def main() -> None:
     # Comments narrate the source theme by name; generated themes should not
     # introduce themselves as Flexoki (users copy these files into Hudu).
     out = out.replace("FLEXOKI", "PALETTE").replace("Flexoki", "palette").replace("flexoki", "palette")
+    # The dashboard chart is a canvas painted in a server-baked Tailwind blue;
+    # the hand-made theme uses a hand-tuned static filter. Generated themes get
+    # a per-palette filter computed by port_theme.py.
+    out = out.replace("filter: saturate(0.55) brightness(0.62) !important;",
+                      "filter: {{chart-filter}} !important;")
     DST.write_text(out)
 
     leftover = sorted({h.upper() for h in re.findall(r"#[0-9a-fA-F]{6}\b", out)})
