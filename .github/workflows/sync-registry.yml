@@ -1,0 +1,39 @@
+name: Sync omarchytheme.com registry
+
+on:
+  schedule:
+    - cron: "30 8 * * *" # nightly, ~30min after the registry's own refresh
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch registry data
+        run: |
+          curl -sf -o /tmp/themes-data.json \
+            https://raw.githubusercontent.com/limehawk/omarchy-theme-website/main/src/data/themes-data.json
+          python3 -c "import json; d=json.load(open('/tmp/themes-data.json')); print(len(d), 'registry entries')"
+
+      - name: Import new themes
+        run: python3 tools/omarchy-to-hudu/import_registry.py --data /tmp/themes-data.json
+
+      - name: Round-trip gate
+        run: python3 tools/omarchy-to-hudu/check_roundtrip.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add themes/
+          if git diff --cached --quiet; then
+            echo "no new themes"
+          else
+            git commit -m "Sync new themes from the omarchytheme.com registry"
+            git push
+          fi
