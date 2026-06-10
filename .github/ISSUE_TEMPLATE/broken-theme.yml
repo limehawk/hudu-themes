@@ -1,0 +1,51 @@
+name: Broken theme
+description: A theme renders wrong on your Hudu instance
+title: "[theme] <slug>: <what's broken>"
+labels: ["bug", "theme"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Theme
+      description: The theme's slug (directory name under `themes/`, e.g. `kanagawa`)
+      placeholder: kanagawa
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - Dark
+        - Light
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Where in Hudu
+      description: The page or element where it breaks
+      placeholder: KB article view — code blocks
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What looks wrong
+      description: What you expected vs what renders. Screenshots say the most — drag them in.
+    validations:
+      required: true
+  - type: input
+    id: hudu-version
+    attributes:
+      label: Hudu version
+      description: Admin → the version in the footer, if you know it. Hudu refactors its frontend without warning, so this matters.
+      placeholder: "2.41.0"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I hard-refreshed (Ctrl/Cmd+Shift+R) after pasting the CSS
+        - label: I re-copied the theme from huduthemes.com or this repo's `main` recently
