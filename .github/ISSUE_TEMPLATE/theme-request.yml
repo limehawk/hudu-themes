@@ -1,0 +1,31 @@
+name: Theme request
+description: Ask for a palette to be ported to Hudu
+title: "[request] <palette name>"
+labels: ["theme-request"]
+body:
+  - type: input
+    id: palette
+    attributes:
+      label: Palette
+      description: Name of the color scheme you want
+      placeholder: Dracula
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: Link to the palette — an omarchy theme repo is ideal (those port automatically), but any palette reference works
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: input
+    id: light
+    attributes:
+      label: Light variant
+      description: Link or name of a paired light variant, if one exists (otherwise the light half is synthesized)
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else — accent preferences, prior art, similar existing themes

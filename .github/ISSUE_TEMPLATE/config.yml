@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Browse themes
+    url: https://huduthemes.com
+    about: Preview every theme in light and dark before reporting — the site always reflects main.
+  - name: Website bugs
+    url: https://github.com/limehawk/hudu-theme-website/issues
+    about: Problems with huduthemes.com itself (not a theme) belong in the site repo.
