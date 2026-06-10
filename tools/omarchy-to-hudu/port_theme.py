@@ -35,6 +35,8 @@ from flexoki_palette import RAMPS, STEPS, ANCHORS, token_to_hex
 THEME_DIRS = [
     Path.home() / ".config/omarchy/themes",
     Path.home() / ".local/share/omarchy/themes",
+    # In-repo palettes so check_roundtrip works without an omarchy install (CI)
+    Path(__file__).parent / "testdata",
 ]
 
 # ---------------------------------------------------------------- color math
