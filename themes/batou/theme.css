@@ -810,7 +810,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
    a filter chain that desaturates + darkens the bars toward the muted
    palette blue (#605d5b) range. Affects axis labels too — minor cost. */
 [data-controller="chart"] canvas,
-.dash__graph-graph canvas { filter: saturate(0.55) brightness(0.62) !important; }
+.dash__graph-graph canvas { filter: hue-rotate(212deg) saturate(0.12) brightness(0.89) !important; }
 
 /* Avatars. Hudu paints a pure-black (#000) background on both photo imgs
    and empty placeholder divs. On photos the bg bleeds through the rounded
