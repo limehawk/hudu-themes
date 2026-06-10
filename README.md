@@ -62,11 +62,9 @@ python3 tools/omarchy-to-hudu/port_theme.py --dark <omarchy-theme> [--light <lig
 
 Fill in the upstream credit TODO in the generated README, then open a PR.
 
-**Hand-making a theme?**
+**Hand-making a theme?** Create `themes/<your-theme>/{theme.css,README.md}` (palette source, credits, swatch tables) using [`themes/flexoki/`](themes/flexoki/) as the reference.
 
-1. Create `themes/<your-theme>/theme.css`.
-2. Add a per-theme `README.md` next to it (palette source, credits, swatch tables).
-3. Open a PR — the [catalog](themes/README.md) regenerates on the next registry sync.
+**Either way:** see [CONTRIBUTING.md](CONTRIBUTING.md) for the full PR checklist — branch naming, credit requirements, how to test on a live instance, and what reviewers look for.
 
 > [!IMPORTANT]
 > Prefer overriding Hudu's CSS variables; DOM-targeting selectors are used sparingly and only where variables can't reach. Hudu refactors its frontend without warning — variable overrides survive, brittle selectors don't.
