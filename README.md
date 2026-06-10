@@ -26,7 +26,7 @@ Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `the
 | [Everforest](themes/everforest/) | Green-based, warm and soft on the eyes, by [sainnhe](https://github.com/sainnhe/everforest) | Dark (+ synthesized light) | [`theme.css`](themes/everforest/theme.css) |
 | [Kanagawa](themes/kanagawa/) | Inspired by Hokusai's Great Wave, by [rebelot](https://github.com/rebelot/kanagawa.nvim) | Dark (+ synthesized light) | [`theme.css`](themes/kanagawa/theme.css) |
 
-> Themes other than Flexoki are generated from [omarchy](https://omarchy.org) palettes via [`tools/omarchy-port`](tools/omarchy-port/) — see each theme's README for palette tables and provenance.
+> The table above is the featured set. **[Browse the full catalog — 260+ themes](themes/README.md)**, bulk-imported from the [omarchytheme.com](https://omarchytheme.com) registry and generated from [omarchy](https://omarchy.org) palettes via [`tools/omarchy-port`](tools/omarchy-port/). Each theme's README documents its palette and provenance.
 
 > [!INFO]
 > **Flexoki** is designed for reading and writing on digital screens, inspired by analog inks and warm shades of paper. Learn about its design philosophy, extended palette (50–950 ramps), and mappings at [stephango.com/flexoki](https://stephango.com/flexoki). The full palette reference is documented in the theme's CSS header.
