@@ -7,7 +7,7 @@ accents) must match exactly; derived intermediates may drift within a
 perceptual tolerance (interpolation is calibrated, not copied).
 
 Run from the repo root:
-    python3 tools/omarchy-port/check_roundtrip.py
+    python3 tools/omarchy-to-hudu/check_roundtrip.py
 """
 
 import re

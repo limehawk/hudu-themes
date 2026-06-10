@@ -155,7 +155,7 @@ def write_catalog():
         f"{len(rows)} themes. Hand-made: [flexoki](flexoki/). The rest are generated from "
         "[omarchy](https://omarchy.org) palettes — most sourced from the "
         "[omarchytheme.com](https://omarchytheme.com) registry — via "
-        "[`tools/omarchy-port`](../tools/omarchy-port/). "
+        "[`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). "
         "Each theme's README documents its palette and provenance.\n\n"
         "| Theme | Modes | Source |\n|-------|-------|--------|\n"
         + "\n".join(rows) + "\n"

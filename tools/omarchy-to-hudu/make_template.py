@@ -6,7 +6,7 @@ placeholder. Hudu's stock-color attribute matchers (e.g. [style*="#300c83"])
 are not palette colors, so they pass through literally.
 
 Run from the repo root whenever theme.css changes:
-    python3 tools/omarchy-port/make_template.py
+    python3 tools/omarchy-to-hudu/make_template.py
 """
 
 import re

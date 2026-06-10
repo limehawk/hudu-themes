@@ -1,4 +1,4 @@
-# omarchy-port
+# Omarchy → Hudu theme porter
 
 Generate Hudu themes from [omarchy](https://omarchy.org) theme palettes.
 
@@ -17,13 +17,13 @@ Generate Hudu themes from [omarchy](https://omarchy.org) theme palettes.
 
 ```bash
 # one theme (pair a light variant when one exists)
-python3 tools/omarchy-port/port_theme.py --dark catppuccin-mocha --light catppuccin-latte --name catppuccin
+python3 tools/omarchy-to-hudu/port_theme.py --dark catppuccin-mocha --light catppuccin-latte --name catppuccin
 
 # bulk registry sync (community data -- slugs/URLs are validated before use)
-python3 tools/omarchy-port/import_registry.py --data path/to/themes-data.json [--force-css]
+python3 tools/omarchy-to-hudu/import_registry.py --data path/to/themes-data.json [--force-css]
 
 # after editing themes/flexoki/theme.css
-python3 tools/omarchy-port/make_template.py && python3 tools/omarchy-port/check_roundtrip.py
+python3 tools/omarchy-to-hudu/make_template.py && python3 tools/omarchy-to-hudu/check_roundtrip.py
 ```
 
 ## How it works

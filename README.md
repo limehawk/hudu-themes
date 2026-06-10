@@ -26,7 +26,7 @@ Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `the
 | [Everforest](themes/everforest/) | Green-based, warm and soft on the eyes, by [sainnhe](https://github.com/sainnhe/everforest) | Dark (+ synthesized light) | [`theme.css`](themes/everforest/theme.css) |
 | [Kanagawa](themes/kanagawa/) | Inspired by Hokusai's Great Wave, by [rebelot](https://github.com/rebelot/kanagawa.nvim) | Dark (+ synthesized light) | [`theme.css`](themes/kanagawa/theme.css) |
 
-> The table above is the featured set. **[Browse the full catalog — 260+ themes](themes/README.md)**, bulk-imported from the [omarchytheme.com](https://omarchytheme.com) registry and generated from [omarchy](https://omarchy.org) palettes via [`tools/omarchy-port`](tools/omarchy-port/). Each theme's README documents its palette and provenance.
+> The table above is the featured set. **[Browse the full catalog — 260+ themes](themes/README.md)**, bulk-imported from the [omarchytheme.com](https://omarchytheme.com) registry and generated from [omarchy](https://omarchy.org) palettes via [`tools/omarchy-to-hudu`](tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 > [!INFO]
 > **Flexoki** is designed for reading and writing on digital screens, inspired by analog inks and warm shades of paper. Learn about its design philosophy, extended palette (50–950 ramps), and mappings at [stephango.com/flexoki](https://stephango.com/flexoki). The full palette reference is documented in the theme's CSS header.
@@ -51,10 +51,10 @@ Clear the Custom CSS field, save, hard-refresh.
 
 ## Contributing a theme
 
-**Porting an [omarchy](https://omarchy.org) theme?** Use the generator -- it produces the CSS, palette README, and contrast-checked ramps for you (see [`tools/omarchy-port/`](tools/omarchy-port/)):
+**Porting an [omarchy](https://omarchy.org) theme?** Use the generator -- it produces the CSS, palette README, and contrast-checked ramps for you (see [`tools/omarchy-to-hudu/`](tools/omarchy-to-hudu/)):
 
 ```bash
-python3 tools/omarchy-port/port_theme.py --dark <omarchy-theme> [--light <light-variant>] --name <name>
+python3 tools/omarchy-to-hudu/port_theme.py --dark <omarchy-theme> [--light <light-variant>] --name <name>
 ```
 
 Fill in the upstream credit TODO in the generated README, then open a PR.
