@@ -5,7 +5,7 @@
    ======================================== */
 
 :root {
-  /* === Flexoki Base Colors (Light Mode defaults) === */
+  /* === palette Base Colors (Light Mode defaults) === */
   /* bg = paper #FFF5F5, bg-2 = base-50 #FCF2F2 */
   /* ui = base-100 #F8EEEE, ui-2 = base-150 #F5EBEB, ui-3 = base-200 #F2E8E8 */
   /* tx = black #1b1112, tx-2 = base-600 #2B1818, tx-3 = base-300 #BCB1B1 */
@@ -168,7 +168,7 @@
   --accent---dark---green---selected: #482626;
   --accent---dark---green---disabled: #D97171;
 
-  /* === Alerts (mapped to Flexoki accents) === */
+  /* === Alerts (mapped to palette accents) === */
   --alert---error---01: #F9DDDC;
   --alert---error---02: #F2C8C6;
   --alert---error---03: #C85C5C;
@@ -191,7 +191,7 @@
   --alert---info---03: #E59393;
   --alert---info---04: #D66B6B;
 
-  /* === Flags (mapped to Flexoki 600 values) === */
+  /* === Flags (mapped to palette 600 values) === */
   --flag---red: #B44A4A;
   --flag---blue: #D66B6B;
   --flag---green: #C05A5A;
@@ -384,7 +384,7 @@ body:not(.dark-portal) .box-list__entity-item:hover {
 
 
 /* ============================================================
-   Color-coded admin tile sections (Flexoki)
+   Color-coded admin tile sections (palette)
    Basic Setup = teal, Core = blue, Account Admin = orange
    ============================================================ */
 .dark-portal a.admin__a i,
@@ -400,10 +400,10 @@ body:not(.dark-portal) .admin__section:nth-of-type(2) a.admin__a i { color: var(
 body:not(.dark-portal) .admin__section:nth-of-type(3) a.admin__a i { color: var(--accent---light---orange---default) !important; }
 
 /* ============================================================
-   FLEXOKI MAPPINGS — KB article prose (.rich_text_content)
+   PALETTE MAPPINGS — KB article prose (.rich_text_content)
    ============================================================ */
 
-/* Headings → Flexoki tx (not pure white) */
+/* Headings → palette tx (not pure white) */
 .dark-portal .rich_text_content h1,
 .dark-portal .rich_text_content h2,
 .dark-portal .rich_text_content h3,
@@ -473,7 +473,7 @@ body:not(.dark-portal) .rich_text_content pre code {
   color: inherit !important;
 }
 
-/* Syntax highlighting (Prism + highlight.js) — Flexoki palette */
+/* Syntax highlighting (Prism + highlight.js) — palette palette */
 .dark-portal .rich_text_content .token.comment,
 .dark-portal .rich_text_content .hljs-comment { color: #F2E8E8 !important; }
 .dark-portal .rich_text_content .token.punctuation,
@@ -689,13 +689,13 @@ body:not(.dark-portal) a.admin__a:hover { background-color: #FCF2F2 !important; 
 .dark-portal a.admin__a:hover { background-color: #1F1314 !important; }
 
 /* ========================================
-   Flexoki spec cleanup — off-palette remnants
+   palette spec cleanup — off-palette remnants
    ======================================== */
 
 /* Widget / feed icon badges — bare <i> with inline bg+color, no .asset-icon
    wrapper (e.g. My Recents, Activity Feed, My Most Visited on dashboard).
    Markup: <i class="fas fa-laptop" style="background:#XXX;color:#FFF"></i>
-   Strip the circle, color the glyph itself with the matching Flexoki accent.
+   Strip the circle, color the glyph itself with the matching palette accent.
    Mirrors the .asset-icon family map below. */
 i.fas[style*="background"][style*="#"], i.far[style*="background"][style*="#"], i.fab[style*="background"][style*="#"] {
   background: transparent !important;
@@ -728,8 +728,8 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
    Markup: <div class="asset-icon" style="background:#XXX">
              <i class="fas fa-foo" style="color:#FFF"></i>
            </div>
-   Strip the bright circle, color the glyph itself with the nearest Flexoki
-   accent. Each Hudu picker hex maps to a Flexoki family so layouts stay
+   Strip the bright circle, color the glyph itself with the nearest palette
+   accent. Each Hudu picker hex maps to a palette family so layouts stay
    visually distinct against the paper background. */
 
 /* Kill the wrapper circle entirely. */
@@ -741,25 +741,25 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 /* Fallback glyph color for any Hudu hex not enumerated below. */
 .asset-icon[style*="background"][style*="#"] > i { color: #F48A8A !important; }
 
-/* Cyan family → Flexoki cyan */
+/* Cyan family → palette cyan */
 .asset-icon[style*="background"][style*="#00caed" i] > i,
 .asset-icon[style*="background"][style*="#00e2eb" i] > i { color: #F48A8A !important; }
 
-/* Blue family → Flexoki blue */
+/* Blue family → palette blue */
 .asset-icon[style*="background"][style*="#0081fa" i] > i,
 .asset-icon[style*="background"][style*="#b2c9ec" i] > i { color: #D66B6B !important; }
 
-/* Green family → Flexoki green */
+/* Green family → palette green */
 .asset-icon[style*="background"][style*="#5bb686" i] > i,
 .asset-icon[style*="background"][style*="#00d875" i] > i { color: #C05A5A !important; }
 
-/* Yellow → Flexoki yellow */
+/* Yellow → palette yellow */
 .asset-icon[style*="background"][style*="#f2b600" i] > i { color: #D66B6B !important; }
 
-/* Orange / red-orange → Flexoki orange */
+/* Orange / red-orange → palette orange */
 .asset-icon[style*="background"][style*="#fc4200" i] > i { color: #C15757 !important; }
 
-/* Purple / indigo family → Flexoki purple */
+/* Purple / indigo family → palette purple */
 .asset-icon[style*="background"][style*="#a74af1" i] > i,
 .asset-icon[style*="background"][style*="#9b0af2" i] > i,
 .asset-icon[style*="background"][style*="#5b17f2" i] > i,
@@ -779,7 +779,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .dark-portal .nasa .index__item:not(.index__item--task) i:not([style]) { color: #F7B3B3 !important; }
 
 /* Per-entity glyph color — non-asset-layout entities (companies, KB, websites)
-   that Hudu renders without inline color. Maps each glyph to a Flexoki accent
+   that Hudu renders without inline color. Maps each glyph to a palette accent
    matching its semantic role, so the dashboard widgets read at a glance. */
 .nasa .index__item i.fa-store-alt:not([style]),
 .nasa .index__item i.fa-building:not([style]) { color: #D66B6B !important; } /* companies → blue */
@@ -808,7 +808,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 /* Dashboard chart — canvas bars are pixel-painted from a server-baked
    Tailwind blue (#3B82F6). Pure CSS can't recolor canvas content, so apply
    a filter chain that desaturates + darkens the bars toward the muted
-   Flexoki blue (#D66B6B) range. Affects axis labels too — minor cost. */
+   palette blue (#D66B6B) range. Affects axis labels too — minor cost. */
 [data-controller="chart"] canvas,
 .dash__graph-graph canvas { filter: saturate(0.55) brightness(0.62) !important; }
 
@@ -826,7 +826,7 @@ body:not(.dark-portal) .index__list__avatar { background-color: #F8EEEE !importa
    the 2px box so layout doesn't shift, but draws nothing. */
 .nasa__title.for-bg img { border-color: transparent !important; }
 
-/* Gray borders (#757575 / #666666) → Flexoki base tones */
+/* Gray borders (#757575 / #666666) → palette base tones */
 .dark-portal .index__item,
 .dark-portal .nasa__block-header,
 .dark-portal .dropdown__content,
@@ -836,7 +836,7 @@ body:not(.dark-portal) .nasa__block-header,
 body:not(.dark-portal) .dropdown__content,
 body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #F2E8E8 !important; }
 
-/* Pure-white text (#fff) → Flexoki tx (#F2E8E8). Dashboard chrome only —
+/* Pure-white text (#fff) → palette tx (#F2E8E8). Dashboard chrome only —
    deliberately NOT .rich_text_content: callouts have light backgrounds,
    a blanket color override there renders unreadable (the callout trap). */
 .dark-portal .index__item,

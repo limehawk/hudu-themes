@@ -16,6 +16,7 @@ Existing per-theme READMEs are never overwritten.
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -27,11 +28,24 @@ from port import (build_accent_ramps, build_base_ramp, calibrate,
 REPO = Path(__file__).resolve().parents[2]
 LIGHT_SUFFIXES = ["-light", "-latte", "-day", "-dawn"]
 REQUIRED = ["background", "foreground"] + [f"color{i}" for i in range(1, 7)]
+# Slugs never imported: hand-made themes own their dirs, and registry
+# variants of them would only produce worse duplicates.
+EXCLUDED = {"flexoki", "flexoki-dark"}
+
+# Registry entries are community-submitted; slugs become directory names and
+# owner/repo/url land in committed Markdown. Validate before use.
+SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
+GH_SEGMENT_RE = re.compile(r"^[A-Za-z0-9_.-]+$")
+GH_URL_RE = re.compile(r"^https://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+(/tree/[A-Za-z0-9_./-]+)?/?$")
 
 
 def load_registry(path):
-    out = {}
+    out, rejected = {}, []
     for t in json.load(open(path)):
+        slug = t.get("slug", "")
+        if not SLUG_RE.match(slug):
+            rejected.append(slug)
+            continue
         cj = t.get("colors_json")
         if not cj:
             continue
@@ -41,7 +55,9 @@ def load_registry(path):
             continue
         if any(k not in pal for k in REQUIRED):
             continue
-        out[t["slug"]] = {"pal": pal, "meta": t}
+        out[slug] = {"pal": pal, "meta": t}
+    for slug in rejected:
+        print(f"rejected invalid slug: {slug!r}")
     return out
 
 
@@ -54,9 +70,13 @@ def find_light_pair(slug, registry):
 
 
 def credit_line(meta):
+    # slug already passed SLUG_RE in load_registry; owner/repo/url are still
+    # raw community-submitted strings headed into committed Markdown.
     owner, repo = meta.get("github_owner"), meta.get("github_repo")
     url = meta.get("github_url")
-    if owner and url:
+    safe_segments = all(isinstance(s, str) and GH_SEGMENT_RE.match(s) for s in (owner, repo))
+    safe_url = isinstance(url, str) and GH_URL_RE.match(url)
+    if safe_segments and safe_url:
         return (f"Palette from [{owner}/{repo}]({url}) — listed on "
                 f"[omarchytheme.com](https://omarchytheme.com/themes/{meta['slug']}/).")
     return f"Palette listed on [omarchytheme.com](https://omarchytheme.com/themes/{meta['slug']}/)."
@@ -66,6 +86,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--data", required=True)
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--force-css", action="store_true",
+                    help="regenerate theme.css for themes that already exist (READMEs are still never overwritten)")
     args = ap.parse_args()
 
     registry = load_registry(args.data)
@@ -75,10 +97,16 @@ def main():
     darks = {s: e for s, e in registry.items() if is_dark(e["pal"])}
     lights = [s for s in registry if s not in darks]
 
+    themes_root = (REPO / "themes").resolve()
     count = 0
     for slug, entry in sorted(darks.items()):
-        out_dir = REPO / "themes" / slug
-        if out_dir.exists():
+        if slug in EXCLUDED:
+            continue
+        out_dir = (REPO / "themes" / slug).resolve()
+        if not out_dir.is_relative_to(themes_root):
+            failed.append((slug, "resolved outside themes/"))
+            continue
+        if out_dir.exists() and not args.force_css:
             skipped_existing.append(slug)
             continue
         if args.limit and count >= args.limit:
@@ -99,7 +127,7 @@ def main():
         except SystemExit as e:
             failed.append((slug, str(e)))
             continue
-        out_dir.mkdir(parents=True)
+        out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "theme.css").write_text(css)
         if not (out_dir / "README.md").exists():
             (out_dir / "README.md").write_text(md)

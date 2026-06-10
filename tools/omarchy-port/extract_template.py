@@ -39,6 +39,9 @@ def main() -> None:
         return m.group(0)
 
     out = re.sub(r"#[0-9a-fA-F]{6}\b", sub, body)
+    # Comments narrate the source theme by name; generated themes should not
+    # introduce themselves as Flexoki (users copy these files into Hudu).
+    out = out.replace("FLEXOKI", "PALETTE").replace("Flexoki", "palette").replace("flexoki", "palette")
     DST.write_text(out)
 
     leftover = sorted({h.upper() for h in re.findall(r"#[0-9a-fA-F]{6}\b", out)})
