@@ -1,6 +1,6 @@
 # Theme catalog
 
-262 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-port`](../tools/omarchy-port/). Each theme's README documents its palette and provenance.
+261 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-port`](../tools/omarchy-port/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -105,7 +105,6 @@
 | [firesky](firesky/) | Dark (+ synthesized light) | [`theme.css`](firesky/theme.css) |
 | [flat-dracula](flat-dracula/) | Dark (+ synthesized light) | [`theme.css`](flat-dracula/theme.css) |
 | [flexoki](flexoki/) | Light + dark | [`theme.css`](flexoki/theme.css) |
-| [flexoki-dark](flexoki-dark/) | Dark (+ synthesized light) | [`theme.css`](flexoki-dark/theme.css) |
 | [florida-man](florida-man/) | Dark (+ synthesized light) | [`theme.css`](florida-man/theme.css) |
 | [fluid-glass](fluid-glass/) | Dark (+ synthesized light) | [`theme.css`](fluid-glass/theme.css) |
 | [forest-green](forest-green/) | Dark (+ synthesized light) | [`theme.css`](forest-green/theme.css) |
