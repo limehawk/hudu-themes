@@ -19,6 +19,14 @@ Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `the
 | Theme | Palette | Modes | Source |
 |-------|---------|-------|--------|
 | [Flexoki](themes/flexoki/) | Inky, minimalist palette by [Steph Ango](https://stephango.com/flexoki) — calibrated for legibility & perceptual balance across light/dark | Light + dark | [`theme.css`](themes/flexoki/theme.css) |
+| [Catppuccin](themes/catppuccin/) | Soothing pastels by the [Catppuccin](https://github.com/catppuccin/catppuccin) community — Mocha (dark) + Latte (light) | Light + dark | [`theme.css`](themes/catppuccin/theme.css) |
+| [Tokyo Night](themes/tokyo-night/) | Neon-on-dark by [enkia](https://github.com/enkia/tokyo-night-vscode-theme), inspired by Tokyo at night | Dark (+ synthesized light) | [`theme.css`](themes/tokyo-night/theme.css) |
+| [Gruvbox](themes/gruvbox/) | Retro groove, warm earthy tones by [morhetz](https://github.com/morhetz/gruvbox) | Dark (+ synthesized light) | [`theme.css`](themes/gruvbox/theme.css) |
+| [Nord](themes/nord/) | Arctic, north-bluish palette by [Sven Greb](https://www.nordtheme.com/) | Dark (+ synthesized light) | [`theme.css`](themes/nord/theme.css) |
+| [Everforest](themes/everforest/) | Green-based, warm and soft on the eyes, by [sainnhe](https://github.com/sainnhe/everforest) | Dark (+ synthesized light) | [`theme.css`](themes/everforest/theme.css) |
+| [Kanagawa](themes/kanagawa/) | Inspired by Hokusai's Great Wave, by [rebelot](https://github.com/rebelot/kanagawa.nvim) | Dark (+ synthesized light) | [`theme.css`](themes/kanagawa/theme.css) |
+
+> Themes other than Flexoki are generated from [omarchy](https://omarchy.org) palettes via [`tools/omarchy-port`](tools/omarchy-port/) — see each theme's README for palette tables and provenance.
 
 > [!INFO]
 > **Flexoki** is designed for reading and writing on digital screens, inspired by analog inks and warm shades of paper. Learn about its design philosophy, extended palette (50–950 ramps), and mappings at [stephango.com/flexoki](https://stephango.com/flexoki). The full palette reference is documented in the theme's CSS header.

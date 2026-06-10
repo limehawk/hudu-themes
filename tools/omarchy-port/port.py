@@ -102,6 +102,15 @@ def delta_e(h1, h2):
     return 100 * sum((x - y) ** 2 for x, y in zip(a, b)) ** 0.5
 
 
+def contrast(h1, h2):
+    """WCAG contrast ratio."""
+    def lum(h):
+        r, g, b = (_srgb_to_linear(c) for c in hex_to_rgb(h))
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b
+    a, b = lum(h1), lum(h2)
+    return (max(a, b) + 0.05) / (min(a, b) + 0.05)
+
+
 # ------------------------------------------------------------ palette loading
 
 def resolve_theme(name_or_path):
@@ -261,7 +270,108 @@ def build_accent_ramps(pal, paper, black, cal, light_pal=None):
     return out
 
 
+# Text tokens guarded by the readability floor: (token, background token).
+# Palette pins can push interpolated text tones too close to their background
+# (e.g. a dark theme whose fg AND color7 are both light leaves base-300 —
+# light-mode faint text — nearly invisible on synthesized paper). When a
+# guarded token contrasts worse than 85% of Flexoki's reference value for the
+# same pair, re-derive it by pure anchor interpolation at Flexoki's position.
+TEXT_FLOORS = [
+    # (token, background token, absolute cap on the floor)
+    # Floor = min(0.85 x Flexoki's reference contrast, cap). The cap keeps
+    # high-contrast pairs honest in WCAG terms instead of demanding
+    # Flexoki-level inkiness from every palette: 7:1 (AAA) for primary text,
+    # 4.5:1 (AA) for muted; faint text is judged purely against the
+    # reference (Flexoki's faint is ~2:1 by design).
+    ("base-300", "paper", None),
+    ("base-600", "paper", 4.5),
+    ("base-200", "base-950", 7.0),
+    ("base-500", "base-950", 4.5),
+]
+
+
+def enforce_text_floors(tokens, paper, black):
+    ref = token_to_hex()
+    ref["paper"], ref["black"] = ANCHORS["paper"], ANCHORS["black"]
+    for tok, bg_tok, cap in TEXT_FLOORS:
+        floor = 0.85 * contrast(ref[tok], ref[bg_tok])
+        if cap is not None:
+            floor = min(floor, cap)
+        if contrast(tokens[tok], tokens[bg_tok]) < floor:
+            t = best_t(ref[tok], ANCHORS["paper"], ANCHORS["black"])
+            tokens[tok] = mix_hex(paper, black, t)
+
+
 # ------------------------------------------------------------------ rendering
+
+def _swatch(h):
+    h = h.upper()
+    return f"<img valign='middle' alt='{h}' src='https://readme-swatches.vercel.app/{h.lstrip('#')}'/> `{h}`"
+
+
+# Role annotations mirror Flexoki's usage mapping (see themes/flexoki/README.md).
+BASE_ROLES = [
+    ("black", "tx", "bg"), ("base-950", "—", "bg-2"), ("base-900", "—", "ui"),
+    ("base-850", "—", "ui-2"), ("base-800", "—", "ui-3"), ("base-700", "—", "tx-3"),
+    ("base-600", "tx-2", "—"), ("base-500", "—", "tx-2"), ("base-300", "tx-3", "—"),
+    ("base-200", "ui-3", "tx"), ("base-150", "ui-2", "—"), ("base-100", "ui", "—"),
+    ("base-50", "bg-2", "—"), ("paper", "bg", "—"),
+]
+# Tokens pinned verbatim from the source palettes (mirrors build_* pinning rules).
+PINNED_BASE = {"black", "base-200", "base-500", "base-600", "paper"}
+DERIVED_FAMILIES = {"orange", "purple"}
+
+
+def render_readme(tokens, name, dark_src, light_src, light_pinned_300):
+    title = name.replace("-", " ").title()
+    src = f"omarchy `{dark_src}`" + (f" + `{light_src}` palettes" if light_src else " palette (light half synthesized)")
+    pinned = set(PINNED_BASE)
+    if light_pinned_300:
+        pinned.add("base-300")
+    if not light_src:
+        pinned.discard("paper")
+    lines = [
+        f"# {title} theme for Hudu",
+        "",
+        f"Hudu skin generated from the {src} via [`tools/omarchy-port`](../../tools/omarchy-port/). Light + dark mode.",
+        "",
+        "<!-- TODO: add upstream palette credit + link -->",
+        "",
+        "## Palette",
+        "",
+        "**Base** — • marks values taken verbatim from the source palette; the rest are OKLab-interpolated.",
+        "",
+        "| Token | Hex | Light | Dark |",
+        "|-------|-----|-------|------|",
+    ]
+    for tok, light_role, dark_role in BASE_ROLES:
+        mark = " •" if tok in pinned else ""
+        lines.append(f"| {tok}{mark} | {_swatch(tokens[tok])} | {light_role} | {dark_role} |")
+    lines += [
+        "",
+        "**Accents** — 600 = light mode, 400 = dark mode. Orange and purple have no ANSI slot in the source palette; they are blends of red+yellow and blue+magenta.",
+        "",
+        "| Color | 600 (light) | 400 (dark) |",
+        "|-------|-------------|------------|",
+    ]
+    for fam in ["red", "orange", "yellow", "green", "cyan", "blue", "purple", "magenta"]:
+        mark = " (derived)" if fam in DERIVED_FAMILIES else ""
+        lines.append(f"| {fam.title()}{mark} | {_swatch(tokens[f'{fam}-600'])} | {_swatch(tokens[f'{fam}-400'])} |")
+    lines += [
+        "",
+        "## Install",
+        "",
+        "Paste [`theme.css`](theme.css) into Hudu's custom CSS field (Admin → Design → Custom CSS), save, hard-refresh.",
+        "",
+        "## Source",
+        "",
+        f"- Generated by [`port.py`](../../tools/omarchy-port/port.py) from the omarchy `{dark_src}` theme"
+        + (f" paired with `{light_src}`" if light_src else " (no light variant — light half synthesized)"),
+        "- Structure and hand-tuned Hudu fixes inherited from the [Flexoki theme](../flexoki/)",
+        "",
+    ]
+    return "\n".join(lines)
+
 
 def render(tokens, name, dark_src, light_src):
     template = (Path(__file__).parent / "template.css").read_text()
@@ -306,6 +416,7 @@ def main():
 
     cal = calibrate()
     tokens = build_base_ramp(paper, black, dark, light)
+    enforce_text_floors(tokens, paper, black)
     tokens.update(build_accent_ramps(dark, paper, black, cal, light))
 
     out_dir = Path(args.out) if args.out else Path(__file__).resolve().parents[2] / "themes" / args.name
@@ -313,6 +424,14 @@ def main():
     css = render(tokens, args.name, dark_dir.name, light_src)
     (out_dir / "theme.css").write_text(css)
     print(f"wrote {out_dir / 'theme.css'} ({len(css.encode())} bytes)")
+    readme_path = out_dir / "README.md"
+    if readme_path.exists():
+        print(f"{readme_path} exists — left untouched (delete it to regenerate)")
+    else:
+        readme = render_readme(tokens, args.name, dark_dir.name, light_src,
+                               light_pinned_300=bool(light and "color7" in light))
+        readme_path.write_text(readme)
+        print(f"wrote {readme_path} — fill in the upstream palette credit TODO")
     if not args.light:
         print("note: light mode synthesized from the dark palette — pair a real light theme with --light for better results")
 
