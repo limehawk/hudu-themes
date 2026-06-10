@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Round-trip sanity check for port.py.
+"""Round-trip sanity check for port_theme.py.
 
 Ports flexoki-dark + flexoki-light and compares against the hand-made
 themes/flexoki/theme.css. Pinned tokens (anchors, text tiers, ANSI 400/600
@@ -7,7 +7,7 @@ accents) must match exactly; derived intermediates may drift within a
 perceptual tolerance (interpolation is calibrated, not copied).
 
 Run from the repo root:
-    python3 tools/omarchy-port/verify_roundtrip.py
+    python3 tools/omarchy-port/check_roundtrip.py
 """
 
 import re
@@ -17,7 +17,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from port import delta_e
+from port_theme import delta_e
 
 REPO = Path(__file__).resolve().parents[2]
 
@@ -38,7 +38,7 @@ def hexes(css: str) -> list[str]:
 def main() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         subprocess.run(
-            [sys.executable, str(Path(__file__).parent / "port.py"),
+            [sys.executable, str(Path(__file__).parent / "port_theme.py"),
              "--dark", "flexoki-dark", "--light", "flexoki-light",
              "--name", "flexoki-roundtrip", "--out", tmp],
             check=True, capture_output=True,

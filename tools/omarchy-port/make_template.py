@@ -6,7 +6,7 @@ placeholder. Hudu's stock-color attribute matchers (e.g. [style*="#300c83"])
 are not palette colors, so they pass through literally.
 
 Run from the repo root whenever theme.css changes:
-    python3 tools/omarchy-port/extract_template.py
+    python3 tools/omarchy-port/make_template.py
 """
 
 import re
@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from flexoki_ref import hex_to_token
+from flexoki_palette import hex_to_token
 
 REPO = Path(__file__).resolve().parents[2]
 SRC = REPO / "themes/flexoki/theme.css"
@@ -25,7 +25,7 @@ def main() -> None:
     css = SRC.read_text()
     tokens = hex_to_token()
     # Drop the Flexoki palette-reference header; the generated theme gets
-    # its own header from port.py.
+    # its own header from port_theme.py.
     marker = "======================================== */\n"
     body = css.split(marker, 1)[1]
 

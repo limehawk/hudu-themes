@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from port import (build_accent_ramps, build_base_ramp, calibrate,
+from port_theme import (build_accent_ramps, build_base_ramp, calibrate,
                   enforce_text_floors, is_dark, render, render_readme,
                   synth_light_bg)
 

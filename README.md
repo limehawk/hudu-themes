@@ -51,10 +51,19 @@ Clear the Custom CSS field, save, hard-refresh.
 
 ## Contributing a theme
 
+**Porting an [omarchy](https://omarchy.org) theme?** Use the generator -- it produces the CSS, palette README, and contrast-checked ramps for you (see [`tools/omarchy-port/`](tools/omarchy-port/)):
+
+```bash
+python3 tools/omarchy-port/port_theme.py --dark <omarchy-theme> [--light <light-variant>] --name <name>
+```
+
+Fill in the upstream credit TODO in the generated README, then open a PR.
+
+**Hand-making a theme?**
+
 1. Create `themes/<your-theme>/theme.css`.
-2. Add a per-theme `README.md` next to it (palette source, credits, screenshots if you have them).
-3. Add a row to the [Themes](#themes) table.
-4. Open a PR.
+2. Add a per-theme `README.md` next to it (palette source, credits, swatch tables).
+3. Open a PR -- the [catalog](themes/README.md) regenerates on the next registry sync.
 
 > [!IMPORTANT]
-> Themes must override Hudu's CSS variables only — no DOM-targeting selectors that depend on Hudu's internal class names. Hudu refactors its frontend without warning; variable overrides survive, brittle selectors don't.
+> Prefer overriding Hudu's CSS variables; DOM-targeting selectors are used sparingly and only where variables can't reach. Hudu refactors its frontend without warning -- variable overrides survive, brittle selectors don't.
