@@ -5,6 +5,9 @@
 *Custom CSS themes for [Hudu](https://www.hudu.com)*
 
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Themes](https://img.shields.io/badge/Themes-261-green?style=flat-square)](themes/README.md)
+
+**[Browse them all at huduthemes.limehawk.io →](https://huduthemes.limehawk.io)**
 
 [Themes](#themes) • [Install](#install) • [Uninstall](#uninstall) • [Contributing a theme](#contributing-a-theme)
 
@@ -12,7 +15,7 @@
 
 ---
 
-Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `theme.css` file you paste into Hudu's custom CSS field — no build step, no JS, no Hudu admin gymnastics.
+Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `theme.css` file you paste into Hudu's custom CSS field — no build step, no JS, no Hudu admin gymnastics. Preview every theme in light and dark at **[huduthemes.limehawk.io](https://huduthemes.limehawk.io)**, with one-click copy.
 
 ## Themes
 
@@ -26,7 +29,7 @@ Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `the
 | [Everforest](themes/everforest/) | Green-based, warm and soft on the eyes, by [sainnhe](https://github.com/sainnhe/everforest) | Dark (+ synthesized light) | [`theme.css`](themes/everforest/theme.css) |
 | [Kanagawa](themes/kanagawa/) | Inspired by Hokusai's Great Wave, by [rebelot](https://github.com/rebelot/kanagawa.nvim) | Dark (+ synthesized light) | [`theme.css`](themes/kanagawa/theme.css) |
 
-> The table above is the featured set. **[Browse the full catalog — 260+ themes](themes/README.md)**, bulk-imported from the [omarchytheme.com](https://omarchytheme.com) registry and generated from [omarchy](https://omarchy.org) palettes via [`tools/omarchy-to-hudu`](tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+> The table above is the featured set. Browse the full catalog — **[261 themes on the website](https://huduthemes.limehawk.io/themes/)** or [in this repo](themes/README.md) — bulk-imported from the [omarchytheme.com](https://omarchytheme.com) registry and generated from [omarchy](https://omarchy.org) palettes via [`tools/omarchy-to-hudu`](tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 > [!INFO]
 > **Flexoki** is designed for reading and writing on digital screens, inspired by analog inks and warm shades of paper. Learn about its design philosophy, extended palette (50–950 ramps), and mappings at [stephango.com/flexoki](https://stephango.com/flexoki). The full palette reference is documented in the theme's CSS header.
@@ -34,8 +37,8 @@ Drop-in CSS skins for Hudu's documentation platform. Each theme is a single `the
 ## Install
 
 1. Open Hudu as an admin.
-2. Navigate to **Admin → Settings → Customize Branding** (the **Custom CSS** field).
-3. Open the theme's `theme.css` from this repo, copy the entire file.
+2. Navigate to **Admin → Design** (the **Custom CSS** field).
+3. Copy the theme's CSS — one click on its [huduthemes.limehawk.io](https://huduthemes.limehawk.io) page, or open `theme.css` here and copy the file.
 4. Paste into the Custom CSS field and save.
 5. Hard-refresh (`Ctrl+Shift+R` / `Cmd+Shift+R`) to clear cached styles.
 
@@ -51,7 +54,7 @@ Clear the Custom CSS field, save, hard-refresh.
 
 ## Contributing a theme
 
-**Porting an [omarchy](https://omarchy.org) theme?** Use the generator -- it produces the CSS, palette README, and contrast-checked ramps for you (see [`tools/omarchy-to-hudu/`](tools/omarchy-to-hudu/)):
+**Porting an [omarchy](https://omarchy.org) theme?** Use the generator — it produces the CSS, palette README, and contrast-checked ramps for you (see [`tools/omarchy-to-hudu/`](tools/omarchy-to-hudu/)):
 
 ```bash
 python3 tools/omarchy-to-hudu/port_theme.py --dark <omarchy-theme> [--light <light-variant>] --name <name>
@@ -63,7 +66,7 @@ Fill in the upstream credit TODO in the generated README, then open a PR.
 
 1. Create `themes/<your-theme>/theme.css`.
 2. Add a per-theme `README.md` next to it (palette source, credits, swatch tables).
-3. Open a PR -- the [catalog](themes/README.md) regenerates on the next registry sync.
+3. Open a PR — the [catalog](themes/README.md) regenerates on the next registry sync.
 
 > [!IMPORTANT]
-> Prefer overriding Hudu's CSS variables; DOM-targeting selectors are used sparingly and only where variables can't reach. Hudu refactors its frontend without warning -- variable overrides survive, brittle selectors don't.
+> Prefer overriding Hudu's CSS variables; DOM-targeting selectors are used sparingly and only where variables can't reach. Hudu refactors its frontend without warning — variable overrides survive, brittle selectors don't.
