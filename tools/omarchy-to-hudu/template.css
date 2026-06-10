@@ -837,3 +837,41 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: {{base-200}
 .dark-portal .index__item,
 .dark-portal .nasa__block,
 .dark-portal turbo-frame { color: {{base-200}} !important; }
+/* Callouts — Hudu hardcodes pastel backgrounds with dark ink text
+   (#01466C info, #4D0706 danger, #6A2802 warning) in both modes. Stock
+   pastels read alien on dark pages and aren't palette-derived on light
+   ones. Re-tint per type, always setting bg + text + border together
+   (recoloring text alone is the callout trap). */
+.dark-portal .rich_text_content .callout-info {
+  background: {{blue-900}} !important; color: {{blue-150}} !important; border-color: {{blue-800}} !important; }
+.dark-portal .rich_text_content .callout-danger {
+  background: {{red-900}} !important; color: {{red-150}} !important; border-color: {{red-800}} !important; }
+.dark-portal .rich_text_content .callout-warning {
+  background: {{orange-900}} !important; color: {{orange-150}} !important; border-color: {{orange-800}} !important; }
+.dark-portal .rich_text_content .callout-success {
+  background: {{green-900}} !important; color: {{green-150}} !important; border-color: {{green-800}} !important; }
+body:not(.dark-portal) .rich_text_content .callout-info {
+  background: {{blue-50}} !important; color: {{blue-700}} !important; border-color: {{blue-150}} !important; }
+body:not(.dark-portal) .rich_text_content .callout-danger {
+  background: {{red-50}} !important; color: {{red-700}} !important; border-color: {{red-150}} !important; }
+body:not(.dark-portal) .rich_text_content .callout-warning {
+  background: {{orange-50}} !important; color: {{orange-700}} !important; border-color: {{orange-150}} !important; }
+body:not(.dark-portal) .rich_text_content .callout-success {
+  background: {{green-50}} !important; color: {{green-700}} !important; border-color: {{green-150}} !important; }
+
+/* "My Tasks" empty-state illustration — inline SVG with stock grayscale
+   and navy fills. Recolor structure to base tones and clothing to the
+   primary accent; skin tones (#FFB573/#ED893E) stay untouched. CSS fill
+   beats the SVG presentation attributes. */
+.dark-portal .dash__message svg [fill="white" i] { fill: {{base-200}}; }
+.dark-portal .dash__message svg [fill="#F5F5F5" i] { fill: {{base-300}}; }
+.dark-portal .dash__message svg [fill="#E0E0E0" i] { fill: {{base-500}}; }
+.dark-portal .dash__message svg [fill="#808080" i] { fill: {{base-600}}; }
+.dark-portal .dash__message svg [fill="black" i] { fill: {{base-950}}; }
+.dark-portal .dash__message svg [fill="#263238" i] { fill: {{cyan-400}}; }
+body:not(.dark-portal) .dash__message svg [fill="white" i] { fill: {{paper}}; }
+body:not(.dark-portal) .dash__message svg [fill="#F5F5F5" i] { fill: {{base-50}}; }
+body:not(.dark-portal) .dash__message svg [fill="#E0E0E0" i] { fill: {{base-150}}; }
+body:not(.dark-portal) .dash__message svg [fill="#808080" i] { fill: {{base-500}}; }
+body:not(.dark-portal) .dash__message svg [fill="black" i] { fill: {{black}}; }
+body:not(.dark-portal) .dash__message svg [fill="#263238" i] { fill: {{cyan-600}}; }

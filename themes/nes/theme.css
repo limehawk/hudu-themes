@@ -842,3 +842,41 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #cecfc9 !im
 .dark-portal .index__item,
 .dark-portal .nasa__block,
 .dark-portal turbo-frame { color: #cecfc9 !important; }
+/* Callouts — Hudu hardcodes pastel backgrounds with dark ink text
+   (#01466C info, #4D0706 danger, #6A2802 warning) in both modes. Stock
+   pastels read alien on dark pages and aren't palette-derived on light
+   ones. Re-tint per type, always setting bg + text + border together
+   (recoloring text alone is the callout trap). */
+.dark-portal .rich_text_content .callout-info {
+  background: #353535 !important; color: #E6E6E4 !important; border-color: #5C5E5C !important; }
+.dark-portal .rich_text_content .callout-danger {
+  background: #47211D !important; color: #F6A69B !important; border-color: #802F28 !important; }
+.dark-portal .rich_text_content .callout-warning {
+  background: #412A27 !important; color: #F1C0B8 !important; border-color: #74443E !important; }
+.dark-portal .rich_text_content .callout-success {
+  background: #353535 !important; color: #E6E6E4 !important; border-color: #5C5E5C !important; }
+body:not(.dark-portal) .rich_text_content .callout-info {
+  background: #F1F2F1 !important; color: #7F827F !important; border-color: #E6E6E4 !important; }
+body:not(.dark-portal) .rich_text_content .callout-danger {
+  background: #F9DBD6 !important; color: #B33931 !important; border-color: #F6A69B !important; }
+body:not(.dark-portal) .rich_text_content .callout-warning {
+  background: #F6E4E0 !important; color: #A35C52 !important; border-color: #F1C0B8 !important; }
+body:not(.dark-portal) .rich_text_content .callout-success {
+  background: #F1F2F1 !important; color: #7F827F !important; border-color: #E6E6E4 !important; }
+
+/* "My Tasks" empty-state illustration — inline SVG with stock grayscale
+   and navy fills. Recolor structure to base tones and clothing to the
+   primary accent; skin tones (#FFB573/#ED893E) stay untouched. CSS fill
+   beats the SVG presentation attributes. */
+.dark-portal .dash__message svg [fill="white" i] { fill: #cecfc9; }
+.dark-portal .dash__message svg [fill="#F5F5F5" i] { fill: #B2B2B2; }
+.dark-portal .dash__message svg [fill="#E0E0E0" i] { fill: #cecfc9; }
+.dark-portal .dash__message svg [fill="#808080" i] { fill: #6D6D6D; }
+.dark-portal .dash__message svg [fill="black" i] { fill: #212121; }
+.dark-portal .dash__message svg [fill="#263238" i] { fill: #cecfc9; }
+body:not(.dark-portal) .dash__message svg [fill="white" i] { fill: #F8F8F8; }
+body:not(.dark-portal) .dash__message svg [fill="#F5F5F5" i] { fill: #EDEDEC; }
+body:not(.dark-portal) .dash__message svg [fill="#E0E0E0" i] { fill: #D8D9D4; }
+body:not(.dark-portal) .dash__message svg [fill="#808080" i] { fill: #cecfc9; }
+body:not(.dark-portal) .dash__message svg [fill="black" i] { fill: #101010; }
+body:not(.dark-portal) .dash__message svg [fill="#263238" i] { fill: #9a9d9a; }
