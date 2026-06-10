@@ -1,7 +1,7 @@
 """Flexoki extended palette reference (Stephan Ango, MIT).
 
 Single source of truth for the hex -> token mapping used by both
-extract_template.py (template generation) and port.py (ramp-fraction
+make_template.py (template generation) and port_theme.py (ramp-fraction
 calibration). Mirrors the palette table in themes/flexoki/theme.css.
 """
 
