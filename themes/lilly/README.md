@@ -32,8 +32,8 @@ Palette from [JJDizz1L/lilly](https://github.com/JJDizz1L/lilly) — listed on [
 | Red | <img valign='middle' alt='#9C413E' src='https://readme-swatches.vercel.app/9C413E'/> `#9C413E` | <img valign='middle' alt='#C6615E' src='https://readme-swatches.vercel.app/C6615E'/> `#C6615E` |
 | Orange (derived) | <img valign='middle' alt='#B43A3F' src='https://readme-swatches.vercel.app/B43A3F'/> `#B43A3F` | <img valign='middle' alt='#D8797C' src='https://readme-swatches.vercel.app/D8797C'/> `#D8797C` |
 | Yellow | <img valign='middle' alt='#D92640' src='https://readme-swatches.vercel.app/D92640'/> `#D92640` | <img valign='middle' alt='#F29EAA' src='https://readme-swatches.vercel.app/F29EAA'/> `#F29EAA` |
-| Green | <img valign='middle' alt='#29A0D6' src='https://readme-swatches.vercel.app/29A0D6'/> `#29A0D6` | <img valign='middle' alt='#60BFE8' src='https://readme-swatches.vercel.app/60BFE8'/> `#60BFE8` |
-| Cyan | <img valign='middle' alt='#349BCB' src='https://readme-swatches.vercel.app/349BCB'/> `#349BCB` | <img valign='middle' alt='#A5D4EC' src='https://readme-swatches.vercel.app/A5D4EC'/> `#A5D4EC` |
+| Green | <img valign='middle' alt='#007FB3' src='https://readme-swatches.vercel.app/007FB3'/> `#007FB3` | <img valign='middle' alt='#60BFE8' src='https://readme-swatches.vercel.app/60BFE8'/> `#60BFE8` |
+| Cyan | <img valign='middle' alt='#007DAB' src='https://readme-swatches.vercel.app/007DAB'/> `#007DAB` | <img valign='middle' alt='#A5D4EC' src='https://readme-swatches.vercel.app/A5D4EC'/> `#A5D4EC` |
 | Blue | <img valign='middle' alt='#6A6A95' src='https://readme-swatches.vercel.app/6A6A95'/> `#6A6A95` | <img valign='middle' alt='#9393B5' src='https://readme-swatches.vercel.app/9393B5'/> `#9393B5` |
 | Purple (derived) | <img valign='middle' alt='#7B6A92' src='https://readme-swatches.vercel.app/7B6A92'/> `#7B6A92` | <img valign='middle' alt='#A59BB9' src='https://readme-swatches.vercel.app/A59BB9'/> `#A59BB9` |
 | Magenta | <img valign='middle' alt='#96698E' src='https://readme-swatches.vercel.app/96698E'/> `#96698E` | <img valign='middle' alt='#C4A8C0' src='https://readme-swatches.vercel.app/C4A8C0'/> `#C4A8C0` |

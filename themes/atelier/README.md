@@ -31,7 +31,7 @@ Palette from [atif-1402/omarchy-atelier-theme](https://github.com/atif-1402/omar
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#BA6236' src='https://readme-swatches.vercel.app/BA6236'/> `#BA6236` | <img valign='middle' alt='#D08A65' src='https://readme-swatches.vercel.app/D08A65'/> `#D08A65` |
 | Orange (derived) | <img valign='middle' alt='#B4792C' src='https://readme-swatches.vercel.app/B4792C'/> `#B4792C` | <img valign='middle' alt='#CB9C58' src='https://readme-swatches.vercel.app/CB9C58'/> `#CB9C58` |
-| Yellow | <img valign='middle' alt='#A5980D' src='https://readme-swatches.vercel.app/A5980D'/> `#A5980D` | <img valign='middle' alt='#C2B53C' src='https://readme-swatches.vercel.app/C2B53C'/> `#C2B53C` |
+| Yellow | <img valign='middle' alt='#9A8D00' src='https://readme-swatches.vercel.app/9A8D00'/> `#9A8D00` | <img valign='middle' alt='#C2B53C' src='https://readme-swatches.vercel.app/C2B53C'/> `#C2B53C` |
 | Green | <img valign='middle' alt='#7D9726' src='https://readme-swatches.vercel.app/7D9726'/> `#7D9726` | <img valign='middle' alt='#A7C957' src='https://readme-swatches.vercel.app/A7C957'/> `#A7C957` |
 | Cyan | <img valign='middle' alt='#5B9D48' src='https://readme-swatches.vercel.app/5B9D48'/> `#5B9D48` | <img valign='middle' alt='#7BBF7A' src='https://readme-swatches.vercel.app/7BBF7A'/> `#7BBF7A` |
 | Blue | <img valign='middle' alt='#36A166' src='https://readme-swatches.vercel.app/36A166'/> `#36A166` | <img valign='middle' alt='#5F9182' src='https://readme-swatches.vercel.app/5F9182'/> `#5F9182` |

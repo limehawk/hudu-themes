@@ -29,7 +29,7 @@ Palette from [komagata/omarchy-kawasaki-foundry-theme](https://github.com/komaga
 
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
-| Red | <img valign='middle' alt='#4F039A' src='https://readme-swatches.vercel.app/4F039A'/> `#4F039A` | <img valign='middle' alt='#8209FA' src='https://readme-swatches.vercel.app/8209FA'/> `#8209FA` |
+| Red | <img valign='middle' alt='#4F039A' src='https://readme-swatches.vercel.app/4F039A'/> `#4F039A` | <img valign='middle' alt='#9537FF' src='https://readme-swatches.vercel.app/9537FF'/> `#9537FF` |
 | Orange (derived) | <img valign='middle' alt='#58049D' src='https://readme-swatches.vercel.app/58049D'/> `#58049D` | <img valign='middle' alt='#8F10FA' src='https://readme-swatches.vercel.app/8F10FA'/> `#8F10FA` |
 | Yellow | <img valign='middle' alt='#6704A2' src='https://readme-swatches.vercel.app/6704A2'/> `#6704A2` | <img valign='middle' alt='#A313F9' src='https://readme-swatches.vercel.app/A313F9'/> `#A313F9` |
 | Green | <img valign='middle' alt='#6F039B' src='https://readme-swatches.vercel.app/6F039B'/> `#6F039B` | <img valign='middle' alt='#B50AFA' src='https://readme-swatches.vercel.app/B50AFA'/> `#B50AFA` |

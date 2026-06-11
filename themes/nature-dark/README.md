@@ -30,8 +30,8 @@ Palette from [JafarShamzsi/omarchy-nature-dark-theme](https://github.com/JafarSh
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#A08034' src='https://readme-swatches.vercel.app/A08034'/> `#A08034` | <img valign='middle' alt='#C8A53D' src='https://readme-swatches.vercel.app/C8A53D'/> `#C8A53D` |
-| Orange (derived) | <img valign='middle' alt='#AA9648' src='https://readme-swatches.vercel.app/AA9648'/> `#AA9648` | <img valign='middle' alt='#CDBA4F' src='https://readme-swatches.vercel.app/CDBA4F'/> `#CDBA4F` |
-| Yellow | <img valign='middle' alt='#B7B966' src='https://readme-swatches.vercel.app/B7B966'/> `#B7B966` | <img valign='middle' alt='#D4D968' src='https://readme-swatches.vercel.app/D4D968'/> `#D4D968` |
+| Orange (derived) | <img valign='middle' alt='#897524' src='https://readme-swatches.vercel.app/897524'/> `#897524` | <img valign='middle' alt='#CDBA4F' src='https://readme-swatches.vercel.app/CDBA4F'/> `#CDBA4F` |
+| Yellow | <img valign='middle' alt='#8E903C' src='https://readme-swatches.vercel.app/8E903C'/> `#8E903C` | <img valign='middle' alt='#D4D968' src='https://readme-swatches.vercel.app/D4D968'/> `#D4D968` |
 | Green | <img valign='middle' alt='#5B8F2C' src='https://readme-swatches.vercel.app/5B8F2C'/> `#5B8F2C` | <img valign='middle' alt='#79B825' src='https://readme-swatches.vercel.app/79B825'/> `#79B825` |
 | Cyan | <img valign='middle' alt='#5A80C5' src='https://readme-swatches.vercel.app/5A80C5'/> `#5A80C5` | <img valign='middle' alt='#7BA2FB' src='https://readme-swatches.vercel.app/7BA2FB'/> `#7BA2FB` |
 | Blue | <img valign='middle' alt='#6378C1' src='https://readme-swatches.vercel.app/6378C1'/> `#6378C1` | <img valign='middle' alt='#8599F7' src='https://readme-swatches.vercel.app/8599F7'/> `#8599F7` |

@@ -11,8 +11,11 @@
   /* tx = black #000000, tx-2 = base-600 #4A2C2C, tx-3 = base-300 #D9AFA7 */
 
   /* === Primary / Accent (cyan) === */
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
   --primary: #7B534E;
-  --primaryl1: #7B534E;
+  --primaryl1: #5E3F3B;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #F8F8F8;
@@ -172,10 +175,10 @@
   --alert---error---01: #FDE4DD;
   --alert---error---02: #FFD1C6;
   --alert---error---03: #FF6B4A;
-  --alert---error---04: #E07B5F;
-  --alert---error---05: #E07B5F;
-  --alert---error---06: #AE5E48;
-  --alert---error---07: #6D392A;
+  --alert---error---04: #A14328;
+  --alert---error---05: #A14328;
+  --alert---error---06: #7C321D;
+  --alert---error---07: #4C1C0E;
   --alert---warning---01: #F6E5E0;
   --alert---warning---02: #F4D4CA;
   --alert---warning---03: #F37253;
@@ -192,7 +195,7 @@
   --alert---info---04: #7B534E;
 
   /* === Flags (mapped to palette 600 values) === */
-  --flag---red: #E07B5F;
+  --flag---red: #A14328;
   --flag---blue: #7B534E;
   --flag---green: #7B534E;
   --flag---purple: #8A4B43;
@@ -206,6 +209,11 @@
   --flag---light-yellow: #F2C3B6;
   --flag---white: #F8F8F8;
   --flag---grey: #D9AFA7;
+}
+
+.dark-portal {
+  --primary: #7B534E;
+  --primaryl1: #7B534E;
 }
 
 /* === Light: fix hardcoded white bgs === */
@@ -850,7 +858,7 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #D9AFA7 !im
 .dark-portal .rich_text_content .callout-info {
   background: #110807 !important; color: #C2AEAB !important; border-color: #392421 !important; }
 .dark-portal .rich_text_content .callout-danger {
-  background: #27110A !important; color: #FFBFAF !important; border-color: #6D392A !important; }
+  background: #190502 !important; color: #FFBFAF !important; border-color: #4C1C0E !important; }
 .dark-portal .rich_text_content .callout-warning {
   background: #250E08 !important; color: #FCC1B2 !important; border-color: #673223 !important; }
 .dark-portal .rich_text_content .callout-success {
@@ -858,7 +866,7 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #D9AFA7 !im
 body:not(.dark-portal) .rich_text_content .callout-info {
   background: #E4DDDC !important; color: #5E3F3B !important; border-color: #C2AEAB !important; }
 body:not(.dark-portal) .rich_text_content .callout-danger {
-  background: #FDE4DD !important; color: #AE5E48 !important; border-color: #FFBFAF !important; }
+  background: #FDE4DD !important; color: #7C321D !important; border-color: #FFBFAF !important; }
 body:not(.dark-portal) .rich_text_content .callout-warning {
   background: #FAE4DE !important; color: #A5543E !important; border-color: #FCC1B2 !important; }
 body:not(.dark-portal) .rich_text_content .callout-success {

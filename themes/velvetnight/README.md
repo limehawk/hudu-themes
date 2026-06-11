@@ -31,11 +31,11 @@ Palette from [HANCORE-linux/omarchy-velvetnight-theme](https://github.com/HANCOR
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#811139' src='https://readme-swatches.vercel.app/811139'/> `#811139` | <img valign='middle' alt='#E21D63' src='https://readme-swatches.vercel.app/E21D63'/> `#E21D63` |
 | Orange (derived) | <img valign='middle' alt='#AA563C' src='https://readme-swatches.vercel.app/AA563C'/> `#AA563C` | <img valign='middle' alt='#ED766E' src='https://readme-swatches.vercel.app/ED766E'/> `#ED766E` |
-| Yellow | <img valign='middle' alt='#E5AF1B' src='https://readme-swatches.vercel.app/E5AF1B'/> `#E5AF1B` | <img valign='middle' alt='#F0D17C' src='https://readme-swatches.vercel.app/F0D17C'/> `#F0D17C` |
+| Yellow | <img valign='middle' alt='#B48000' src='https://readme-swatches.vercel.app/B48000'/> `#B48000` | <img valign='middle' alt='#F0D17C' src='https://readme-swatches.vercel.app/F0D17C'/> `#F0D17C` |
 | Green | <img valign='middle' alt='#5C637A' src='https://readme-swatches.vercel.app/5C637A'/> `#5C637A` | <img valign='middle' alt='#5C637A' src='https://readme-swatches.vercel.app/5C637A'/> `#5C637A` |
 | Cyan | <img valign='middle' alt='#C24F40' src='https://readme-swatches.vercel.app/C24F40'/> `#C24F40` | <img valign='middle' alt='#DC9B68' src='https://readme-swatches.vercel.app/DC9B68'/> `#DC9B68` |
-| Blue | <img valign='middle' alt='#9099A5' src='https://readme-swatches.vercel.app/9099A5'/> `#9099A5` | <img valign='middle' alt='#9099A5' src='https://readme-swatches.vercel.app/9099A5'/> `#9099A5` |
-| Purple (derived) | <img valign='middle' alt='#B38A96' src='https://readme-swatches.vercel.app/B38A96'/> `#B38A96` | <img valign='middle' alt='#B4939F' src='https://readme-swatches.vercel.app/B4939F'/> `#B4939F` |
+| Blue | <img valign='middle' alt='#575F6A' src='https://readme-swatches.vercel.app/575F6A'/> `#575F6A` | <img valign='middle' alt='#9099A5' src='https://readme-swatches.vercel.app/9099A5'/> `#9099A5` |
+| Purple (derived) | <img valign='middle' alt='#6F4A55' src='https://readme-swatches.vercel.app/6F4A55'/> `#6F4A55` | <img valign='middle' alt='#B4939F' src='https://readme-swatches.vercel.app/B4939F'/> `#B4939F` |
 | Magenta | <img valign='middle' alt='#E2687C' src='https://readme-swatches.vercel.app/E2687C'/> `#E2687C` | <img valign='middle' alt='#E88595' src='https://readme-swatches.vercel.app/E88595'/> `#E88595` |
 
 ## Install

@@ -33,7 +33,7 @@ Palette from [basecamp/omarchy](https://github.com/basecamp/omarchy/tree/dev/the
 | Orange (derived) | <img valign='middle' alt='#C4794A' src='https://readme-swatches.vercel.app/C4794A'/> `#C4794A` | <img valign='middle' alt='#DFB07F' src='https://readme-swatches.vercel.app/DFB07F'/> `#DFB07F` |
 | Yellow | <img valign='middle' alt='#459451' src='https://readme-swatches.vercel.app/459451'/> `#459451` | <img valign='middle' alt='#E5C736' src='https://readme-swatches.vercel.app/E5C736'/> `#E5C736` |
 | Green | <img valign='middle' alt='#549E6A' src='https://readme-swatches.vercel.app/549E6A'/> `#549E6A` | <img valign='middle' alt='#63B07A' src='https://readme-swatches.vercel.app/63B07A'/> `#63B07A` |
-| Cyan | <img valign='middle' alt='#2DD5B7' src='https://readme-swatches.vercel.app/2DD5B7'/> `#2DD5B7` | <img valign='middle' alt='#8CD3CB' src='https://readme-swatches.vercel.app/8CD3CB'/> `#8CD3CB` |
+| Cyan | <img valign='middle' alt='#008B71' src='https://readme-swatches.vercel.app/008B71'/> `#008B71` | <img valign='middle' alt='#8CD3CB' src='https://readme-swatches.vercel.app/8CD3CB'/> `#8CD3CB` |
 | Blue | <img valign='middle' alt='#509475' src='https://readme-swatches.vercel.app/509475'/> `#509475` | <img valign='middle' alt='#ACD4CF' src='https://readme-swatches.vercel.app/ACD4CF'/> `#ACD4CF` |
 | Purple (derived) | <img valign='middle' alt='#8D8884' src='https://readme-swatches.vercel.app/8D8884'/> `#8D8884` | <img valign='middle' alt='#98CBC4' src='https://readme-swatches.vercel.app/98CBC4'/> `#98CBC4` |
 | Magenta | <img valign='middle' alt='#D2689C' src='https://readme-swatches.vercel.app/D2689C'/> `#D2689C` | <img valign='middle' alt='#75BBB3' src='https://readme-swatches.vercel.app/75BBB3'/> `#75BBB3` |

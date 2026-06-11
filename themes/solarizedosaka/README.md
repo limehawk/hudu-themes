@@ -33,7 +33,7 @@ Palette from [motorsss/omarchy-solarizedosaka-theme](https://github.com/motorsss
 | Orange (derived) | <img valign='middle' alt='#CC5D25' src='https://readme-swatches.vercel.app/CC5D25'/> `#CC5D25` | <img valign='middle' alt='#CC5D25' src='https://readme-swatches.vercel.app/CC5D25'/> `#CC5D25` |
 | Yellow | <img valign='middle' alt='#B38800' src='https://readme-swatches.vercel.app/B38800'/> `#B38800` | <img valign='middle' alt='#B38800' src='https://readme-swatches.vercel.app/B38800'/> `#B38800` |
 | Green | <img valign='middle' alt='#809900' src='https://readme-swatches.vercel.app/809900'/> `#809900` | <img valign='middle' alt='#809900' src='https://readme-swatches.vercel.app/809900'/> `#809900` |
-| Cyan | <img valign='middle' alt='#2AA198' src='https://readme-swatches.vercel.app/2AA198'/> `#2AA198` | <img valign='middle' alt='#2AA198' src='https://readme-swatches.vercel.app/2AA198'/> `#2AA198` |
+| Cyan | <img valign='middle' alt='#00867D' src='https://readme-swatches.vercel.app/00867D'/> `#00867D` | <img valign='middle' alt='#2AA198' src='https://readme-swatches.vercel.app/2AA198'/> `#2AA198` |
 | Blue | <img valign='middle' alt='#268BD2' src='https://readme-swatches.vercel.app/268BD2'/> `#268BD2` | <img valign='middle' alt='#268BD2' src='https://readme-swatches.vercel.app/268BD2'/> `#268BD2` |
 | Purple (derived) | <img valign='middle' alt='#8576B4' src='https://readme-swatches.vercel.app/8576B4'/> `#8576B4` | <img valign='middle' alt='#8576B4' src='https://readme-swatches.vercel.app/8576B4'/> `#8576B4` |
 | Magenta | <img valign='middle' alt='#D03682' src='https://readme-swatches.vercel.app/D03682'/> `#D03682` | <img valign='middle' alt='#D03682' src='https://readme-swatches.vercel.app/D03682'/> `#D03682` |

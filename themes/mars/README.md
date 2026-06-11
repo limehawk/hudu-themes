@@ -29,7 +29,7 @@ Palette from [steve-lohmeyer/omarchy-mars-theme](https://github.com/steve-lohmey
 
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
-| Red | <img valign='middle' alt='#E07B5F' src='https://readme-swatches.vercel.app/E07B5F'/> `#E07B5F` | <img valign='middle' alt='#FF6B4A' src='https://readme-swatches.vercel.app/FF6B4A'/> `#FF6B4A` |
+| Red | <img valign='middle' alt='#A14328' src='https://readme-swatches.vercel.app/A14328'/> `#A14328` | <img valign='middle' alt='#FF6B4A' src='https://readme-swatches.vercel.app/FF6B4A'/> `#FF6B4A` |
 | Orange (derived) | <img valign='middle' alt='#D56E52' src='https://readme-swatches.vercel.app/D56E52'/> `#D56E52` | <img valign='middle' alt='#F37253' src='https://readme-swatches.vercel.app/F37253'/> `#F37253` |
 | Yellow | <img valign='middle' alt='#C45A3F' src='https://readme-swatches.vercel.app/C45A3F'/> `#C45A3F` | <img valign='middle' alt='#E07B5F' src='https://readme-swatches.vercel.app/E07B5F'/> `#E07B5F` |
 | Green | <img valign='middle' alt='#7B534E' src='https://readme-swatches.vercel.app/7B534E'/> `#7B534E` | <img valign='middle' alt='#7B534E' src='https://readme-swatches.vercel.app/7B534E'/> `#7B534E` |

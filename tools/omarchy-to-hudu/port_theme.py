@@ -261,6 +261,17 @@ def build_accent_ramps(pal, paper, black, cal, light_pal=None):
     fams["purple"] = {
         s: mix_hex(fams["blue"][s], fams["magenta"][s], cal["purple_t"]) for s in ("400", "600")
     }
+    # Accent legibility floors. Terminal palettes are bright text for dark
+    # backgrounds; their "normal" colors routinely fail as light-mode UI
+    # accents (links/buttons/banners on near-paper). Flexoki works because it
+    # publishes darker 600-level "ink" variants — synthesize the equivalent:
+    # keep the accent's hue/chroma, re-target OKLab lightness to Flexoki's
+    # per-family reference, then darken/lighten until the 3:1 UI-component
+    # floor holds. Values that already pass (e.g. from a paired light theme)
+    # are left byte-identical.
+    for fam, base in fams.items():
+        base["600"] = enforce_accent_floor(base["600"], paper, flexoki_step_hex(fam, 600), darken=True)
+        base["400"] = enforce_accent_floor(base["400"], black, flexoki_step_hex(fam, 400), darken=False)
     out = {}
     for fam, base in fams.items():
         out[f"{fam}-400"], out[f"{fam}-600"] = base["400"], base["600"]
@@ -270,6 +281,33 @@ def build_accent_ramps(pal, paper, black, cal, light_pal=None):
         for step, t in cal["accent_high"].items():
             out[f"{fam}-{step}"] = mix_hex(base["600"], black, t)
     return out
+
+
+ACCENT_FLOOR = 3.0  # WCAG 1.4.11 non-text contrast for UI components
+
+
+def retarget_lightness(hexstr, ref_hex):
+    """Move a color's OKLab lightness to a reference color's L, keeping a/b."""
+    L_ref = rgb_to_oklab(hex_to_rgb(ref_hex))[0]
+    _, a, b = rgb_to_oklab(hex_to_rgb(hexstr))
+    return rgb_to_hex(oklab_to_rgb((L_ref, a, b)))
+
+
+def enforce_accent_floor(hexstr, bg, ref_hex, darken):
+    """Return hexstr if it clears the floor against bg; otherwise re-target
+    its lightness to the Flexoki reference step, then walk L toward the
+    readable direction until the floor holds."""
+    if contrast(hexstr, bg) >= ACCENT_FLOOR:
+        return hexstr
+    fixed = retarget_lightness(hexstr, ref_hex)
+    L, a, b = rgb_to_oklab(hex_to_rgb(fixed))
+    step = -0.02 if darken else 0.02
+    for _ in range(40):
+        if contrast(fixed, bg) >= ACCENT_FLOOR:
+            break
+        L += step
+        fixed = rgb_to_hex(oklab_to_rgb((max(0.0, min(1.0, L)), a, b)))
+    return fixed
 
 
 # Text tokens guarded by the readability floor: (token, background token).
@@ -322,6 +360,17 @@ BASE_ROLES = [
 # Tokens pinned verbatim from the source palettes (mirrors build_* pinning rules).
 PINNED_BASE = {"black", "base-200", "base-500", "base-600", "paper"}
 DERIVED_FAMILIES = {"orange", "purple"}
+
+
+def preserve_credit(readme, readme_path):
+    """Palette tables must track the generated CSS, but the credit line is
+    often hand-edited — carry it over from an existing README."""
+    if not readme_path.exists():
+        return readme
+    for line in readme_path.read_text().splitlines():
+        if line.startswith("Palette "):
+            return readme.replace("<!-- TODO: add upstream palette credit + link -->", line)
+    return readme
 
 
 def render_readme(tokens, name, dark_src, light_src, light_pinned_300):
@@ -464,13 +513,14 @@ def main():
     (out_dir / "theme.css").write_text(css)
     print(f"wrote {out_dir / 'theme.css'} ({len(css.encode())} bytes)")
     readme_path = out_dir / "README.md"
-    if readme_path.exists():
-        print(f"{readme_path} exists — left untouched (delete it to regenerate)")
-    else:
-        readme = render_readme(tokens, args.name, dark_dir.name, light_src,
-                               light_pinned_300=bool(light and "color7" in light))
-        readme_path.write_text(readme)
+    readme = render_readme(tokens, args.name, dark_dir.name, light_src,
+                           light_pinned_300=bool(light and "color7" in light))
+    readme = preserve_credit(readme, readme_path)
+    readme_path.write_text(readme)
+    if "<!-- TODO" in readme:
         print(f"wrote {readme_path} — fill in the upstream palette credit TODO")
+    else:
+        print(f"wrote {readme_path} (existing credit preserved)")
     if not args.light:
         print("note: light mode synthesized from the dark palette — pair a real light theme with --light for better results")
 

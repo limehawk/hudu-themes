@@ -33,7 +33,7 @@ Palette from [shmall03/omarchy-spectral-violet-theme](https://github.com/shmall0
 | Orange (derived) | <img valign='middle' alt='#9A70C4' src='https://readme-swatches.vercel.app/9A70C4'/> `#9A70C4` | <img valign='middle' alt='#C7AFE1' src='https://readme-swatches.vercel.app/C7AFE1'/> `#C7AFE1` |
 | Yellow | <img valign='middle' alt='#A47ACC' src='https://readme-swatches.vercel.app/A47ACC'/> `#A47ACC` | <img valign='middle' alt='#D1BAE7' src='https://readme-swatches.vercel.app/D1BAE7'/> `#D1BAE7` |
 | Green | <img valign='middle' alt='#9B6ACD' src='https://readme-swatches.vercel.app/9B6ACD'/> `#9B6ACD` | <img valign='middle' alt='#C9ACE7' src='https://readme-swatches.vercel.app/C9ACE7'/> `#C9ACE7` |
-| Cyan | <img valign='middle' alt='#AC84D4' src='https://readme-swatches.vercel.app/AC84D4'/> `#AC84D4` | <img valign='middle' alt='#C196EB' src='https://readme-swatches.vercel.app/C196EB'/> `#C196EB` |
+| Cyan | <img valign='middle' alt='#855EAB' src='https://readme-swatches.vercel.app/855EAB'/> `#855EAB` | <img valign='middle' alt='#C196EB' src='https://readme-swatches.vercel.app/C196EB'/> `#C196EB` |
 | Blue | <img valign='middle' alt='#9357CE' src='https://readme-swatches.vercel.app/9357CE'/> `#9357CE` | <img valign='middle' alt='#A765E9' src='https://readme-swatches.vercel.app/A765E9'/> `#A765E9` |
 | Purple (derived) | <img valign='middle' alt='#9764CC' src='https://readme-swatches.vercel.app/9764CC'/> `#9764CC` | <img valign='middle' alt='#AC72E7' src='https://readme-swatches.vercel.app/AC72E7'/> `#AC72E7` |
 | Magenta | <img valign='middle' alt='#9F77C8' src='https://readme-swatches.vercel.app/9F77C8'/> `#9F77C8` | <img valign='middle' alt='#B485E2' src='https://readme-swatches.vercel.app/B485E2'/> `#B485E2` |

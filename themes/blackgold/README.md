@@ -31,12 +31,12 @@ Palette from [HANCORE-linux/omarchy-blackgold-theme](https://github.com/HANCORE-
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#D35F5F' src='https://readme-swatches.vercel.app/D35F5F'/> `#D35F5F` | <img valign='middle' alt='#D35F5F' src='https://readme-swatches.vercel.app/D35F5F'/> `#D35F5F` |
 | Orange (derived) | <img valign='middle' alt='#9F5F59' src='https://readme-swatches.vercel.app/9F5F59'/> `#9F5F59` | <img valign='middle' alt='#9F5F59' src='https://readme-swatches.vercel.app/9F5F59'/> `#9F5F59` |
-| Yellow | <img valign='middle' alt='#4D574E' src='https://readme-swatches.vercel.app/4D574E'/> `#4D574E` | <img valign='middle' alt='#4D574E' src='https://readme-swatches.vercel.app/4D574E'/> `#4D574E` |
+| Yellow | <img valign='middle' alt='#4D574E' src='https://readme-swatches.vercel.app/4D574E'/> `#4D574E` | <img valign='middle' alt='#A1ADA2' src='https://readme-swatches.vercel.app/A1ADA2'/> `#A1ADA2` |
 | Green | <img valign='middle' alt='#A3850E' src='https://readme-swatches.vercel.app/A3850E'/> `#A3850E` | <img valign='middle' alt='#A3850E' src='https://readme-swatches.vercel.app/A3850E'/> `#A3850E` |
 | Cyan | <img valign='middle' alt='#7A6A2C' src='https://readme-swatches.vercel.app/7A6A2C'/> `#7A6A2C` | <img valign='middle' alt='#7A6A2C' src='https://readme-swatches.vercel.app/7A6A2C'/> `#7A6A2C` |
 | Blue | <img valign='middle' alt='#6E6A58' src='https://readme-swatches.vercel.app/6E6A58'/> `#6E6A58` | <img valign='middle' alt='#6E6A58' src='https://readme-swatches.vercel.app/6E6A58'/> `#6E6A58` |
 | Purple (derived) | <img valign='middle' alt='#8C815B' src='https://readme-swatches.vercel.app/8C815B'/> `#8C815B` | <img valign='middle' alt='#8C815B' src='https://readme-swatches.vercel.app/8C815B'/> `#8C815B` |
-| Magenta | <img valign='middle' alt='#BFA75D' src='https://readme-swatches.vercel.app/BFA75D'/> `#BFA75D` | <img valign='middle' alt='#BFA75D' src='https://readme-swatches.vercel.app/BFA75D'/> `#BFA75D` |
+| Magenta | <img valign='middle' alt='#765F09' src='https://readme-swatches.vercel.app/765F09'/> `#765F09` | <img valign='middle' alt='#BFA75D' src='https://readme-swatches.vercel.app/BFA75D'/> `#BFA75D` |
 
 ## Install
 

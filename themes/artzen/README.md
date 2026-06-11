@@ -33,7 +33,7 @@ Palette from [tahfizhabib/omarchy-artzen-theme](https://github.com/tahfizhabib/o
 | Orange (derived) | <img valign='middle' alt='#A86059' src='https://readme-swatches.vercel.app/A86059'/> `#A86059` | <img valign='middle' alt='#CF9791' src='https://readme-swatches.vercel.app/CF9791'/> `#CF9791` |
 | Yellow | <img valign='middle' alt='#BB6D6C' src='https://readme-swatches.vercel.app/BB6D6C'/> `#BB6D6C` | <img valign='middle' alt='#D7ADAD' src='https://readme-swatches.vercel.app/D7ADAD'/> `#D7ADAD` |
 | Green | <img valign='middle' alt='#9F6769' src='https://readme-swatches.vercel.app/9F6769'/> `#9F6769` | <img valign='middle' alt='#C79D9F' src='https://readme-swatches.vercel.app/C79D9F'/> `#C79D9F` |
-| Cyan | <img valign='middle' alt='#DA7A6F' src='https://readme-swatches.vercel.app/DA7A6F'/> `#DA7A6F` | <img valign='middle' alt='#ECBEB9' src='https://readme-swatches.vercel.app/ECBEB9'/> `#ECBEB9` |
+| Cyan | <img valign='middle' alt='#AF534A' src='https://readme-swatches.vercel.app/AF534A'/> `#AF534A` | <img valign='middle' alt='#ECBEB9' src='https://readme-swatches.vercel.app/ECBEB9'/> `#ECBEB9` |
 | Blue | <img valign='middle' alt='#B97670' src='https://readme-swatches.vercel.app/B97670'/> `#B97670` | <img valign='middle' alt='#D7B2AE' src='https://readme-swatches.vercel.app/D7B2AE'/> `#D7B2AE` |
 | Purple (derived) | <img valign='middle' alt='#AE7F7A' src='https://readme-swatches.vercel.app/AE7F7A'/> `#AE7F7A` | <img valign='middle' alt='#D0B6B3' src='https://readme-swatches.vercel.app/D0B6B3'/> `#D0B6B3` |
 | Magenta | <img valign='middle' alt='#9A8C8A' src='https://readme-swatches.vercel.app/9A8C8A'/> `#9A8C8A` | <img valign='middle' alt='#C4BCBB' src='https://readme-swatches.vercel.app/C4BCBB'/> `#C4BCBB` |

@@ -33,7 +33,7 @@ Palette from [Grey-007/purple-moon](https://github.com/Grey-007/purple-moon) —
 | Orange (derived) | <img valign='middle' alt='#5D3499' src='https://readme-swatches.vercel.app/5D3499'/> `#5D3499` | <img valign='middle' alt='#8468D6' src='https://readme-swatches.vercel.app/8468D6'/> `#8468D6` |
 | Yellow | <img valign='middle' alt='#9845C6' src='https://readme-swatches.vercel.app/9845C6'/> `#9845C6` | <img valign='middle' alt='#CB97DF' src='https://readme-swatches.vercel.app/CB97DF'/> `#CB97DF` |
 | Green | <img valign='middle' alt='#643AAD' src='https://readme-swatches.vercel.app/643AAD'/> `#643AAD` | <img valign='middle' alt='#A87CD8' src='https://readme-swatches.vercel.app/A87CD8'/> `#A87CD8` |
-| Cyan | <img valign='middle' alt='#B895DD' src='https://readme-swatches.vercel.app/B895DD'/> `#B895DD` | <img valign='middle' alt='#F6EBE3' src='https://readme-swatches.vercel.app/F6EBE3'/> `#F6EBE3` |
+| Cyan | <img valign='middle' alt='#8361A5' src='https://readme-swatches.vercel.app/8361A5'/> `#8361A5` | <img valign='middle' alt='#F6EBE3' src='https://readme-swatches.vercel.app/F6EBE3'/> `#F6EBE3` |
 | Blue | <img valign='middle' alt='#9B49C8' src='https://readme-swatches.vercel.app/9B49C8'/> `#9B49C8` | <img valign='middle' alt='#CD9CE1' src='https://readme-swatches.vercel.app/CD9CE1'/> `#CD9CE1` |
 | Purple (derived) | <img valign='middle' alt='#9A54CB' src='https://readme-swatches.vercel.app/9A54CB'/> `#9A54CB` | <img valign='middle' alt='#CDA5E4' src='https://readme-swatches.vercel.app/CDA5E4'/> `#CDA5E4` |
 | Magenta | <img valign='middle' alt='#9865CF' src='https://readme-swatches.vercel.app/9865CF'/> `#9865CF` | <img valign='middle' alt='#CDB5E8' src='https://readme-swatches.vercel.app/CDB5E8'/> `#CDB5E8` |

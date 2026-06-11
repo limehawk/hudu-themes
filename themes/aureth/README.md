@@ -31,7 +31,7 @@ Palette from [atif-1402/omarchy-aureth-theme](https://github.com/atif-1402/omarc
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#C65A3A' src='https://readme-swatches.vercel.app/C65A3A'/> `#C65A3A` | <img valign='middle' alt='#E37B52' src='https://readme-swatches.vercel.app/E37B52'/> `#E37B52` |
 | Orange (derived) | <img valign='middle' alt='#CF783D' src='https://readme-swatches.vercel.app/CF783D'/> `#CF783D` | <img valign='middle' alt='#EA9856' src='https://readme-swatches.vercel.app/EA9856'/> `#EA9856` |
-| Yellow | <img valign='middle' alt='#D9A441' src='https://readme-swatches.vercel.app/D9A441'/> `#D9A441` | <img valign='middle' alt='#F3C35C' src='https://readme-swatches.vercel.app/F3C35C'/> `#F3C35C` |
+| Yellow | <img valign='middle' alt='#B38008' src='https://readme-swatches.vercel.app/B38008'/> `#B38008` | <img valign='middle' alt='#F3C35C' src='https://readme-swatches.vercel.app/F3C35C'/> `#F3C35C` |
 | Green | <img valign='middle' alt='#7C9A4D' src='https://readme-swatches.vercel.app/7C9A4D'/> `#7C9A4D` | <img valign='middle' alt='#9DCB5C' src='https://readme-swatches.vercel.app/9DCB5C'/> `#9DCB5C` |
 | Cyan | <img valign='middle' alt='#5E8C83' src='https://readme-swatches.vercel.app/5E8C83'/> `#5E8C83` | <img valign='middle' alt='#7DB5AA' src='https://readme-swatches.vercel.app/7DB5AA'/> `#7DB5AA` |
 | Blue | <img valign='middle' alt='#4A5D6B' src='https://readme-swatches.vercel.app/4A5D6B'/> `#4A5D6B` | <img valign='middle' alt='#6F8796' src='https://readme-swatches.vercel.app/6F8796'/> `#6F8796` |
