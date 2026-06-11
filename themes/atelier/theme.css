@@ -11,8 +11,11 @@
   /* tx = black #22221b, tx-2 = base-600 #6c6b5a, tx-3 = base-300 #B9B9B0 */
 
   /* === Primary / Accent (cyan) === */
-  --primary: #7bbf7a;
-  --primaryl1: #5b9d48;
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
+  --primary: #5b9d48;
+  --primaryl1: #528641;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #F8F8EF;
@@ -113,11 +116,11 @@
   --accent---light---orange---pressed: #99692C;
   --accent---light---orange---selected: #F1EAD8;
   --accent---light---orange---disabled: #B4792C;
-  --accent---light---golden---default: #a5980d;
+  --accent---light---golden---default: #9A8D00;
   --accent---light---golden---hover: #c2b53c;
-  --accent---light---golden---pressed: #8C821B;
+  --accent---light---golden---pressed: #837915;
   --accent---light---golden---selected: #EFEED6;
-  --accent---light---golden---disabled: #a5980d;
+  --accent---light---golden---disabled: #9A8D00;
   --accent---light---teal---default: #5b9d48;
   --accent---light---teal---hover: #7bbf7a;
   --accent---light---teal---pressed: #528641;
@@ -149,8 +152,8 @@
   --accent---dark---orange---disabled: #CB9C58;
   --accent---dark---golden---default: #c2b53c;
   --accent---dark---golden---hover: #CCC368;
-  --accent---dark---golden---pressed: #B3A628;
-  --accent---dark---golden---selected: #464322;
+  --accent---dark---golden---pressed: #AEA125;
+  --accent---dark---golden---selected: #434020;
   --accent---dark---golden---disabled: #c2b53c;
   --accent---dark---teal---default: #7bbf7a;
   --accent---dark---teal---hover: #95CB91;
@@ -197,7 +200,7 @@
   --flag---green: #7d9726;
   --flag---purple: #6E8F6F;
   --flag---orange: #B4792C;
-  --flag---yellow: #a5980d;
+  --flag---yellow: #9A8D00;
   --flag---light-pink: #DCC5C8;
   --flag---light-blue: #B6CBBF;
   --flag---light-green: #D5E5B2;
@@ -206,6 +209,11 @@
   --flag---light-yellow: #E0DCA9;
   --flag---white: #F8F8EF;
   --flag---grey: #929181;
+}
+
+.dark-portal {
+  --primary: #7bbf7a;
+  --primaryl1: #6BAE61;
 }
 
 /* === Light: fix hardcoded white bgs === */
@@ -715,7 +723,7 @@ i.fas[style*="background"][style*="#b2c9ec" i], i.far[style*="background"][style
 i.fas[style*="background"][style*="#5bb686" i], i.far[style*="background"][style*="#5bb686" i], i.fab[style*="background"][style*="#5bb686" i],
 i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #7d9726 !important; }
 /* Yellow */
-i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #a5980d !important; }
+i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #9A8D00 !important; }
 /* Orange */
 i.fas[style*="background"][style*="#fc4200" i], i.far[style*="background"][style*="#fc4200" i], i.fab[style*="background"][style*="#fc4200" i] { color: #B4792C !important; }
 /* Purple */
@@ -754,7 +762,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .asset-icon[style*="background"][style*="#00d875" i] > i { color: #7d9726 !important; }
 
 /* Yellow → palette yellow */
-.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #a5980d !important; }
+.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #9A8D00 !important; }
 
 /* Orange / red-orange → palette orange */
 .asset-icon[style*="background"][style*="#fc4200" i] > i { color: #B4792C !important; }
@@ -786,7 +794,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .nasa .index__item i.fa-book-reader:not([style]),
 .nasa .index__item i.fa-book:not([style]) { color: #6E8F6F !important; } /* KB articles → purple */
 .nasa .index__item i.fa-globe:not([style]) { color: #7d9726 !important; } /* websites → green */
-.nasa .index__item i.fa-key:not([style]) { color: #a5980d !important; } /* passwords → yellow */
+.nasa .index__item i.fa-key:not([style]) { color: #9A8D00 !important; } /* passwords → yellow */
 .nasa .index__item i.fa-camera:not([style]) { color: #9d6c7c !important; } /* photos → magenta */
 
 .dark-portal .nasa .index__item i.fa-store-alt:not([style]),

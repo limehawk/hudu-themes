@@ -33,10 +33,10 @@ Palette from [OldJobobo/omarchy-windows-dark-mode-theme](https://github.com/OldJ
 | Orange (derived) | <img valign='middle' alt='#E16838' src='https://readme-swatches.vercel.app/E16838'/> `#E16838` | <img valign='middle' alt='#E16838' src='https://readme-swatches.vercel.app/E16838'/> `#E16838` |
 | Yellow | <img valign='middle' alt='#BB8009' src='https://readme-swatches.vercel.app/BB8009'/> `#BB8009` | <img valign='middle' alt='#BB8009' src='https://readme-swatches.vercel.app/BB8009'/> `#BB8009` |
 | Green | <img valign='middle' alt='#2EA043' src='https://readme-swatches.vercel.app/2EA043'/> `#2EA043` | <img valign='middle' alt='#2EA043' src='https://readme-swatches.vercel.app/2EA043'/> `#2EA043` |
-| Cyan | <img valign='middle' alt='#4DAAFC' src='https://readme-swatches.vercel.app/4DAAFC'/> `#4DAAFC` | <img valign='middle' alt='#4DAAFC' src='https://readme-swatches.vercel.app/4DAAFC'/> `#4DAAFC` |
+| Cyan | <img valign='middle' alt='#0376C5' src='https://readme-swatches.vercel.app/0376C5'/> `#0376C5` | <img valign='middle' alt='#4DAAFC' src='https://readme-swatches.vercel.app/4DAAFC'/> `#4DAAFC` |
 | Blue | <img valign='middle' alt='#0078D4' src='https://readme-swatches.vercel.app/0078D4'/> `#0078D4` | <img valign='middle' alt='#0078D4' src='https://readme-swatches.vercel.app/0078D4'/> `#0078D4` |
 | Purple (derived) | <img valign='middle' alt='#6B80CD' src='https://readme-swatches.vercel.app/6B80CD'/> `#6B80CD` | <img valign='middle' alt='#6B80CD' src='https://readme-swatches.vercel.app/6B80CD'/> `#6B80CD` |
-| Magenta | <img valign='middle' alt='#C586C0' src='https://readme-swatches.vercel.app/C586C0'/> `#C586C0` | <img valign='middle' alt='#C586C0' src='https://readme-swatches.vercel.app/C586C0'/> `#C586C0` |
+| Magenta | <img valign='middle' alt='#834980' src='https://readme-swatches.vercel.app/834980'/> `#834980` | <img valign='middle' alt='#C586C0' src='https://readme-swatches.vercel.app/C586C0'/> `#C586C0` |
 
 ## Install
 

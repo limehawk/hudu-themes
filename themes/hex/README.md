@@ -31,9 +31,9 @@ Palette from [OldJobobo/omarchy-hex-theme](https://github.com/OldJobobo/omarchy-
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#E60A70' src='https://readme-swatches.vercel.app/E60A70'/> `#E60A70` | <img valign='middle' alt='#E60A70' src='https://readme-swatches.vercel.app/E60A70'/> `#E60A70` |
 | Orange (derived) | <img valign='middle' alt='#D66963' src='https://readme-swatches.vercel.app/D66963'/> `#D66963` | <img valign='middle' alt='#F78677' src='https://readme-swatches.vercel.app/F78677'/> `#F78677` |
-| Yellow | <img valign='middle' alt='#ADAD3E' src='https://readme-swatches.vercel.app/ADAD3E'/> `#ADAD3E` | <img valign='middle' alt='#F9F972' src='https://readme-swatches.vercel.app/F9F972'/> `#F9F972` |
+| Yellow | <img valign='middle' alt='#919016' src='https://readme-swatches.vercel.app/919016'/> `#919016` | <img valign='middle' alt='#F9F972' src='https://readme-swatches.vercel.app/F9F972'/> `#F9F972` |
 | Green | <img valign='middle' alt='#00986C' src='https://readme-swatches.vercel.app/00986C'/> `#00986C` | <img valign='middle' alt='#0AE4A4' src='https://readme-swatches.vercel.app/0AE4A4'/> `#0AE4A4` |
-| Cyan | <img valign='middle' alt='#00B0B1' src='https://readme-swatches.vercel.app/00B0B1'/> `#00B0B1` | <img valign='middle' alt='#00FBFD' src='https://readme-swatches.vercel.app/00FBFD'/> `#00FBFD` |
+| Cyan | <img valign='middle' alt='#008789' src='https://readme-swatches.vercel.app/008789'/> `#008789` | <img valign='middle' alt='#00FBFD' src='https://readme-swatches.vercel.app/00FBFD'/> `#00FBFD` |
 | Blue | <img valign='middle' alt='#6E29AD' src='https://readme-swatches.vercel.app/6E29AD'/> `#6E29AD` | <img valign='middle' alt='#AA54F9' src='https://readme-swatches.vercel.app/AA54F9'/> `#AA54F9` |
 | Purple (derived) | <img valign='middle' alt='#8824AD' src='https://readme-swatches.vercel.app/8824AD'/> `#8824AD` | <img valign='middle' alt='#CB47F8' src='https://readme-swatches.vercel.app/CB47F8'/> `#CB47F8` |
 | Magenta | <img valign='middle' alt='#B300AD' src='https://readme-swatches.vercel.app/B300AD'/> `#B300AD` | <img valign='middle' alt='#FF00F6' src='https://readme-swatches.vercel.app/FF00F6'/> `#FF00F6` |

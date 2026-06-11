@@ -11,8 +11,11 @@
   /* tx = black #222222, tx-2 = base-600 #525252, tx-3 = base-300 #B9B9B9 */
 
   /* === Primary / Accent (cyan) === */
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
   --primary: #868686;
-  --primaryl1: #868686;
+  --primaryl1: #737373;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #F8F8F8;
@@ -105,7 +108,7 @@
 
   /* === Accent Colors - Light === */
   --accent---light---blue---default: #686868;
-  --accent---light---blue---hover: #686868;
+  --accent---light---blue---hover: #808080;
   --accent---light---blue---pressed: #5B5B5B;
   --accent---light---blue---disabled: #686868;
   --accent---light---orange---default: #8A8A8A;
@@ -113,11 +116,11 @@
   --accent---light---orange---pressed: #777777;
   --accent---light---orange---selected: #E6E6E6;
   --accent---light---orange---disabled: #8A8A8A;
-  --accent---light---golden---default: #a0a0a0;
+  --accent---light---golden---default: #8A8A8A;
   --accent---light---golden---hover: #a0a0a0;
-  --accent---light---golden---pressed: #888888;
+  --accent---light---golden---pressed: #777777;
   --accent---light---golden---selected: #EAEAEA;
-  --accent---light---golden---disabled: #a0a0a0;
+  --accent---light---golden---disabled: #8A8A8A;
   --accent---light---teal---default: #868686;
   --accent---light---teal---hover: #868686;
   --accent---light---teal---pressed: #737373;
@@ -137,11 +140,11 @@
   --accent---selected---hover: #D5D5D5;
 
   /* === Accent Colors - Dark === */
-  --accent---dark---blue---default: #686868;
-  --accent---dark---blue---hover: #838383;
-  --accent---dark---blue---pressed: #686868;
+  --accent---dark---blue---default: #808080;
+  --accent---dark---blue---hover: #979797;
+  --accent---dark---blue---pressed: #747474;
   --accent---dark---blue---selected: #4A4A4A;
-  --accent---dark---blue---disabled: #686868;
+  --accent---dark---blue---disabled: #808080;
   --accent---dark---orange---default: #8A8A8A;
   --accent---dark---orange---hover: #9F9F9F;
   --accent---dark---orange---pressed: #8A8A8A;
@@ -149,8 +152,8 @@
   --accent---dark---orange---disabled: #8A8A8A;
   --accent---dark---golden---default: #a0a0a0;
   --accent---dark---golden---hover: #B1B1B1;
-  --accent---dark---golden---pressed: #A0A0A0;
-  --accent---dark---golden---selected: #454545;
+  --accent---dark---golden---pressed: #959595;
+  --accent---dark---golden---selected: #3F3F3F;
   --accent---dark---golden---disabled: #a0a0a0;
   --accent---dark---teal---default: #868686;
   --accent---dark---teal---hover: #9C9C9C;
@@ -186,9 +189,9 @@
   --alert---success---03: #8b8b8b;
   --alert---success---04: #8b8b8b;
   --alert---success---05: #777777;
-  --alert---info---01: #E0E0E0;
-  --alert---info---02: #A5A5A5;
-  --alert---info---03: #686868;
+  --alert---info---01: #E4E4E4;
+  --alert---info---02: #B3B3B3;
+  --alert---info---03: #808080;
   --alert---info---04: #686868;
 
   /* === Flags (mapped to palette 600 values) === */
@@ -197,15 +200,20 @@
   --flag---green: #8b8b8b;
   --flag---purple: #6C6C6C;
   --flag---orange: #8A8A8A;
-  --flag---yellow: #a0a0a0;
+  --flag---yellow: #8A8A8A;
   --flag---light-pink: #BDBDBD;
-  --flag---light-blue: #B8B8B8;
+  --flag---light-blue: #C3C3C3;
   --flag---light-green: #C8C8C8;
   --flag---light-purple: #BABABA;
   --flag---light-orange: #C8C8C8;
   --flag---light-yellow: #D2D2D2;
   --flag---white: #F8F8F8;
   --flag---grey: #b9b9b9;
+}
+
+.dark-portal {
+  --primary: #868686;
+  --primaryl1: #868686;
 }
 
 /* === Light: fix hardcoded white bgs === */
@@ -485,7 +493,7 @@ body:not(.dark-portal) .rich_text_content pre code {
 .dark-portal .rich_text_content .token.variable,
 .dark-portal .rich_text_content .token.attr-name,
 .dark-portal .rich_text_content .hljs-variable,
-.dark-portal .rich_text_content .hljs-attr { color: #686868 !important; }
+.dark-portal .rich_text_content .hljs-attr { color: #808080 !important; }
 .dark-portal .rich_text_content .token.number,
 .dark-portal .rich_text_content .hljs-number { color: #6C6C6C !important; }
 .dark-portal .rich_text_content .token.constant,
@@ -653,7 +661,7 @@ main:has(.admin__subheader) > header:first-of-type { margin-top: 0.5rem !importa
 /* Band colors — light */
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) { background: #E5E5E5 !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #737373 !important; }
-body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) { background: #E0E0E0 !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) { background: #E4E4E4 !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #5B5B5B !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) { background: #E6E6E6 !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #777777 !important; }
@@ -662,7 +670,7 @@ body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) .admi
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(1) { background: #3E3E3E !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #9C9C9C !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(2) { background: #4A4A4A !important; }
-.dark-portal main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #838383 !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #979797 !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(3) { background: #3F3F3F !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #9F9F9F !important; }
 
@@ -715,7 +723,7 @@ i.fas[style*="background"][style*="#b2c9ec" i], i.far[style*="background"][style
 i.fas[style*="background"][style*="#5bb686" i], i.far[style*="background"][style*="#5bb686" i], i.fab[style*="background"][style*="#5bb686" i],
 i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #8b8b8b !important; }
 /* Yellow */
-i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #a0a0a0 !important; }
+i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #8A8A8A !important; }
 /* Orange */
 i.fas[style*="background"][style*="#fc4200" i], i.far[style*="background"][style*="#fc4200" i], i.fab[style*="background"][style*="#fc4200" i] { color: #8A8A8A !important; }
 /* Purple */
@@ -754,7 +762,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .asset-icon[style*="background"][style*="#00d875" i] > i { color: #8b8b8b !important; }
 
 /* Yellow → palette yellow */
-.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #a0a0a0 !important; }
+.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #8A8A8A !important; }
 
 /* Orange / red-orange → palette orange */
 .asset-icon[style*="background"][style*="#fc4200" i] > i { color: #8A8A8A !important; }
@@ -786,11 +794,11 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .nasa .index__item i.fa-book-reader:not([style]),
 .nasa .index__item i.fa-book:not([style]) { color: #6C6C6C !important; } /* KB articles → purple */
 .nasa .index__item i.fa-globe:not([style]) { color: #8b8b8b !important; } /* websites → green */
-.nasa .index__item i.fa-key:not([style]) { color: #a0a0a0 !important; } /* passwords → yellow */
+.nasa .index__item i.fa-key:not([style]) { color: #8A8A8A !important; } /* passwords → yellow */
 .nasa .index__item i.fa-camera:not([style]) { color: #747474 !important; } /* photos → magenta */
 
 .dark-portal .nasa .index__item i.fa-store-alt:not([style]),
-.dark-portal .nasa .index__item i.fa-building:not([style]) { color: #686868 !important; }
+.dark-portal .nasa .index__item i.fa-building:not([style]) { color: #808080 !important; }
 .dark-portal .nasa .index__item i.fa-book-reader:not([style]),
 .dark-portal .nasa .index__item i.fa-book:not([style]) { color: #6C6C6C !important; }
 .dark-portal .nasa .index__item i.fa-globe:not([style]) { color: #8b8b8b !important; }
@@ -848,7 +856,7 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #ffffff !im
    ones. Re-tint per type, always setting bg + text + border together
    (recoloring text alone is the callout trap). */
 .dark-portal .rich_text_content .callout-info {
-  background: #363636 !important; color: #B8B8B8 !important; border-color: #4A4A4A !important; }
+  background: #363636 !important; color: #C3C3C3 !important; border-color: #4A4A4A !important; }
 .dark-portal .rich_text_content .callout-danger {
   background: #3B3B3B !important; color: #C1C1C1 !important; border-color: #555555 !important; }
 .dark-portal .rich_text_content .callout-warning {
@@ -856,7 +864,7 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #ffffff !im
 .dark-portal .rich_text_content .callout-success {
   background: #3F3F3F !important; color: #C8C8C8 !important; border-color: #5D5D5D !important; }
 body:not(.dark-portal) .rich_text_content .callout-info {
-  background: #E0E0E0 !important; color: #5B5B5B !important; border-color: #B8B8B8 !important; }
+  background: #E4E4E4 !important; color: #5B5B5B !important; border-color: #C3C3C3 !important; }
 body:not(.dark-portal) .rich_text_content .callout-danger {
   background: #E4E4E4 !important; color: #6B6B6B !important; border-color: #C1C1C1 !important; }
 body:not(.dark-portal) .rich_text_content .callout-warning {

@@ -123,14 +123,17 @@ def main():
             css = render(tokens, slug, slug, light_slug)
             md = render_readme(tokens, slug, slug, light_slug,
                                light_pinned_300=bool(light_pal and "color7" in light_pal))
-            md = md.replace("<!-- TODO: add upstream palette credit + link -->", credit_line(meta))
         except SystemExit as e:
             failed.append((slug, str(e)))
             continue
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "theme.css").write_text(css)
-        if not (out_dir / "README.md").exists():
-            (out_dir / "README.md").write_text(md)
+        # README always tracks the generated palette; an existing hand-edited
+        # credit line survives the rewrite, registry metadata fills fresh ones.
+        from port_theme import preserve_credit
+        md = preserve_credit(md, out_dir / "README.md")
+        md = md.replace("<!-- TODO: add upstream palette credit + link -->", credit_line(meta))
+        (out_dir / "README.md").write_text(md)
         done.append((slug, light_slug))
         count += 1
 

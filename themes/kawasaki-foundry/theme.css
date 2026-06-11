@@ -11,8 +11,11 @@
   /* tx = black #05005C, tx-2 = base-600 #a75586, tx-3 = base-300 #A8B6D5 */
 
   /* === Primary / Accent (cyan) === */
-  --primary: #f946c6;
-  --primaryl1: #D20798;
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
+  --primary: #D20798;
+  --primaryl1: #AC1C8E;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #F4F8FF;
@@ -169,9 +172,9 @@
   --accent---dark---green---disabled: #b50afa;
 
   /* === Alerts (mapped to palette accents) === */
-  --alert---error---01: #E0DCFF;
-  --alert---error---02: #CEC2FF;
-  --alert---error---03: #8209fa;
+  --alert---error---01: #E4DEFF;
+  --alert---error---02: #D6C7FF;
+  --alert---error---03: #9537FF;
   --alert---error---04: #4F039A;
   --alert---error---05: #4F039A;
   --alert---error---06: #42058F;
@@ -206,6 +209,11 @@
   --flag---light-yellow: #D1AAFF;
   --flag---white: #F4F8FF;
   --flag---grey: #ef7ac0;
+}
+
+.dark-portal {
+  --primary: #f946c6;
+  --primaryl1: #E52EAE;
 }
 
 /* === Light: fix hardcoded white bgs === */
@@ -499,7 +507,7 @@ body:not(.dark-portal) .rich_text_content pre code {
 .dark-portal .rich_text_content .hljs-section,
 .dark-portal .rich_text_content .hljs-name { color: #f813ef !important; }
 .dark-portal .rich_text_content .token.deleted,
-.dark-portal .rich_text_content .hljs-deletion { color: #8209fa !important; }
+.dark-portal .rich_text_content .hljs-deletion { color: #9537FF !important; }
 
 /* Blockquote */
 .dark-portal .rich_text_content blockquote {
@@ -850,7 +858,7 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #fad5eb !im
 .dark-portal .rich_text_content .callout-info {
   background: #08067C !important; color: #A8B9FE !important; border-color: #0C109C !important; }
 .dark-portal .rich_text_content .callout-danger {
-  background: #1D036E !important; color: #BEA9FF !important; border-color: #310580 !important; }
+  background: #1D036E !important; color: #C8B0FF !important; border-color: #310580 !important; }
 .dark-portal .rich_text_content .callout-warning {
   background: #1F046F !important; color: #C5A9FF !important; border-color: #360782 !important; }
 .dark-portal .rich_text_content .callout-success {
@@ -858,7 +866,7 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #fad5eb !im
 body:not(.dark-portal) .rich_text_content .callout-info {
   background: #D8E1FF !important; color: #0F18B8 !important; border-color: #A8B9FE !important; }
 body:not(.dark-portal) .rich_text_content .callout-danger {
-  background: #E0DCFF !important; color: #42058F !important; border-color: #BEA9FF !important; }
+  background: #E4DEFF !important; color: #42058F !important; border-color: #C8B0FF !important; }
 body:not(.dark-portal) .rich_text_content .callout-warning {
   background: #E3DCFF !important; color: #4A0691 !important; border-color: #C5A9FF !important; }
 body:not(.dark-portal) .rich_text_content .callout-success {

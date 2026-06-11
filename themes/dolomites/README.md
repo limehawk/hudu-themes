@@ -29,9 +29,9 @@ Palette from [LeblancAlex/omarchy-dolomites-theme](https://github.com/LeblancAle
 
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
-| Red | <img valign='middle' alt='#A8D8F0' src='https://readme-swatches.vercel.app/A8D8F0'/> `#A8D8F0` | <img valign='middle' alt='#7FB3D5' src='https://readme-swatches.vercel.app/7FB3D5'/> `#7FB3D5` |
-| Orange (derived) | <img valign='middle' alt='#8EC2AF' src='https://readme-swatches.vercel.app/8EC2AF'/> `#8EC2AF` | <img valign='middle' alt='#8FC2E0' src='https://readme-swatches.vercel.app/8FC2E0'/> `#8FC2E0` |
-| Yellow | <img valign='middle' alt='#6B9E47' src='https://readme-swatches.vercel.app/6B9E47'/> `#6B9E47` | <img valign='middle' alt='#A8D8F0' src='https://readme-swatches.vercel.app/A8D8F0'/> `#A8D8F0` |
+| Red | <img valign='middle' alt='#3E6B80' src='https://readme-swatches.vercel.app/3E6B80'/> `#3E6B80` | <img valign='middle' alt='#7FB3D5' src='https://readme-swatches.vercel.app/7FB3D5'/> `#7FB3D5` |
+| Orange (derived) | <img valign='middle' alt='#508271' src='https://readme-swatches.vercel.app/508271'/> `#508271` | <img valign='middle' alt='#8FC2E0' src='https://readme-swatches.vercel.app/8FC2E0'/> `#8FC2E0` |
+| Yellow | <img valign='middle' alt='#689B44' src='https://readme-swatches.vercel.app/689B44'/> `#689B44` | <img valign='middle' alt='#A8D8F0' src='https://readme-swatches.vercel.app/A8D8F0'/> `#A8D8F0` |
 | Green | <img valign='middle' alt='#8A8478' src='https://readme-swatches.vercel.app/8A8478'/> `#8A8478` | <img valign='middle' alt='#8A8478' src='https://readme-swatches.vercel.app/8A8478'/> `#8A8478` |
 | Cyan | <img valign='middle' alt='#8A8478' src='https://readme-swatches.vercel.app/8A8478'/> `#8A8478` | <img valign='middle' alt='#8A8478' src='https://readme-swatches.vercel.app/8A8478'/> `#8A8478` |
 | Blue | <img valign='middle' alt='#8A8478' src='https://readme-swatches.vercel.app/8A8478'/> `#8A8478` | <img valign='middle' alt='#8A8478' src='https://readme-swatches.vercel.app/8A8478'/> `#8A8478` |

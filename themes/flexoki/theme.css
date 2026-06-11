@@ -95,8 +95,11 @@
   /* tx = black #100F0F, tx-2 = base-600 #6F6E69, tx-3 = base-300 #B7B5AC */
 
   /* === Primary / Accent (cyan) === */
-  --primary: #3AA99F;
-  --primaryl1: #24837B;
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
+  --primary: #24837B;
+  --primaryl1: #1C6C66;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #FFFCF0;
@@ -290,6 +293,11 @@
   --flag---light-yellow: #F1D67E;
   --flag---white: #FFFCF0;
   --flag---grey: #878580;
+}
+
+.dark-portal {
+  --primary: #3AA99F;
+  --primaryl1: #2F968D;
 }
 
 /* === Light: fix hardcoded white bgs === */

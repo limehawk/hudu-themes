@@ -11,8 +11,11 @@
   /* tx = black #0D1206, tx-2 = base-600 #686b65, tx-3 = base-300 #B0B4AA */
 
   /* === Primary / Accent (cyan) === */
-  --primary: #7ba2fb;
-  --primaryl1: #5a80c5;
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
+  --primary: #5a80c5;
+  --primaryl1: #4B6CA0;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #F6F9F1;
@@ -108,16 +111,16 @@
   --accent---light---blue---hover: #8599f7;
   --accent---light---blue---pressed: #52659D;
   --accent---light---blue---disabled: #6378c1;
-  --accent---light---orange---default: #AA9648;
+  --accent---light---orange---default: #897524;
   --accent---light---orange---hover: #CDBA4F;
-  --accent---light---orange---pressed: #8C7D3B;
+  --accent---light---orange---pressed: #71621F;
   --accent---light---orange---selected: #EFEFDA;
-  --accent---light---orange---disabled: #AA9648;
-  --accent---light---golden---default: #b7b966;
+  --accent---light---orange---disabled: #897524;
+  --accent---light---golden---default: #8E903C;
   --accent---light---golden---hover: #d4d968;
-  --accent---light---golden---pressed: #969953;
+  --accent---light---golden---pressed: #757832;
   --accent---light---golden---selected: #F0F4DD;
-  --accent---light---golden---disabled: #b7b966;
+  --accent---light---golden---disabled: #8E903C;
   --accent---light---teal---default: #5a80c5;
   --accent---light---teal---hover: #7ba2fb;
   --accent---light---teal---pressed: #4B6CA0;
@@ -144,13 +147,13 @@
   --accent---dark---blue---disabled: #8599f7;
   --accent---dark---orange---default: #CDBA4F;
   --accent---dark---orange---hover: #D5C774;
-  --accent---dark---orange---pressed: #BBA84C;
-  --accent---dark---orange---selected: #373518;
+  --accent---dark---orange---pressed: #AA9639;
+  --accent---dark---orange---selected: #2E2D0F;
   --accent---dark---orange---disabled: #CDBA4F;
   --accent---dark---golden---default: #d4d968;
   --accent---dark---golden---hover: #DAE087;
-  --accent---dark---golden---pressed: #C5C967;
-  --accent---dark---golden---selected: #3A3E1F;
+  --accent---dark---golden---pressed: #B0B351;
+  --accent---dark---golden---selected: #2F3415;
   --accent---dark---golden---disabled: #d4d968;
   --accent---dark---teal---default: #7ba2fb;
   --accent---dark---teal---hover: #92B4FB;
@@ -179,8 +182,8 @@
   --alert---warning---01: #F0F4DD;
   --alert---warning---02: #ECF0CC;
   --alert---warning---03: #CDBA4F;
-  --alert---warning---04: #AA9648;
-  --alert---warning---05: #8C7D3B;
+  --alert---warning---04: #897524;
+  --alert---warning---05: #71621F;
   --alert---success---01: #E2EFD5;
   --alert---success---02: #92C65B;
   --alert---success---03: #79b825;
@@ -196,8 +199,8 @@
   --flag---blue: #6378c1;
   --flag---green: #5b8f2c;
   --flag---purple: #637BC3;
-  --flag---orange: #AA9648;
-  --flag---yellow: #b7b966;
+  --flag---orange: #897524;
+  --flag---yellow: #8E903C;
   --flag---light-pink: #C4D4F9;
   --flag---light-blue: #C4D1F6;
   --flag---light-green: #C0DEA4;
@@ -206,6 +209,11 @@
   --flag---light-yellow: #E7ECBB;
   --flag---white: #F6F9F1;
   --flag---grey: #E1E0D9;
+}
+
+.dark-portal {
+  --primary: #7ba2fb;
+  --primaryl1: #6A91DF;
 }
 
 /* === Light: fix hardcoded white bgs === */
@@ -656,14 +664,14 @@ body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) .admi
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) { background: #E3EAF3 !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #52659D !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) { background: #EFEFDA !important; }
-body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #8C7D3B !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #71621F !important; }
 
 /* Band colors — dark */
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(1) { background: #213139 !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #92B4FB !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(2) { background: #3C4C6D !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #9AADF7 !important; }
-.dark-portal main:has(.admin__subheader) > header:nth-of-type(3) { background: #373518 !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(3) { background: #2E2D0F !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #D5C774 !important; }
 
 /* Tiles → compact list rows: icon + name only, no descriptions.
@@ -715,9 +723,9 @@ i.fas[style*="background"][style*="#b2c9ec" i], i.far[style*="background"][style
 i.fas[style*="background"][style*="#5bb686" i], i.far[style*="background"][style*="#5bb686" i], i.fab[style*="background"][style*="#5bb686" i],
 i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #5b8f2c !important; }
 /* Yellow */
-i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #b7b966 !important; }
+i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #8E903C !important; }
 /* Orange */
-i.fas[style*="background"][style*="#fc4200" i], i.far[style*="background"][style*="#fc4200" i], i.fab[style*="background"][style*="#fc4200" i] { color: #AA9648 !important; }
+i.fas[style*="background"][style*="#fc4200" i], i.far[style*="background"][style*="#fc4200" i], i.fab[style*="background"][style*="#fc4200" i] { color: #897524 !important; }
 /* Purple */
 i.fas[style*="background"][style*="#a74af1" i], i.far[style*="background"][style*="#a74af1" i], i.fab[style*="background"][style*="#a74af1" i],
 i.fas[style*="background"][style*="#9b0af2" i], i.far[style*="background"][style*="#9b0af2" i], i.fab[style*="background"][style*="#9b0af2" i],
@@ -754,10 +762,10 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .asset-icon[style*="background"][style*="#00d875" i] > i { color: #5b8f2c !important; }
 
 /* Yellow → palette yellow */
-.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #b7b966 !important; }
+.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #8E903C !important; }
 
 /* Orange / red-orange → palette orange */
-.asset-icon[style*="background"][style*="#fc4200" i] > i { color: #AA9648 !important; }
+.asset-icon[style*="background"][style*="#fc4200" i] > i { color: #897524 !important; }
 
 /* Purple / indigo family → palette purple */
 .asset-icon[style*="background"][style*="#a74af1" i] > i,
@@ -786,7 +794,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .nasa .index__item i.fa-book-reader:not([style]),
 .nasa .index__item i.fa-book:not([style]) { color: #637BC3 !important; } /* KB articles → purple */
 .nasa .index__item i.fa-globe:not([style]) { color: #5b8f2c !important; } /* websites → green */
-.nasa .index__item i.fa-key:not([style]) { color: #b7b966 !important; } /* passwords → yellow */
+.nasa .index__item i.fa-key:not([style]) { color: #8E903C !important; } /* passwords → yellow */
 .nasa .index__item i.fa-camera:not([style]) { color: #647fc7 !important; } /* photos → magenta */
 
 .dark-portal .nasa .index__item i.fa-store-alt:not([style]),
@@ -852,7 +860,7 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #E1E0D9 !im
 .dark-portal .rich_text_content .callout-danger {
   background: #343013 !important; color: #E2D5A9 !important; border-color: #5E4F20 !important; }
 .dark-portal .rich_text_content .callout-warning {
-  background: #373518 !important; color: #E4DEB0 !important; border-color: #635B2B !important; }
+  background: #2E2D0F !important; color: #E4DEB0 !important; border-color: #524918 !important; }
 .dark-portal .rich_text_content .callout-success {
   background: #233411 !important; color: #C0DEA4 !important; border-color: #39571C !important; }
 body:not(.dark-portal) .rich_text_content .callout-info {
@@ -860,7 +868,7 @@ body:not(.dark-portal) .rich_text_content .callout-info {
 body:not(.dark-portal) .rich_text_content .callout-danger {
   background: #EFECD7 !important; color: #846B2C !important; border-color: #E2D5A9 !important; }
 body:not(.dark-portal) .rich_text_content .callout-warning {
-  background: #EFEFDA !important; color: #8C7D3B !important; border-color: #E4DEB0 !important; }
+  background: #EFEFDA !important; color: #71621F !important; border-color: #E4DEB0 !important; }
 body:not(.dark-portal) .rich_text_content .callout-success {
   background: #E2EFD5 !important; color: #4C7725 !important; border-color: #C0DEA4 !important; }
 

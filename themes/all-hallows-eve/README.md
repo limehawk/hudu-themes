@@ -32,8 +32,8 @@ Palette from [guilhermetk/omarchy-all-hallows-eve-theme](https://github.com/guil
 | Red | <img valign='middle' alt='#C83730' src='https://readme-swatches.vercel.app/C83730'/> `#C83730` | <img valign='middle' alt='#FF6B6B' src='https://readme-swatches.vercel.app/FF6B6B'/> `#FF6B6B` |
 | Orange (derived) | <img valign='middle' alt='#CA5432' src='https://readme-swatches.vercel.app/CA5432'/> `#CA5432` | <img valign='middle' alt='#FF9A60' src='https://readme-swatches.vercel.app/FF9A60'/> `#FF9A60` |
 | Yellow | <img valign='middle' alt='#CC7833' src='https://readme-swatches.vercel.app/CC7833'/> `#CC7833` | <img valign='middle' alt='#FFD93D' src='https://readme-swatches.vercel.app/FFD93D'/> `#FFD93D` |
-| Green | <img valign='middle' alt='#66CC33' src='https://readme-swatches.vercel.app/66CC33'/> `#66CC33` | <img valign='middle' alt='#6BCF7F' src='https://readme-swatches.vercel.app/6BCF7F'/> `#6BCF7F` |
-| Cyan | <img valign='middle' alt='#CCCC33' src='https://readme-swatches.vercel.app/CCCC33'/> `#CCCC33` | <img valign='middle' alt='#AAAAAA' src='https://readme-swatches.vercel.app/AAAAAA'/> `#AAAAAA` |
+| Green | <img valign='middle' alt='#218D00' src='https://readme-swatches.vercel.app/218D00'/> `#218D00` | <img valign='middle' alt='#6BCF7F' src='https://readme-swatches.vercel.app/6BCF7F'/> `#6BCF7F` |
+| Cyan | <img valign='middle' alt='#7B7800' src='https://readme-swatches.vercel.app/7B7800'/> `#7B7800` | <img valign='middle' alt='#AAAAAA' src='https://readme-swatches.vercel.app/AAAAAA'/> `#AAAAAA` |
 | Blue | <img valign='middle' alt='#3387CC' src='https://readme-swatches.vercel.app/3387CC'/> `#3387CC` | <img valign='middle' alt='#00AAFF' src='https://readme-swatches.vercel.app/00AAFF'/> `#00AAFF` |
 | Purple (derived) | <img valign='middle' alt='#6C6ECC' src='https://readme-swatches.vercel.app/6C6ECC'/> `#6C6ECC` | <img valign='middle' alt='#74BAFF' src='https://readme-swatches.vercel.app/74BAFF'/> `#74BAFF` |
 | Magenta | <img valign='middle' alt='#9933CC' src='https://readme-swatches.vercel.app/9933CC'/> `#9933CC` | <img valign='middle' alt='#D0D0FF' src='https://readme-swatches.vercel.app/D0D0FF'/> `#D0D0FF` |

@@ -30,13 +30,13 @@ Palette from [thatmechguy/omarchy-dragon-theme](https://github.com/thatmechguy/o
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#FF3D5A' src='https://readme-swatches.vercel.app/FF3D5A'/> `#FF3D5A` | <img valign='middle' alt='#FF3D5A' src='https://readme-swatches.vercel.app/FF3D5A'/> `#FF3D5A` |
-| Orange (derived) | <img valign='middle' alt='#FF8A85' src='https://readme-swatches.vercel.app/FF8A85'/> `#FF8A85` | <img valign='middle' alt='#FF9292' src='https://readme-swatches.vercel.app/FF9292'/> `#FF9292` |
-| Yellow | <img valign='middle' alt='#F7E1C7' src='https://readme-swatches.vercel.app/F7E1C7'/> `#F7E1C7` | <img valign='middle' alt='#FFF6EA' src='https://readme-swatches.vercel.app/FFF6EA'/> `#FFF6EA` |
-| Green | <img valign='middle' alt='#78A682' src='https://readme-swatches.vercel.app/78A682'/> `#78A682` | <img valign='middle' alt='#93C999' src='https://readme-swatches.vercel.app/93C999'/> `#93C999` |
-| Cyan | <img valign='middle' alt='#7ABAA9' src='https://readme-swatches.vercel.app/7ABAA9'/> `#7ABAA9` | <img valign='middle' alt='#95CACA' src='https://readme-swatches.vercel.app/95CACA'/> `#95CACA` |
-| Blue | <img valign='middle' alt='#5298C4' src='https://readme-swatches.vercel.app/5298C4'/> `#5298C4` | <img valign='middle' alt='#7AAFD0' src='https://readme-swatches.vercel.app/7AAFD0'/> `#7AAFD0` |
-| Purple (derived) | <img valign='middle' alt='#888FBA' src='https://readme-swatches.vercel.app/888FBA'/> `#888FBA` | <img valign='middle' alt='#A4A7C8' src='https://readme-swatches.vercel.app/A4A7C8'/> `#A4A7C8` |
-| Magenta | <img valign='middle' alt='#C479A9' src='https://readme-swatches.vercel.app/C479A9'/> `#C479A9` | <img valign='middle' alt='#D995BB' src='https://readme-swatches.vercel.app/D995BB'/> `#D995BB` |
+| Orange (derived) | <img valign='middle' alt='#BC4E4C' src='https://readme-swatches.vercel.app/BC4E4C'/> `#BC4E4C` | <img valign='middle' alt='#FF9292' src='https://readme-swatches.vercel.app/FF9292'/> `#FF9292` |
+| Yellow | <img valign='middle' alt='#9A866F' src='https://readme-swatches.vercel.app/9A866F'/> `#9A866F` | <img valign='middle' alt='#FFF6EA' src='https://readme-swatches.vercel.app/FFF6EA'/> `#FFF6EA` |
+| Green | <img valign='middle' alt='#54815E' src='https://readme-swatches.vercel.app/54815E'/> `#54815E` | <img valign='middle' alt='#93C999' src='https://readme-swatches.vercel.app/93C999'/> `#93C999` |
+| Cyan | <img valign='middle' alt='#418071' src='https://readme-swatches.vercel.app/418071'/> `#418071` | <img valign='middle' alt='#95CACA' src='https://readme-swatches.vercel.app/95CACA'/> `#95CACA` |
+| Blue | <img valign='middle' alt='#19658E' src='https://readme-swatches.vercel.app/19658E'/> `#19658E` | <img valign='middle' alt='#7AAFD0' src='https://readme-swatches.vercel.app/7AAFD0'/> `#7AAFD0` |
+| Purple (derived) | <img valign='middle' alt='#4D537A' src='https://readme-swatches.vercel.app/4D537A'/> `#4D537A` | <img valign='middle' alt='#A4A7C8' src='https://readme-swatches.vercel.app/A4A7C8'/> `#A4A7C8` |
+| Magenta | <img valign='middle' alt='#8B4674' src='https://readme-swatches.vercel.app/8B4674'/> `#8B4674` | <img valign='middle' alt='#D995BB' src='https://readme-swatches.vercel.app/D995BB'/> `#D995BB` |
 
 ## Install
 

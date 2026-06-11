@@ -29,9 +29,9 @@ Palette from [DimaZbr/omarchy-ibm-theme](https://github.com/DimaZbr/omarchy-ibm-
 
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
-| Red | <img valign='middle' alt='#66A773' src='https://readme-swatches.vercel.app/66A773'/> `#66A773` | <img valign='middle' alt='#A3CFA8' src='https://readme-swatches.vercel.app/A3CFA8'/> `#A3CFA8` |
-| Orange (derived) | <img valign='middle' alt='#87AC76' src='https://readme-swatches.vercel.app/87AC76'/> `#87AC76` | <img valign='middle' alt='#BAD4AF' src='https://readme-swatches.vercel.app/BAD4AF'/> `#BAD4AF` |
-| Yellow | <img valign='middle' alt='#B4B47B' src='https://readme-swatches.vercel.app/B4B47B'/> `#B4B47B` | <img valign='middle' alt='#DADABA' src='https://readme-swatches.vercel.app/DADABA'/> `#DADABA` |
+| Red | <img valign='middle' alt='#347443' src='https://readme-swatches.vercel.app/347443'/> `#347443` | <img valign='middle' alt='#A3CFA8' src='https://readme-swatches.vercel.app/A3CFA8'/> `#A3CFA8` |
+| Orange (derived) | <img valign='middle' alt='#5F824E' src='https://readme-swatches.vercel.app/5F824E'/> `#5F824E` | <img valign='middle' alt='#BAD4AF' src='https://readme-swatches.vercel.app/BAD4AF'/> `#BAD4AF` |
+| Yellow | <img valign='middle' alt='#8E8E56' src='https://readme-swatches.vercel.app/8E8E56'/> `#8E8E56` | <img valign='middle' alt='#DADABA' src='https://readme-swatches.vercel.app/DADABA'/> `#DADABA` |
 | Green | <img valign='middle' alt='#D24646' src='https://readme-swatches.vercel.app/D24646'/> `#D24646` | <img valign='middle' alt='#E99999' src='https://readme-swatches.vercel.app/E99999'/> `#E99999` |
 | Cyan | <img valign='middle' alt='#A360A3' src='https://readme-swatches.vercel.app/A360A3'/> `#A360A3` | <img valign='middle' alt='#C296C2' src='https://readme-swatches.vercel.app/C296C2'/> `#C296C2` |
 | Blue | <img valign='middle' alt='#727272' src='https://readme-swatches.vercel.app/727272'/> `#727272` | <img valign='middle' alt='#ADADAD' src='https://readme-swatches.vercel.app/ADADAD'/> `#ADADAD` |

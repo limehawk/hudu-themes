@@ -11,8 +11,11 @@
   /* tx = black #141010, tx-2 = base-600 #716C6C, tx-3 = base-300 #B7B1B1 */
 
   /* === Primary / Accent (cyan) === */
-  --primary: #c0daf6;
-  --primaryl1: #449392;
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
+  --primary: #449392;
+  --primaryl1: #3D7A79;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #FCF6F6;
@@ -128,11 +131,11 @@
   --accent---light---purple---pressed: #5161B0;
   --accent---light---purple---selected: #ECE5F2;
   --accent---light---purple---disabled: #5F73D6;
-  --accent---light---green---default: #ffff00;
+  --accent---light---green---default: #807A00;
   --accent---light---green---hover: #ead94d;
-  --accent---light---green---pressed: #D1D020;
+  --accent---light---green---pressed: #6B6610;
   --accent---light---green---selected: #F9F2E0;
-  --accent---light---green---disabled: #ffff00;
+  --accent---light---green---disabled: #807A00;
   --accent---selected: #F3F2F6;
   --accent---selected---hover: #EAEEF6;
 
@@ -164,18 +167,18 @@
   --accent---dark---purple---disabled: #988BD8;
   --accent---dark---green---default: #ead94d;
   --accent---dark---green---hover: #EDDF79;
-  --accent---dark---green---pressed: #F5EC38;
-  --accent---dark---green---selected: #514E22;
+  --accent---dark---green---pressed: #B3A82B;
+  --accent---dark---green---selected: #312D17;
   --accent---dark---green---disabled: #ead94d;
 
   /* === Alerts (mapped to palette accents) === */
   --alert---error---01: #FEE5D9;
   --alert---error---02: #FED6BF;
   --alert---error---03: #f88416;
-  --alert---error---04: #f56728;
-  --alert---error---05: #f56728;
-  --alert---error---06: #CA5728;
-  --alert---error---07: #904224;
+  --alert---error---04: #B62900;
+  --alert---error---05: #B62900;
+  --alert---error---06: #97280D;
+  --alert---error---07: #6F2414;
   --alert---warning---01: #FBD9DC;
   --alert---warning---02: #F8C0C6;
   --alert---warning---03: #EA6542;
@@ -184,17 +187,17 @@
   --alert---success---01: #F9F2E0;
   --alert---success---02: #EDDF79;
   --alert---success---03: #ead94d;
-  --alert---success---04: #ffff00;
-  --alert---success---05: #D1D020;
+  --alert---success---04: #807A00;
+  --alert---success---05: #6B6610;
   --alert---info---01: #ECE8F1;
   --alert---info---02: #C2C4E5;
   --alert---info---03: #979dd5;
   --alert---info---04: #2976d1;
 
   /* === Flags (mapped to palette 600 values) === */
-  --flag---red: #f56728;
+  --flag---red: #B62900;
   --flag---blue: #2976d1;
-  --flag---green: #ffff00;
+  --flag---green: #807A00;
   --flag---purple: #5F73D6;
   --flag---orange: #E3513F;
   --flag---yellow: #c92b50;
@@ -206,6 +209,11 @@
   --flag---light-yellow: #F3A7B1;
   --flag---white: #FCF6F6;
   --flag---grey: #dacbe6;
+}
+
+.dark-portal {
+  --primary: #c0daf6;
+  --primaryl1: #83B6C2;
 }
 
 /* === Light: fix hardcoded white bgs === */
@@ -713,7 +721,7 @@ i.fas[style*="background"][style*="#0081fa" i], i.far[style*="background"][style
 i.fas[style*="background"][style*="#b2c9ec" i], i.far[style*="background"][style*="#b2c9ec" i], i.fab[style*="background"][style*="#b2c9ec" i] { color: #2976d1 !important; }
 /* Green */
 i.fas[style*="background"][style*="#5bb686" i], i.far[style*="background"][style*="#5bb686" i], i.fab[style*="background"][style*="#5bb686" i],
-i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #ffff00 !important; }
+i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #807A00 !important; }
 /* Yellow */
 i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #c92b50 !important; }
 /* Orange */
@@ -751,7 +759,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 
 /* Green family → palette green */
 .asset-icon[style*="background"][style*="#5bb686" i] > i,
-.asset-icon[style*="background"][style*="#00d875" i] > i { color: #ffff00 !important; }
+.asset-icon[style*="background"][style*="#00d875" i] > i { color: #807A00 !important; }
 
 /* Yellow → palette yellow */
 .asset-icon[style*="background"][style*="#f2b600" i] > i { color: #c92b50 !important; }
@@ -785,7 +793,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 .nasa .index__item i.fa-building:not([style]) { color: #2976d1 !important; } /* companies → blue */
 .nasa .index__item i.fa-book-reader:not([style]),
 .nasa .index__item i.fa-book:not([style]) { color: #5F73D6 !important; } /* KB articles → purple */
-.nasa .index__item i.fa-globe:not([style]) { color: #ffff00 !important; } /* websites → green */
+.nasa .index__item i.fa-globe:not([style]) { color: #807A00 !important; } /* websites → green */
 .nasa .index__item i.fa-key:not([style]) { color: #c92b50 !important; } /* passwords → yellow */
 .nasa .index__item i.fa-camera:not([style]) { color: #976add !important; } /* photos → magenta */
 
@@ -850,19 +858,19 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #dacbe6 !im
 .dark-portal .rich_text_content .callout-info {
   background: #1F2D43 !important; color: #CFD0E9 !important; border-color: #264A7A !important; }
 .dark-portal .rich_text_content .callout-danger {
-  background: #502A1C !important; color: #FEC7A5 !important; border-color: #904224 !important; }
+  background: #411C14 !important; color: #FEC7A5 !important; border-color: #6F2414 !important; }
 .dark-portal .rich_text_content .callout-warning {
   background: #4C241F !important; color: #FABBAA !important; border-color: #86372D !important; }
 .dark-portal .rich_text_content .callout-success {
-  background: #514E22 !important; color: #F4EBB7 !important; border-color: #949228 !important; }
+  background: #312D17 !important; color: #F4EBB7 !important; border-color: #504B17 !important; }
 body:not(.dark-portal) .rich_text_content .callout-info {
   background: #ECE8F1 !important; color: #2963AC !important; border-color: #CFD0E9 !important; }
 body:not(.dark-portal) .rich_text_content .callout-danger {
-  background: #FEE5D9 !important; color: #CA5728 !important; border-color: #FEC7A5 !important; }
+  background: #FEE5D9 !important; color: #97280D !important; border-color: #FEC7A5 !important; }
 body:not(.dark-portal) .rich_text_content .callout-warning {
   background: #FCE0DA !important; color: #BB4637 !important; border-color: #FABBAA !important; }
 body:not(.dark-portal) .rich_text_content .callout-success {
-  background: #F9F2E0 !important; color: #D1D020 !important; border-color: #F4EBB7 !important; }
+  background: #F9F2E0 !important; color: #6B6610 !important; border-color: #F4EBB7 !important; }
 
 /* "My Tasks" empty-state illustration — inline SVG with stock grayscale
    and navy fills. Recolor structure to base tones and clothing to the

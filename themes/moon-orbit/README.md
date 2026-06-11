@@ -30,8 +30,8 @@ Palette from [JJDizz1L/moon-orbit](https://github.com/JJDizz1L/moon-orbit) — l
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#C0685F' src='https://readme-swatches.vercel.app/C0685F'/> `#C0685F` | <img valign='middle' alt='#EE897D' src='https://readme-swatches.vercel.app/EE897D'/> `#EE897D` |
-| Orange (derived) | <img valign='middle' alt='#D88163' src='https://readme-swatches.vercel.app/D88163'/> `#D88163` | <img valign='middle' alt='#F6A778' src='https://readme-swatches.vercel.app/F6A778'/> `#F6A778` |
-| Yellow | <img valign='middle' alt='#FCA766' src='https://readme-swatches.vercel.app/FCA766'/> `#FCA766` | <img valign='middle' alt='#FFD46B' src='https://readme-swatches.vercel.app/FFD46B'/> `#FFD46B` |
+| Orange (derived) | <img valign='middle' alt='#AF5C3F' src='https://readme-swatches.vercel.app/AF5C3F'/> `#AF5C3F` | <img valign='middle' alt='#F6A778' src='https://readme-swatches.vercel.app/F6A778'/> `#F6A778` |
+| Yellow | <img valign='middle' alt='#C47330' src='https://readme-swatches.vercel.app/C47330'/> `#C47330` | <img valign='middle' alt='#FFD46B' src='https://readme-swatches.vercel.app/FFD46B'/> `#FFD46B` |
 | Green | <img valign='middle' alt='#965F81' src='https://readme-swatches.vercel.app/965F81'/> `#965F81` | <img valign='middle' alt='#BB90A1' src='https://readme-swatches.vercel.app/BB90A1'/> `#BB90A1` |
 | Cyan | <img valign='middle' alt='#7C79A5' src='https://readme-swatches.vercel.app/7C79A5'/> `#7C79A5` | <img valign='middle' alt='#A19BD4' src='https://readme-swatches.vercel.app/A19BD4'/> `#A19BD4` |
 | Blue | <img valign='middle' alt='#7B79A4' src='https://readme-swatches.vercel.app/7B79A4'/> `#7B79A4` | <img valign='middle' alt='#A09BD3' src='https://readme-swatches.vercel.app/A09BD3'/> `#A09BD3` |

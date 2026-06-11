@@ -30,9 +30,9 @@ Palette from [JustArmaan/omarchy-gotham-city-theme](https://github.com/JustArmaa
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#D45A4A' src='https://readme-swatches.vercel.app/D45A4A'/> `#D45A4A` | <img valign='middle' alt='#E67A6A' src='https://readme-swatches.vercel.app/E67A6A'/> `#E67A6A` |
-| Orange (derived) | <img valign='middle' alt='#D98156' src='https://readme-swatches.vercel.app/D98156'/> `#D98156` | <img valign='middle' alt='#EC9D79' src='https://readme-swatches.vercel.app/EC9D79'/> `#EC9D79` |
-| Yellow | <img valign='middle' alt='#D9B768' src='https://readme-swatches.vercel.app/D9B768'/> `#D9B768` | <img valign='middle' alt='#F0D090' src='https://readme-swatches.vercel.app/F0D090'/> `#F0D090` |
-| Green | <img valign='middle' alt='#7A9B76' src='https://readme-swatches.vercel.app/7A9B76'/> `#7A9B76` | <img valign='middle' alt='#8FB388' src='https://readme-swatches.vercel.app/8FB388'/> `#8FB388` |
+| Orange (derived) | <img valign='middle' alt='#B05C31' src='https://readme-swatches.vercel.app/B05C31'/> `#B05C31` | <img valign='middle' alt='#EC9D79' src='https://readme-swatches.vercel.app/EC9D79'/> `#EC9D79` |
+| Yellow | <img valign='middle' alt='#A68535' src='https://readme-swatches.vercel.app/A68535'/> `#A68535` | <img valign='middle' alt='#F0D090' src='https://readme-swatches.vercel.app/F0D090'/> `#F0D090` |
+| Green | <img valign='middle' alt='#5E7E5B' src='https://readme-swatches.vercel.app/5E7E5B'/> `#5E7E5B` | <img valign='middle' alt='#8FB388' src='https://readme-swatches.vercel.app/8FB388'/> `#8FB388` |
 | Cyan | <img valign='middle' alt='#6B9199' src='https://readme-swatches.vercel.app/6B9199'/> `#6B9199` | <img valign='middle' alt='#88B3BD' src='https://readme-swatches.vercel.app/88B3BD'/> `#88B3BD` |
 | Blue | <img valign='middle' alt='#5C7A8C' src='https://readme-swatches.vercel.app/5C7A8C'/> `#5C7A8C` | <img valign='middle' alt='#7A94A8' src='https://readme-swatches.vercel.app/7A94A8'/> `#7A94A8` |
 | Purple (derived) | <img valign='middle' alt='#707585' src='https://readme-swatches.vercel.app/707585'/> `#707585` | <img valign='middle' alt='#8C8EA3' src='https://readme-swatches.vercel.app/8C8EA3'/> `#8C8EA3` |

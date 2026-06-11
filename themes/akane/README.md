@@ -30,8 +30,8 @@ Palette from [Grenish/omarchy-akane-theme](https://github.com/Grenish/omarchy-ak
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
 | Red | <img valign='middle' alt='#D2495B' src='https://readme-swatches.vercel.app/D2495B'/> `#D2495B` | <img valign='middle' alt='#FA7E75' src='https://readme-swatches.vercel.app/FA7E75'/> `#FA7E75` |
-| Orange (derived) | <img valign='middle' alt='#E27873' src='https://readme-swatches.vercel.app/E27873'/> `#E27873` | <img valign='middle' alt='#F99683' src='https://readme-swatches.vercel.app/F99683'/> `#F99683` |
-| Yellow | <img valign='middle' alt='#F4B999' src='https://readme-swatches.vercel.app/F4B999'/> `#F4B999` | <img valign='middle' alt='#F4B999' src='https://readme-swatches.vercel.app/F4B999'/> `#F4B999` |
+| Orange (derived) | <img valign='middle' alt='#B7524F' src='https://readme-swatches.vercel.app/B7524F'/> `#B7524F` | <img valign='middle' alt='#F99683' src='https://readme-swatches.vercel.app/F99683'/> `#F99683` |
+| Yellow | <img valign='middle' alt='#B27C5D' src='https://readme-swatches.vercel.app/B27C5D'/> `#B27C5D` | <img valign='middle' alt='#F4B999' src='https://readme-swatches.vercel.app/F4B999'/> `#F4B999` |
 | Green | <img valign='middle' alt='#BE6F76' src='https://readme-swatches.vercel.app/BE6F76'/> `#BE6F76` | <img valign='middle' alt='#C85670' src='https://readme-swatches.vercel.app/C85670'/> `#C85670` |
 | Cyan | <img valign='middle' alt='#9279AA' src='https://readme-swatches.vercel.app/9279AA'/> `#9279AA` | <img valign='middle' alt='#C85670' src='https://readme-swatches.vercel.app/C85670'/> `#C85670` |
 | Blue | <img valign='middle' alt='#574F72' src='https://readme-swatches.vercel.app/574F72'/> `#574F72` | <img valign='middle' alt='#9279AA' src='https://readme-swatches.vercel.app/9279AA'/> `#9279AA` |

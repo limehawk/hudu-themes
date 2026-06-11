@@ -29,10 +29,10 @@ Palette from [OldJobobo/omarchy-awakening-theme](https://github.com/OldJobobo/om
 
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
-| Red | <img valign='middle' alt='#F56728' src='https://readme-swatches.vercel.app/F56728'/> `#F56728` | <img valign='middle' alt='#F88416' src='https://readme-swatches.vercel.app/F88416'/> `#F88416` |
+| Red | <img valign='middle' alt='#B62900' src='https://readme-swatches.vercel.app/B62900'/> `#B62900` | <img valign='middle' alt='#F88416' src='https://readme-swatches.vercel.app/F88416'/> `#F88416` |
 | Orange (derived) | <img valign='middle' alt='#E3513F' src='https://readme-swatches.vercel.app/E3513F'/> `#E3513F` | <img valign='middle' alt='#EA6542' src='https://readme-swatches.vercel.app/EA6542'/> `#EA6542` |
 | Yellow | <img valign='middle' alt='#C92B50' src='https://readme-swatches.vercel.app/C92B50'/> `#C92B50` | <img valign='middle' alt='#D42B5B' src='https://readme-swatches.vercel.app/D42B5B'/> `#D42B5B` |
-| Green | <img valign='middle' alt='#FFFF00' src='https://readme-swatches.vercel.app/FFFF00'/> `#FFFF00` | <img valign='middle' alt='#EAD94D' src='https://readme-swatches.vercel.app/EAD94D'/> `#EAD94D` |
+| Green | <img valign='middle' alt='#807A00' src='https://readme-swatches.vercel.app/807A00'/> `#807A00` | <img valign='middle' alt='#EAD94D' src='https://readme-swatches.vercel.app/EAD94D'/> `#EAD94D` |
 | Cyan | <img valign='middle' alt='#449392' src='https://readme-swatches.vercel.app/449392'/> `#449392` | <img valign='middle' alt='#C0DAF6' src='https://readme-swatches.vercel.app/C0DAF6'/> `#C0DAF6` |
 | Blue | <img valign='middle' alt='#2976D1' src='https://readme-swatches.vercel.app/2976D1'/> `#2976D1` | <img valign='middle' alt='#979DD5' src='https://readme-swatches.vercel.app/979DD5'/> `#979DD5` |
 | Purple (derived) | <img valign='middle' alt='#5F73D6' src='https://readme-swatches.vercel.app/5F73D6'/> `#5F73D6` | <img valign='middle' alt='#988BD8' src='https://readme-swatches.vercel.app/988BD8'/> `#988BD8` |

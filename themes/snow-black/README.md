@@ -32,11 +32,11 @@ Palette from [ankur311sudo/snow_black](https://github.com/ankur311sudo/snow_blac
 | Red | <img valign='middle' alt='#5F8787' src='https://readme-swatches.vercel.app/5F8787'/> `#5F8787` | <img valign='middle' alt='#5F8787' src='https://readme-swatches.vercel.app/5F8787'/> `#5F8787` |
 | Orange (derived) | <img valign='middle' alt='#7E7B7A' src='https://readme-swatches.vercel.app/7E7B7A'/> `#7E7B7A` | <img valign='middle' alt='#7E7B7A' src='https://readme-swatches.vercel.app/7E7B7A'/> `#7E7B7A` |
 | Yellow | <img valign='middle' alt='#A06666' src='https://readme-swatches.vercel.app/A06666'/> `#A06666` | <img valign='middle' alt='#A06666' src='https://readme-swatches.vercel.app/A06666'/> `#A06666` |
-| Green | <img valign='middle' alt='#DD9999' src='https://readme-swatches.vercel.app/DD9999'/> `#DD9999` | <img valign='middle' alt='#DD9999' src='https://readme-swatches.vercel.app/DD9999'/> `#DD9999` |
-| Cyan | <img valign='middle' alt='#AAAAAA' src='https://readme-swatches.vercel.app/AAAAAA'/> `#AAAAAA` | <img valign='middle' alt='#AAAAAA' src='https://readme-swatches.vercel.app/AAAAAA'/> `#AAAAAA` |
+| Green | <img valign='middle' alt='#9F6061' src='https://readme-swatches.vercel.app/9F6061'/> `#9F6061` | <img valign='middle' alt='#DD9999' src='https://readme-swatches.vercel.app/DD9999'/> `#DD9999` |
+| Cyan | <img valign='middle' alt='#737373' src='https://readme-swatches.vercel.app/737373'/> `#737373` | <img valign='middle' alt='#AAAAAA' src='https://readme-swatches.vercel.app/AAAAAA'/> `#AAAAAA` |
 | Blue | <img valign='middle' alt='#888888' src='https://readme-swatches.vercel.app/888888'/> `#888888` | <img valign='middle' alt='#888888' src='https://readme-swatches.vercel.app/888888'/> `#888888` |
 | Purple (derived) | <img valign='middle' alt='#8E8E8E' src='https://readme-swatches.vercel.app/8E8E8E'/> `#8E8E8E` | <img valign='middle' alt='#8E8E8E' src='https://readme-swatches.vercel.app/8E8E8E'/> `#8E8E8E` |
-| Magenta | <img valign='middle' alt='#999999' src='https://readme-swatches.vercel.app/999999'/> `#999999` | <img valign='middle' alt='#999999' src='https://readme-swatches.vercel.app/999999'/> `#999999` |
+| Magenta | <img valign='middle' alt='#626262' src='https://readme-swatches.vercel.app/626262'/> `#626262` | <img valign='middle' alt='#999999' src='https://readme-swatches.vercel.app/999999'/> `#999999` |
 
 ## Install
 

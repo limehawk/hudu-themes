@@ -33,10 +33,10 @@ Palette from [jordan-ops/omarchy-GTA-theme](https://github.com/jordan-ops/omarch
 | Orange (derived) | <img valign='middle' alt='#A3463F' src='https://readme-swatches.vercel.app/A3463F'/> `#A3463F` | <img valign='middle' alt='#CF8079' src='https://readme-swatches.vercel.app/CF8079'/> `#CF8079` |
 | Yellow | <img valign='middle' alt='#A35455' src='https://readme-swatches.vercel.app/A35455'/> `#A35455` | <img valign='middle' alt='#C89595' src='https://readme-swatches.vercel.app/C89595'/> `#C89595` |
 | Green | <img valign='middle' alt='#E56537' src='https://readme-swatches.vercel.app/E56537'/> `#E56537` | <img valign='middle' alt='#F1AB91' src='https://readme-swatches.vercel.app/F1AB91'/> `#F1AB91` |
-| Cyan | <img valign='middle' alt='#F7A748' src='https://readme-swatches.vercel.app/F7A748'/> `#F7A748` | <img valign='middle' alt='#FBD6AA' src='https://readme-swatches.vercel.app/FBD6AA'/> `#FBD6AA` |
+| Cyan | <img valign='middle' alt='#A85E00' src='https://readme-swatches.vercel.app/A85E00'/> `#A85E00` | <img valign='middle' alt='#FBD6AA' src='https://readme-swatches.vercel.app/FBD6AA'/> `#FBD6AA` |
 | Blue | <img valign='middle' alt='#DB694C' src='https://readme-swatches.vercel.app/DB694C'/> `#DB694C` | <img valign='middle' alt='#ECB0A1' src='https://readme-swatches.vercel.app/ECB0A1'/> `#ECB0A1` |
-| Purple (derived) | <img valign='middle' alt='#E57D4E' src='https://readme-swatches.vercel.app/E57D4E'/> `#E57D4E` | <img valign='middle' alt='#F1BDA7' src='https://readme-swatches.vercel.app/F1BDA7'/> `#F1BDA7` |
-| Magenta | <img valign='middle' alt='#F49E51' src='https://readme-swatches.vercel.app/F49E51'/> `#F49E51` | <img valign='middle' alt='#FAD3B1' src='https://readme-swatches.vercel.app/FAD3B1'/> `#FAD3B1` |
+| Purple (derived) | <img valign='middle' alt='#933200' src='https://readme-swatches.vercel.app/933200'/> `#933200` | <img valign='middle' alt='#F1BDA7' src='https://readme-swatches.vercel.app/F1BDA7'/> `#F1BDA7` |
+| Magenta | <img valign='middle' alt='#984A00' src='https://readme-swatches.vercel.app/984A00'/> `#984A00` | <img valign='middle' alt='#FAD3B1' src='https://readme-swatches.vercel.app/FAD3B1'/> `#FAD3B1` |
 
 ## Install
 

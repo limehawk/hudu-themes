@@ -29,9 +29,9 @@ Palette from [LeblancAlex/omarchy-helios-theme](https://github.com/LeblancAlex/o
 
 | Color | 600 (light) | 400 (dark) |
 |-------|-------------|------------|
-| Red | <img valign='middle' alt='#F4C430' src='https://readme-swatches.vercel.app/F4C430'/> `#F4C430` | <img valign='middle' alt='#FFB938' src='https://readme-swatches.vercel.app/FFB938'/> `#FFB938` |
-| Orange (derived) | <img valign='middle' alt='#EFB736' src='https://readme-swatches.vercel.app/EFB736'/> `#EFB736` | <img valign='middle' alt='#FBBD35' src='https://readme-swatches.vercel.app/FBBD35'/> `#FBBD35` |
-| Yellow | <img valign='middle' alt='#E8A33D' src='https://readme-swatches.vercel.app/E8A33D'/> `#E8A33D` | <img valign='middle' alt='#F4C430' src='https://readme-swatches.vercel.app/F4C430'/> `#F4C430` |
+| Red | <img valign='middle' alt='#895C00' src='https://readme-swatches.vercel.app/895C00'/> `#895C00` | <img valign='middle' alt='#FFB938' src='https://readme-swatches.vercel.app/FFB938'/> `#FFB938` |
+| Orange (derived) | <img valign='middle' alt='#A06B00' src='https://readme-swatches.vercel.app/A06B00'/> `#A06B00` | <img valign='middle' alt='#FBBD35' src='https://readme-swatches.vercel.app/FBBD35'/> `#FBBD35` |
+| Yellow | <img valign='middle' alt='#BC7A00' src='https://readme-swatches.vercel.app/BC7A00'/> `#BC7A00` | <img valign='middle' alt='#F4C430' src='https://readme-swatches.vercel.app/F4C430'/> `#F4C430` |
 | Green | <img valign='middle' alt='#8B6F2B' src='https://readme-swatches.vercel.app/8B6F2B'/> `#8B6F2B` | <img valign='middle' alt='#8B6F2B' src='https://readme-swatches.vercel.app/8B6F2B'/> `#8B6F2B` |
 | Cyan | <img valign='middle' alt='#8B6F2B' src='https://readme-swatches.vercel.app/8B6F2B'/> `#8B6F2B` | <img valign='middle' alt='#8B6F2B' src='https://readme-swatches.vercel.app/8B6F2B'/> `#8B6F2B` |
 | Blue | <img valign='middle' alt='#8B6F2B' src='https://readme-swatches.vercel.app/8B6F2B'/> `#8B6F2B` | <img valign='middle' alt='#8B6F2B' src='https://readme-swatches.vercel.app/8B6F2B'/> `#8B6F2B` |

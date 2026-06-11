@@ -11,8 +11,11 @@
   /* tx = black #232829, tx-2 = base-600 #787E7F, tx-3 = base-300 #B5BCBE */
 
   /* === Primary / Accent (cyan) === */
-  --primary: #e5eaec;
-  --primaryl1: #b0c0c5;
+  /* Light-first: the 600 "ink" level reads on paper. Dark mode overrides
+     below with the 400 level — Hudu's own stylesheet consumes the var at
+     use-time, so the scoped redefinition applies everywhere. */
+  --primary: #67767A;
+  --primaryl1: #5B686B;
 
   /* === Light Mode Backgrounds === */
   --background---neutral---light--1--default: #F2F9FB;
@@ -71,14 +74,14 @@
   --text---neutral---dark--2--selected: #B5BCBE;
 
   /* === Links (cyan) === */
-  --link-default: #b0c0c5;
-  --link-hover: #95A3A8;
-  --link-pressed: #95A3A8;
-  --link-visited: #b0c0c5;
-  --link---light---default: #b0c0c5;
-  --link---light---hover: #95A3A8;
-  --link---light---pressed: #95A3A8;
-  --link---light---visited: #b0c0c5;
+  --link-default: #67767A;
+  --link-hover: #5B686B;
+  --link-pressed: #5B686B;
+  --link-visited: #67767A;
+  --link---light---default: #67767A;
+  --link---light---hover: #5B686B;
+  --link---light---pressed: #5B686B;
+  --link---light---visited: #67767A;
   --link-default-dark: #e5eaec;
   --link-hover-dark: #E8EDEF;
   --link-pressed-dark: #E8EDEF;
@@ -104,100 +107,100 @@
   --whites4: #d6dbdc;
 
   /* === Accent Colors - Light === */
-  --accent---light---blue---default: #95abb6;
+  --accent---light---blue---default: #4D626C;
   --accent---light---blue---hover: #94abb8;
-  --accent---light---blue---pressed: #80929B;
-  --accent---light---blue---disabled: #95abb6;
-  --accent---light---orange---default: #96AEB5;
+  --accent---light---blue---pressed: #455760;
+  --accent---light---blue---disabled: #4D626C;
+  --accent---light---orange---default: #647B81;
   --accent---light---orange---hover: #95AEB6;
-  --accent---light---orange---pressed: #80959B;
+  --accent---light---orange---pressed: #586C71;
   --accent---light---orange---selected: #E3EDF0;
-  --accent---light---orange---disabled: #96AEB5;
-  --accent---light---golden---default: #98b3b0;
+  --accent---light---orange---disabled: #647B81;
+  --accent---light---golden---default: #76908D;
   --accent---light---golden---hover: #98b3b3;
-  --accent---light---golden---pressed: #829997;
+  --accent---light---golden---pressed: #677D7A;
   --accent---light---golden---selected: #E4EEEF;
-  --accent---light---golden---disabled: #98b3b0;
-  --accent---light---teal---default: #b0c0c5;
+  --accent---light---golden---disabled: #76908D;
+  --accent---light---teal---default: #67767A;
   --accent---light---teal---hover: #e5eaec;
-  --accent---light---teal---pressed: #95A3A8;
+  --accent---light---teal---pressed: #5B686B;
   --accent---light---teal---selected: #F0F7F9;
-  --accent---light---teal---disabled: #b0c0c5;
-  --accent---light---purple---default: #96ABB5;
+  --accent---light---teal---disabled: #67767A;
+  --accent---light---purple---default: #475A63;
   --accent---light---purple---hover: #95ABB7;
-  --accent---light---purple---pressed: #80929B;
+  --accent---light---purple---pressed: #415158;
   --accent---light---purple---selected: #E3EDF0;
-  --accent---light---purple---disabled: #96ABB5;
-  --accent---light---green---default: #98b3aa;
+  --accent---light---purple---disabled: #475A63;
+  --accent---light---green---default: #617B72;
   --accent---light---green---hover: #98b3a6;
-  --accent---light---green---pressed: #829992;
+  --accent---light---green---pressed: #566C65;
   --accent---light---green---selected: #E4EEED;
-  --accent---light---green---disabled: #98b3aa;
+  --accent---light---green---disabled: #617B72;
   --accent---selected: #F0F7F9;
   --accent---selected---hover: #EEF5F7;
 
   /* === Accent Colors - Dark === */
   --accent---dark---blue---default: #94abb8;
   --accent---dark---blue---hover: #A6BAC5;
-  --accent---dark---blue---pressed: #95ABB7;
-  --accent---dark---blue---selected: #637178;
+  --accent---dark---blue---pressed: #6F8591;
+  --accent---dark---blue---selected: #3B494F;
   --accent---dark---blue---disabled: #94abb8;
   --accent---dark---orange---default: #95AEB6;
   --accent---dark---orange---hover: #A7BDC3;
-  --accent---dark---orange---pressed: #96AEB5;
-  --accent---dark---orange---selected: #434D4F;
+  --accent---dark---orange---pressed: #7C949B;
+  --accent---dark---orange---selected: #353F42;
   --accent---dark---orange---disabled: #95AEB6;
   --accent---dark---golden---default: #98b3b3;
   --accent---dark---golden---hover: #A9C1C1;
-  --accent---dark---golden---pressed: #98B3B1;
-  --accent---dark---golden---selected: #434E4E;
+  --accent---dark---golden---pressed: #87A1A0;
+  --accent---dark---golden---selected: #3A4545;
   --accent---dark---golden---disabled: #98b3b3;
   --accent---dark---teal---default: #e5eaec;
   --accent---dark---teal---hover: #E8EDEF;
-  --accent---dark---teal---pressed: #CAD5D8;
-  --accent---dark---teal---selected: #495254;
+  --accent---dark---teal---pressed: #A3ADB1;
+  --accent---dark---teal---selected: #363E40;
   --accent---dark---teal---disabled: #e5eaec;
   --accent---dark---purple---default: #95ABB7;
   --accent---dark---purple---hover: #A7BAC4;
-  --accent---dark---purple---pressed: #96ABB6;
-  --accent---dark---purple---selected: #434C4F;
+  --accent---dark---purple---pressed: #6C818B;
+  --accent---dark---purple---selected: #2D363A;
   --accent---dark---purple---disabled: #95ABB7;
   --accent---dark---green---default: #98b3a6;
   --accent---dark---green---hover: #A9C1B6;
-  --accent---dark---green---pressed: #98B3A8;
-  --accent---dark---green---selected: #434E4D;
+  --accent---dark---green---pressed: #7C968B;
+  --accent---dark---green---selected: #353F3E;
   --accent---dark---green---disabled: #98b3a6;
 
   /* === Alerts (mapped to palette accents) === */
   --alert---error---01: #E3ECF0;
   --alert---error---02: #D5E1E7;
   --alert---error---03: #93aab8;
-  --alert---error---04: #94abb8;
-  --alert---error---05: #94abb8;
-  --alert---error---06: #7F929D;
-  --alert---error---07: #627179;
+  --alert---error---04: #536874;
+  --alert---error---05: #536874;
+  --alert---error---06: #4A5C66;
+  --alert---error---07: #3F4C54;
   --alert---warning---01: #E4EEEF;
   --alert---warning---02: #D7E4E5;
   --alert---warning---03: #95AEB6;
-  --alert---warning---04: #96AEB5;
-  --alert---warning---05: #80959B;
+  --alert---warning---04: #647B81;
+  --alert---warning---05: #586C71;
   --alert---success---01: #E4EEED;
   --alert---success---02: #A9C1B6;
   --alert---success---03: #98b3a6;
-  --alert---success---04: #98b3aa;
-  --alert---success---05: #829992;
+  --alert---success---04: #617B72;
+  --alert---success---05: #566C65;
   --alert---info---01: #E3EDF0;
   --alert---info---02: #BDCDD5;
   --alert---info---03: #94abb8;
-  --alert---info---04: #95abb6;
+  --alert---info---04: #4D626C;
 
   /* === Flags (mapped to palette 600 values) === */
-  --flag---red: #94abb8;
-  --flag---blue: #95abb6;
-  --flag---green: #98b3aa;
-  --flag---purple: #96ABB5;
-  --flag---orange: #96AEB5;
-  --flag---yellow: #98b3b0;
+  --flag---red: #536874;
+  --flag---blue: #4D626C;
+  --flag---green: #617B72;
+  --flag---purple: #475A63;
+  --flag---orange: #647B81;
+  --flag---yellow: #76908D;
   --flag---light-pink: #CAD7DD;
   --flag---light-blue: #C9D7DE;
   --flag---light-green: #CBDBD6;
@@ -206,6 +209,11 @@
   --flag---light-yellow: #CBDBDC;
   --flag---white: #F2F9FB;
   --flag---grey: #d6dadc;
+}
+
+.dark-portal {
+  --primary: #e5eaec;
+  --primaryl1: #A3ADB1;
 }
 
 /* === Light: fix hardcoded white bgs === */
@@ -441,7 +449,7 @@ body:not(.dark-portal) .rich_text_content i:not([class*="fa-"]) {font-style: ita
 }
 body:not(.dark-portal) .rich_text_content code,
 body:not(.dark-portal) .rich_text_content :not(pre) > code {
-  color: #97aab4 !important;
+  color: #53656E !important;
   background: var(--background---neutral---light--2--default) !important;
   border: 1px solid #DDE2E3 !important;
   border-radius: 3px !important;
@@ -581,9 +589,9 @@ body:not(.dark-portal) .rich_text_content a:hover { text-decoration: underline !
    fills; cyan-600 is the murky dead-zone (white 4.4 / dark 4.2). */
 .dark-portal input[type="submit"],
 body:not(.dark-portal) input[type="submit"] {
-  background-color: #95A3A8 !important;  /* cyan-700 */
+  background-color: #5B686B !important;  /* cyan-700 */
   color: #F2F9FB !important;             /* paper */
-  border-color: #95A3A8 !important;
+  border-color: #5B686B !important;
 }
 
 /* ========================================
@@ -621,8 +629,8 @@ body:not(.dark-portal) ::-webkit-scrollbar-corner { background: transparent; }
    ======================================== */
 body:not(.dark-portal) input[type="checkbox"]:checked:hover,
 .dark-portal input[type="checkbox"]:checked:hover {
-  background-color: #CAD5D8 !important;  /* cyan-500 */
-  border-color: #CAD5D8 !important;
+  background-color: #A3ADB1 !important;  /* cyan-500 */
+  border-color: #A3ADB1 !important;
 }
 body:not(.dark-portal) input[type="checkbox"]:checked:hover::before,
 .dark-portal input[type="checkbox"]:checked:hover::before {
@@ -652,18 +660,18 @@ main:has(.admin__subheader) > header:first-of-type { margin-top: 0.5rem !importa
 
 /* Band colors — light */
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) { background: #F0F7F9 !important; }
-body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #95A3A8 !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #5B686B !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) { background: #E3EDF0 !important; }
-body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #80929B !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #455760 !important; }
 body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) { background: #E3EDF0 !important; }
-body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #80959B !important; }
+body:not(.dark-portal) main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #586C71 !important; }
 
 /* Band colors — dark */
-.dark-portal main:has(.admin__subheader) > header:nth-of-type(1) { background: #495254 !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(1) { background: #363E40 !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(1) .admin__subheader { color: #E8EDEF !important; }
-.dark-portal main:has(.admin__subheader) > header:nth-of-type(2) { background: #637178 !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(2) { background: #3B494F !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(2) .admin__subheader { color: #A6BAC5 !important; }
-.dark-portal main:has(.admin__subheader) > header:nth-of-type(3) { background: #434D4F !important; }
+.dark-portal main:has(.admin__subheader) > header:nth-of-type(3) { background: #353F42 !important; }
 .dark-portal main:has(.admin__subheader) > header:nth-of-type(3) .admin__subheader { color: #A7BDC3 !important; }
 
 /* Tiles → compact list rows: icon + name only, no descriptions.
@@ -703,26 +711,26 @@ i.fas[style*="background"][style*="#"], i.far[style*="background"][style*="#"], 
 }
 /* Fallback */
 i.fas[style*="background"][style*="#"], i.far[style*="background"][style*="#"], i.fab[style*="background"][style*="#"] {
-  color: #b0c0c5 !important;
+  color: #67767A !important;
 }
 /* Cyan */
 i.fas[style*="background"][style*="#00caed" i], i.far[style*="background"][style*="#00caed" i], i.fab[style*="background"][style*="#00caed" i],
-i.fas[style*="background"][style*="#00e2eb" i], i.far[style*="background"][style*="#00e2eb" i], i.fab[style*="background"][style*="#00e2eb" i] { color: #b0c0c5 !important; }
+i.fas[style*="background"][style*="#00e2eb" i], i.far[style*="background"][style*="#00e2eb" i], i.fab[style*="background"][style*="#00e2eb" i] { color: #67767A !important; }
 /* Blue */
 i.fas[style*="background"][style*="#0081fa" i], i.far[style*="background"][style*="#0081fa" i], i.fab[style*="background"][style*="#0081fa" i],
-i.fas[style*="background"][style*="#b2c9ec" i], i.far[style*="background"][style*="#b2c9ec" i], i.fab[style*="background"][style*="#b2c9ec" i] { color: #95abb6 !important; }
+i.fas[style*="background"][style*="#b2c9ec" i], i.far[style*="background"][style*="#b2c9ec" i], i.fab[style*="background"][style*="#b2c9ec" i] { color: #4D626C !important; }
 /* Green */
 i.fas[style*="background"][style*="#5bb686" i], i.far[style*="background"][style*="#5bb686" i], i.fab[style*="background"][style*="#5bb686" i],
-i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #98b3aa !important; }
+i.fas[style*="background"][style*="#00d875" i], i.far[style*="background"][style*="#00d875" i], i.fab[style*="background"][style*="#00d875" i] { color: #617B72 !important; }
 /* Yellow */
-i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #98b3b0 !important; }
+i.fas[style*="background"][style*="#f2b600" i], i.far[style*="background"][style*="#f2b600" i], i.fab[style*="background"][style*="#f2b600" i] { color: #76908D !important; }
 /* Orange */
-i.fas[style*="background"][style*="#fc4200" i], i.far[style*="background"][style*="#fc4200" i], i.fab[style*="background"][style*="#fc4200" i] { color: #96AEB5 !important; }
+i.fas[style*="background"][style*="#fc4200" i], i.far[style*="background"][style*="#fc4200" i], i.fab[style*="background"][style*="#fc4200" i] { color: #647B81 !important; }
 /* Purple */
 i.fas[style*="background"][style*="#a74af1" i], i.far[style*="background"][style*="#a74af1" i], i.fab[style*="background"][style*="#a74af1" i],
 i.fas[style*="background"][style*="#9b0af2" i], i.far[style*="background"][style*="#9b0af2" i], i.fab[style*="background"][style*="#9b0af2" i],
 i.fas[style*="background"][style*="#5b17f2" i], i.far[style*="background"][style*="#5b17f2" i], i.fab[style*="background"][style*="#5b17f2" i],
-i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style*="#300c83" i], i.fab[style*="background"][style*="#300c83" i] { color: #96ABB5 !important; }
+i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style*="#300c83" i], i.fab[style*="background"][style*="#300c83" i] { color: #475A63 !important; }
 
 /* Asset-layout icons — sidebar OTHER section + page-header badges.
    Markup: <div class="asset-icon" style="background:#XXX">
@@ -739,31 +747,31 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 }
 
 /* Fallback glyph color for any Hudu hex not enumerated below. */
-.asset-icon[style*="background"][style*="#"] > i { color: #b0c0c5 !important; }
+.asset-icon[style*="background"][style*="#"] > i { color: #67767A !important; }
 
 /* Cyan family → palette cyan */
 .asset-icon[style*="background"][style*="#00caed" i] > i,
-.asset-icon[style*="background"][style*="#00e2eb" i] > i { color: #b0c0c5 !important; }
+.asset-icon[style*="background"][style*="#00e2eb" i] > i { color: #67767A !important; }
 
 /* Blue family → palette blue */
 .asset-icon[style*="background"][style*="#0081fa" i] > i,
-.asset-icon[style*="background"][style*="#b2c9ec" i] > i { color: #95abb6 !important; }
+.asset-icon[style*="background"][style*="#b2c9ec" i] > i { color: #4D626C !important; }
 
 /* Green family → palette green */
 .asset-icon[style*="background"][style*="#5bb686" i] > i,
-.asset-icon[style*="background"][style*="#00d875" i] > i { color: #98b3aa !important; }
+.asset-icon[style*="background"][style*="#00d875" i] > i { color: #617B72 !important; }
 
 /* Yellow → palette yellow */
-.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #98b3b0 !important; }
+.asset-icon[style*="background"][style*="#f2b600" i] > i { color: #76908D !important; }
 
 /* Orange / red-orange → palette orange */
-.asset-icon[style*="background"][style*="#fc4200" i] > i { color: #96AEB5 !important; }
+.asset-icon[style*="background"][style*="#fc4200" i] > i { color: #647B81 !important; }
 
 /* Purple / indigo family → palette purple */
 .asset-icon[style*="background"][style*="#a74af1" i] > i,
 .asset-icon[style*="background"][style*="#9b0af2" i] > i,
 .asset-icon[style*="background"][style*="#5b17f2" i] > i,
-.asset-icon[style*="background"][style*="#300c83" i] > i { color: #96ABB5 !important; }
+.asset-icon[style*="background"][style*="#300c83" i] > i { color: #475A63 !important; }
 
 /* Dashboard widget items without inline color — Hudu's base CSS paints them
    .nasa .index__item:not(.index__item--task) i { background: var(--primary); color: white; border-radius: 100% }
@@ -774,7 +782,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
   border-radius: 0 !important;
   width: auto !important;
   height: auto !important;
-  color: #b0c0c5 !important;
+  color: #67767A !important;
 }
 .dark-portal .nasa .index__item:not(.index__item--task) i:not([style]) { color: #e5eaec !important; }
 
@@ -782,12 +790,12 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
    that Hudu renders without inline color. Maps each glyph to a palette accent
    matching its semantic role, so the dashboard widgets read at a glance. */
 .nasa .index__item i.fa-store-alt:not([style]),
-.nasa .index__item i.fa-building:not([style]) { color: #95abb6 !important; } /* companies → blue */
+.nasa .index__item i.fa-building:not([style]) { color: #4D626C !important; } /* companies → blue */
 .nasa .index__item i.fa-book-reader:not([style]),
-.nasa .index__item i.fa-book:not([style]) { color: #96ABB5 !important; } /* KB articles → purple */
-.nasa .index__item i.fa-globe:not([style]) { color: #98b3aa !important; } /* websites → green */
-.nasa .index__item i.fa-key:not([style]) { color: #98b3b0 !important; } /* passwords → yellow */
-.nasa .index__item i.fa-camera:not([style]) { color: #97aab4 !important; } /* photos → magenta */
+.nasa .index__item i.fa-book:not([style]) { color: #475A63 !important; } /* KB articles → purple */
+.nasa .index__item i.fa-globe:not([style]) { color: #617B72 !important; } /* websites → green */
+.nasa .index__item i.fa-key:not([style]) { color: #76908D !important; } /* passwords → yellow */
+.nasa .index__item i.fa-camera:not([style]) { color: #53656E !important; } /* photos → magenta */
 
 .dark-portal .nasa .index__item i.fa-store-alt:not([style]),
 .dark-portal .nasa .index__item i.fa-building:not([style]) { color: #94abb8 !important; }
@@ -808,7 +816,7 @@ i.fas[style*="background"][style*="#300c83" i], i.far[style*="background"][style
 /* Dashboard chart — canvas bars are pixel-painted from a server-baked
    Tailwind blue (#3B82F6). Pure CSS can't recolor canvas content, so apply
    a filter chain that desaturates + darkens the bars toward the muted
-   palette blue (#95abb6) range. Affects axis labels too — minor cost. */
+   palette blue (#4D626C) range. Affects axis labels too — minor cost. */
 [data-controller="chart"] canvas,
 .dash__graph-graph canvas { filter: hue-rotate(340deg) saturate(0.17) brightness(1.52) !important; }
 
@@ -848,21 +856,21 @@ body:not(.dark-portal) .keyboard-shortcuts__shortcut { border-color: #d6dbdc !im
    ones. Re-tint per type, always setting bg + text + border together
    (recoloring text alone is the callout trap). */
 .dark-portal .rich_text_content .callout-info {
-  background: #424C50 !important; color: #C9D7DE !important; border-color: #637178 !important; }
+  background: #2F393C !important; color: #C9D7DE !important; border-color: #3B494F !important; }
 .dark-portal .rich_text_content .callout-danger {
-  background: #424C50 !important; color: #C9D7DE !important; border-color: #627179 !important; }
+  background: #313A3E !important; color: #C9D7DE !important; border-color: #3F4C54 !important; }
 .dark-portal .rich_text_content .callout-warning {
-  background: #434D4F !important; color: #C9D8DD !important; border-color: #637377 !important; }
+  background: #353F42 !important; color: #C9D8DD !important; border-color: #48575B !important; }
 .dark-portal .rich_text_content .callout-success {
-  background: #434E4D !important; color: #CBDBD6 !important; border-color: #657671 !important; }
+  background: #353F3E !important; color: #CBDBD6 !important; border-color: #465753 !important; }
 body:not(.dark-portal) .rich_text_content .callout-info {
-  background: #E3EDF0 !important; color: #80929B !important; border-color: #C9D7DE !important; }
+  background: #E3EDF0 !important; color: #455760 !important; border-color: #C9D7DE !important; }
 body:not(.dark-portal) .rich_text_content .callout-danger {
-  background: #E3ECF0 !important; color: #7F929D !important; border-color: #C9D7DE !important; }
+  background: #E3ECF0 !important; color: #4A5C66 !important; border-color: #C9D7DE !important; }
 body:not(.dark-portal) .rich_text_content .callout-warning {
-  background: #E3EDF0 !important; color: #80959B !important; border-color: #C9D8DD !important; }
+  background: #E3EDF0 !important; color: #586C71 !important; border-color: #C9D8DD !important; }
 body:not(.dark-portal) .rich_text_content .callout-success {
-  background: #E4EEED !important; color: #829992 !important; border-color: #CBDBD6 !important; }
+  background: #E4EEED !important; color: #566C65 !important; border-color: #CBDBD6 !important; }
 
 /* "My Tasks" empty-state illustration — inline SVG with stock grayscale
    and navy fills. Recolor structure to base tones and clothing to the
@@ -879,4 +887,4 @@ body:not(.dark-portal) .dash__message svg [fill="#F5F5F5" i] { fill: #EBF1F3; }
 body:not(.dark-portal) .dash__message svg [fill="#E0E0E0" i] { fill: #DDE2E3; }
 body:not(.dark-portal) .dash__message svg [fill="#808080" i] { fill: #d6dadc; }
 body:not(.dark-portal) .dash__message svg [fill="black" i] { fill: #232829; }
-body:not(.dark-portal) .dash__message svg [fill="#263238" i] { fill: #b0c0c5; }
+body:not(.dark-portal) .dash__message svg [fill="#263238" i] { fill: #67767A; }
