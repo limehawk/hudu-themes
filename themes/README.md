@@ -1,6 +1,6 @@
 # Theme catalog
 
-261 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+262 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -148,6 +148,7 @@
 | [koda](koda/) | Dark (+ synthesized light) | [`theme.css`](koda/theme.css) |
 | [koyanagi](koyanagi/) | Dark (+ synthesized light) | [`theme.css`](koyanagi/theme.css) |
 | [krishna](krishna/) | Dark (+ synthesized light) | [`theme.css`](krishna/theme.css) |
+| [ktm-390-enduro-r](ktm-390-enduro-r/) | Dark (+ synthesized light) | [`theme.css`](ktm-390-enduro-r/theme.css) |
 | [kurayami](kurayami/) | Dark (+ synthesized light) | [`theme.css`](kurayami/theme.css) |
 | [kurumi](kurumi/) | Dark (+ synthesized light) | [`theme.css`](kurumi/theme.css) |
 | [lain-omarchy](lain-omarchy/) | Dark (+ synthesized light) | [`theme.css`](lain-omarchy/theme.css) |
