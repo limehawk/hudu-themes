@@ -1,6 +1,6 @@
 # Theme catalog
 
-262 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+265 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -80,6 +80,7 @@
 | [demon](demon/) | Dark (+ synthesized light) | [`theme.css`](demon/theme.css) |
 | [desert-twilight](desert-twilight/) | Dark (+ synthesized light) | [`theme.css`](desert-twilight/theme.css) |
 | [dolomites](dolomites/) | Dark (+ synthesized light) | [`theme.css`](dolomites/theme.css) |
+| [dos-moos](dos-moos/) | Dark (+ synthesized light) | [`theme.css`](dos-moos/theme.css) |
 | [dotrb](dotrb/) | Dark (+ synthesized light) | [`theme.css`](dotrb/theme.css) |
 | [drac](drac/) | Dark (+ synthesized light) | [`theme.css`](drac/theme.css) |
 | [dracula](dracula/) | Dark (+ synthesized light) | [`theme.css`](dracula/theme.css) |
@@ -204,7 +205,9 @@
 | [pulsar](pulsar/) | Dark (+ synthesized light) | [`theme.css`](pulsar/theme.css) |
 | [purple-moon](purple-moon/) | Dark (+ synthesized light) | [`theme.css`](purple-moon/theme.css) |
 | [purplewave](purplewave/) | Dark (+ synthesized light) | [`theme.css`](purplewave/theme.css) |
+| [railroad-visions-omarchy](railroad-visions-omarchy/) | Dark (+ synthesized light) | [`theme.css`](railroad-visions-omarchy/theme.css) |
 | [rainynight](rainynight/) | Dark (+ synthesized light) | [`theme.css`](rainynight/theme.css) |
+| [ready-player-one](ready-player-one/) | Dark (+ synthesized light) | [`theme.css`](ready-player-one/theme.css) |
 | [retro-82](retro-82/) | Dark (+ synthesized light) | [`theme.css`](retro-82/theme.css) |
 | [retro-fallout](retro-fallout/) | Dark (+ synthesized light) | [`theme.css`](retro-fallout/theme.css) |
 | [retropc](retropc/) | Dark (+ synthesized light) | [`theme.css`](retropc/theme.css) |
