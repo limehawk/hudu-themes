@@ -1,6 +1,6 @@
 # Theme catalog
 
-265 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+266 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -237,6 +237,7 @@
 | [spectral-violet](spectral-violet/) | Dark (+ synthesized light) | [`theme.css`](spectral-violet/theme.css) |
 | [stellar](stellar/) | Dark (+ synthesized light) | [`theme.css`](stellar/theme.css) |
 | [stillmoon](stillmoon/) | Dark (+ synthesized light) | [`theme.css`](stillmoon/theme.css) |
+| [stills-in-motion-omarchy](stills-in-motion-omarchy/) | Dark (+ synthesized light) | [`theme.css`](stills-in-motion-omarchy/theme.css) |
 | [stillwood](stillwood/) | Dark (+ synthesized light) | [`theme.css`](stillwood/theme.css) |
 | [sunkissed](sunkissed/) | Dark (+ synthesized light) | [`theme.css`](sunkissed/theme.css) |
 | [sunset](sunset/) | Dark (+ synthesized light) | [`theme.css`](sunset/theme.css) |
