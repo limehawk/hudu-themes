@@ -1,6 +1,6 @@
 # Theme catalog
 
-266 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+267 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -102,6 +102,7 @@
 | [felix](felix/) | Dark (+ synthesized light) | [`theme.css`](felix/theme.css) |
 | [fenrir](fenrir/) | Dark (+ synthesized light) | [`theme.css`](fenrir/theme.css) |
 | [fiery-ocean](fiery-ocean/) | Dark (+ synthesized light) | [`theme.css`](fiery-ocean/theme.css) |
+| [fire-and-shadow](fire-and-shadow/) | Dark (+ synthesized light) | [`theme.css`](fire-and-shadow/theme.css) |
 | [fireside](fireside/) | Dark (+ synthesized light) | [`theme.css`](fireside/theme.css) |
 | [firesky](firesky/) | Dark (+ synthesized light) | [`theme.css`](firesky/theme.css) |
 | [flat-dracula](flat-dracula/) | Dark (+ synthesized light) | [`theme.css`](flat-dracula/theme.css) |
