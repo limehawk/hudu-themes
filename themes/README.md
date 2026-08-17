@@ -1,6 +1,6 @@
 # Theme catalog
 
-267 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+274 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -12,6 +12,7 @@
 | [akane](akane/) | Dark (+ synthesized light) | [`theme.css`](akane/theme.css) |
 | [all-hallows-eve](all-hallows-eve/) | Dark (+ synthesized light) | [`theme.css`](all-hallows-eve/theme.css) |
 | [amberbyte](amberbyte/) | Dark (+ synthesized light) | [`theme.css`](amberbyte/theme.css) |
+| [ame-quattro](ame-quattro/) | Dark (+ synthesized light) | [`theme.css`](ame-quattro/theme.css) |
 | [amekoji](amekoji/) | Dark (+ synthesized light) | [`theme.css`](amekoji/theme.css) |
 | [anonymous](anonymous/) | Dark (+ synthesized light) | [`theme.css`](anonymous/theme.css) |
 | [apocalypse](apocalypse/) | Dark (+ synthesized light) | [`theme.css`](apocalypse/theme.css) |
@@ -73,6 +74,7 @@
 | [cyberpunky](cyberpunky/) | Dark (+ synthesized light) | [`theme.css`](cyberpunky/theme.css) |
 | [darcula](darcula/) | Dark (+ synthesized light) | [`theme.css`](darcula/theme.css) |
 | [dark-xp-omarchy](dark-xp-omarchy/) | Dark (+ synthesized light) | [`theme.css`](dark-xp-omarchy/theme.css) |
+| [darky](darky/) | Dark (+ synthesized light) | [`theme.css`](darky/theme.css) |
 | [deadspace](deadspace/) | Dark (+ synthesized light) | [`theme.css`](deadspace/theme.css) |
 | [deckard](deckard/) | Dark (+ synthesized light) | [`theme.css`](deckard/theme.css) |
 | [delete](delete/) | Dark (+ synthesized light) | [`theme.css`](delete/theme.css) |
@@ -98,6 +100,7 @@
 | [everblush](everblush/) | Dark (+ synthesized light) | [`theme.css`](everblush/theme.css) |
 | [everforest](everforest/) | Dark (+ synthesized light) | [`theme.css`](everforest/theme.css) |
 | [evergarden](evergarden/) | Dark (+ synthesized light) | [`theme.css`](evergarden/theme.css) |
+| [fallen-angel](fallen-angel/) | Dark (+ synthesized light) | [`theme.css`](fallen-angel/theme.css) |
 | [farline](farline/) | Dark (+ synthesized light) | [`theme.css`](farline/theme.css) |
 | [felix](felix/) | Dark (+ synthesized light) | [`theme.css`](felix/theme.css) |
 | [fenrir](fenrir/) | Dark (+ synthesized light) | [`theme.css`](fenrir/theme.css) |
@@ -159,6 +162,7 @@
 | [latchdark](latchdark/) | Dark (+ synthesized light) | [`theme.css`](latchdark/theme.css) |
 | [lilly](lilly/) | Dark (+ synthesized light) | [`theme.css`](lilly/theme.css) |
 | [linux-omarchy-reddcs](linux-omarchy-reddcs/) | Dark (+ synthesized light) | [`theme.css`](linux-omarchy-reddcs/theme.css) |
+| [liquid-glass-omarchy](liquid-glass-omarchy/) | Dark (+ synthesized light) | [`theme.css`](liquid-glass-omarchy/theme.css) |
 | [lowlight](lowlight/) | Dark (+ synthesized light) | [`theme.css`](lowlight/theme.css) |
 | [lumon](lumon/) | Dark (+ synthesized light) | [`theme.css`](lumon/theme.css) |
 | [lunar](lunar/) | Dark (+ synthesized light) | [`theme.css`](lunar/theme.css) |
@@ -190,10 +194,12 @@
 | [night-owl](night-owl/) | Dark (+ synthesized light) | [`theme.css`](night-owl/theme.css) |
 | [nord](nord/) | Dark (+ synthesized light) | [`theme.css`](nord/theme.css) |
 | [nyc](nyc/) | Dark (+ synthesized light) | [`theme.css`](nyc/theme.css) |
+| [ochre](ochre/) | Dark (+ synthesized light) | [`theme.css`](ochre/theme.css) |
 | [omacarchy](omacarchy/) | Dark (+ synthesized light) | [`theme.css`](omacarchy/theme.css) |
 | [omacon](omacon/) | Dark (+ synthesized light) | [`theme.css`](omacon/theme.css) |
 | [omarchy](omarchy/) | Dark (+ synthesized light) | [`theme.css`](omarchy/theme.css) |
 | [one-dark-pro](one-dark-pro/) | Dark (+ synthesized light) | [`theme.css`](one-dark-pro/theme.css) |
+| [one-dark-pro-darker](one-dark-pro-darker/) | Dark (+ synthesized light) | [`theme.css`](one-dark-pro-darker/theme.css) |
 | [osaka-jade](osaka-jade/) | Dark (+ synthesized light) | [`theme.css`](osaka-jade/theme.css) |
 | [oxford](oxford/) | Dark (+ synthesized light) | [`theme.css`](oxford/theme.css) |
 | [oxocarbon](oxocarbon/) | Dark (+ synthesized light) | [`theme.css`](oxocarbon/theme.css) |
@@ -236,6 +242,7 @@
 | [space-monkey](space-monkey/) | Dark (+ synthesized light) | [`theme.css`](space-monkey/theme.css) |
 | [spectra](spectra/) | Dark (+ synthesized light) | [`theme.css`](spectra/theme.css) |
 | [spectral-violet](spectral-violet/) | Dark (+ synthesized light) | [`theme.css`](spectral-violet/theme.css) |
+| [steam-modern](steam-modern/) | Dark (+ synthesized light) | [`theme.css`](steam-modern/theme.css) |
 | [stellar](stellar/) | Dark (+ synthesized light) | [`theme.css`](stellar/theme.css) |
 | [stillmoon](stillmoon/) | Dark (+ synthesized light) | [`theme.css`](stillmoon/theme.css) |
 | [stills-in-motion-omarchy](stills-in-motion-omarchy/) | Dark (+ synthesized light) | [`theme.css`](stills-in-motion-omarchy/theme.css) |
