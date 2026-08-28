@@ -1,9 +1,10 @@
 # Theme catalog
 
-274 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+284 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
+| [2-haxorz](2-haxorz/) | Dark (+ synthesized light) | [`theme.css`](2-haxorz/theme.css) |
 | [aamis](aamis/) | Dark (+ synthesized light) | [`theme.css`](aamis/theme.css) |
 | [ado](ado/) | Dark (+ synthesized light) | [`theme.css`](ado/theme.css) |
 | [adrift](adrift/) | Dark (+ synthesized light) | [`theme.css`](adrift/theme.css) |
@@ -145,6 +146,7 @@
 | [hyprblue](hyprblue/) | Dark (+ synthesized light) | [`theme.css`](hyprblue/theme.css) |
 | [ibm](ibm/) | Dark (+ synthesized light) | [`theme.css`](ibm/theme.css) |
 | [infernium-dark](infernium-dark/) | Dark (+ synthesized light) | [`theme.css`](infernium-dark/theme.css) |
+| [inkblade](inkblade/) | Dark (+ synthesized light) | [`theme.css`](inkblade/theme.css) |
 | [inkypinky](inkypinky/) | Dark (+ synthesized light) | [`theme.css`](inkypinky/theme.css) |
 | [kanagawa](kanagawa/) | Dark (+ synthesized light) | [`theme.css`](kanagawa/theme.css) |
 | [kanso](kanso/) | Dark (+ synthesized light) | [`theme.css`](kanso/theme.css) |
@@ -158,8 +160,10 @@
 | [kurumi](kurumi/) | Dark (+ synthesized light) | [`theme.css`](kurumi/theme.css) |
 | [lain-omarchy](lain-omarchy/) | Dark (+ synthesized light) | [`theme.css`](lain-omarchy/theme.css) |
 | [lairetam](lairetam/) | Dark (+ synthesized light) | [`theme.css`](lairetam/theme.css) |
+| [last-of-us](last-of-us/) | Dark (+ synthesized light) | [`theme.css`](last-of-us/theme.css) |
 | [lasthorizon](lasthorizon/) | Dark (+ synthesized light) | [`theme.css`](lasthorizon/theme.css) |
 | [latchdark](latchdark/) | Dark (+ synthesized light) | [`theme.css`](latchdark/theme.css) |
+| [leybound](leybound/) | Dark (+ synthesized light) | [`theme.css`](leybound/theme.css) |
 | [lilly](lilly/) | Dark (+ synthesized light) | [`theme.css`](lilly/theme.css) |
 | [linux-omarchy-reddcs](linux-omarchy-reddcs/) | Dark (+ synthesized light) | [`theme.css`](linux-omarchy-reddcs/theme.css) |
 | [liquid-glass-omarchy](liquid-glass-omarchy/) | Dark (+ synthesized light) | [`theme.css`](liquid-glass-omarchy/theme.css) |
@@ -169,6 +173,7 @@
 | [mac-transparent](mac-transparent/) | Dark (+ synthesized light) | [`theme.css`](mac-transparent/theme.css) |
 | [manga](manga/) | Dark (+ synthesized light) | [`theme.css`](manga/theme.css) |
 | [mars](mars/) | Dark (+ synthesized light) | [`theme.css`](mars/theme.css) |
+| [matrix](matrix/) | Dark (+ synthesized light) | [`theme.css`](matrix/theme.css) |
 | [matte-black](matte-black/) | Dark (+ synthesized light) | [`theme.css`](matte-black/theme.css) |
 | [mechanoonna](mechanoonna/) | Dark (+ synthesized light) | [`theme.css`](mechanoonna/theme.css) |
 | [memento-mori](memento-mori/) | Dark (+ synthesized light) | [`theme.css`](memento-mori/theme.css) |
@@ -192,7 +197,10 @@
 | [nes](nes/) | Dark (+ synthesized light) | [`theme.css`](nes/theme.css) |
 | [night-cat](night-cat/) | Dark (+ synthesized light) | [`theme.css`](night-cat/theme.css) |
 | [night-owl](night-owl/) | Dark (+ synthesized light) | [`theme.css`](night-owl/theme.css) |
+| [noctua](noctua/) | Dark (+ synthesized light) | [`theme.css`](noctua/theme.css) |
 | [nord](nord/) | Dark (+ synthesized light) | [`theme.css`](nord/theme.css) |
+| [nous](nous/) | Dark (+ synthesized light) | [`theme.css`](nous/theme.css) |
+| [nous-research-purple](nous-research-purple/) | Dark (+ synthesized light) | [`theme.css`](nous-research-purple/theme.css) |
 | [nyc](nyc/) | Dark (+ synthesized light) | [`theme.css`](nyc/theme.css) |
 | [ochre](ochre/) | Dark (+ synthesized light) | [`theme.css`](ochre/theme.css) |
 | [omacarchy](omacarchy/) | Dark (+ synthesized light) | [`theme.css`](omacarchy/theme.css) |
@@ -212,6 +220,7 @@
 | [pulsar](pulsar/) | Dark (+ synthesized light) | [`theme.css`](pulsar/theme.css) |
 | [purple-moon](purple-moon/) | Dark (+ synthesized light) | [`theme.css`](purple-moon/theme.css) |
 | [purplewave](purplewave/) | Dark (+ synthesized light) | [`theme.css`](purplewave/theme.css) |
+| [quattro-sunset](quattro-sunset/) | Dark (+ synthesized light) | [`theme.css`](quattro-sunset/theme.css) |
 | [railroad-visions-omarchy](railroad-visions-omarchy/) | Dark (+ synthesized light) | [`theme.css`](railroad-visions-omarchy/theme.css) |
 | [rainynight](rainynight/) | Dark (+ synthesized light) | [`theme.css`](rainynight/theme.css) |
 | [ready-player-one](ready-player-one/) | Dark (+ synthesized light) | [`theme.css`](ready-player-one/theme.css) |
@@ -265,6 +274,7 @@
 | [van-gogh](van-gogh/) | Dark (+ synthesized light) | [`theme.css`](van-gogh/theme.css) |
 | [vantablack](vantablack/) | Dark (+ synthesized light) | [`theme.css`](vantablack/theme.css) |
 | [velocity](velocity/) | Dark (+ synthesized light) | [`theme.css`](velocity/theme.css) |
+| [velora](velora/) | Dark (+ synthesized light) | [`theme.css`](velora/theme.css) |
 | [velvetnight](velvetnight/) | Dark (+ synthesized light) | [`theme.css`](velvetnight/theme.css) |
 | [vengeance](vengeance/) | Dark (+ synthesized light) | [`theme.css`](vengeance/theme.css) |
 | [vesper](vesper/) | Dark (+ synthesized light) | [`theme.css`](vesper/theme.css) |
