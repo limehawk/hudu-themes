@@ -1,6 +1,6 @@
 # Theme catalog
 
-285 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+287 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -71,6 +71,7 @@
 | [cpunk](cpunk/) | Dark (+ synthesized light) | [`theme.css`](cpunk/theme.css) |
 | [crimson](crimson/) | Dark (+ synthesized light) | [`theme.css`](crimson/theme.css) |
 | [crimson-gold](crimson-gold/) | Dark (+ synthesized light) | [`theme.css`](crimson-gold/theme.css) |
+| [cyberphunk](cyberphunk/) | Dark (+ synthesized light) | [`theme.css`](cyberphunk/theme.css) |
 | [cyberpunk-cyan](cyberpunk-cyan/) | Dark (+ synthesized light) | [`theme.css`](cyberpunk-cyan/theme.css) |
 | [cyberpunky](cyberpunky/) | Dark (+ synthesized light) | [`theme.css`](cyberpunky/theme.css) |
 | [darcula](darcula/) | Dark (+ synthesized light) | [`theme.css`](darcula/theme.css) |
@@ -137,6 +138,7 @@
 | [hackerman](hackerman/) | Dark (+ synthesized light) | [`theme.css`](hackerman/theme.css) |
 | [hakkar-green-better-contrast](hakkar-green-better-contrast/) | Dark (+ synthesized light) | [`theme.css`](hakkar-green-better-contrast/theme.css) |
 | [harbordark](harbordark/) | Dark (+ synthesized light) | [`theme.css`](harbordark/theme.css) |
+| [hardlight](hardlight/) | Dark (+ synthesized light) | [`theme.css`](hardlight/theme.css) |
 | [helios](helios/) | Dark (+ synthesized light) | [`theme.css`](helios/theme.css) |
 | [hex](hex/) | Dark (+ synthesized light) | [`theme.css`](hex/theme.css) |
 | [himalaya](himalaya/) | Dark (+ synthesized light) | [`theme.css`](himalaya/theme.css) |
