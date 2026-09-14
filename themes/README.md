@@ -1,6 +1,6 @@
 # Theme catalog
 
-287 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+288 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -75,6 +75,7 @@
 | [cyberpunk-cyan](cyberpunk-cyan/) | Dark (+ synthesized light) | [`theme.css`](cyberpunk-cyan/theme.css) |
 | [cyberpunky](cyberpunky/) | Dark (+ synthesized light) | [`theme.css`](cyberpunky/theme.css) |
 | [darcula](darcula/) | Dark (+ synthesized light) | [`theme.css`](darcula/theme.css) |
+| [dark-voyage](dark-voyage/) | Dark (+ synthesized light) | [`theme.css`](dark-voyage/theme.css) |
 | [dark-xp-omarchy](dark-xp-omarchy/) | Dark (+ synthesized light) | [`theme.css`](dark-xp-omarchy/theme.css) |
 | [darky](darky/) | Dark (+ synthesized light) | [`theme.css`](darky/theme.css) |
 | [deadspace](deadspace/) | Dark (+ synthesized light) | [`theme.css`](deadspace/theme.css) |
