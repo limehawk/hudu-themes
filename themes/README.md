@@ -1,6 +1,6 @@
 # Theme catalog
 
-288 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+292 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -36,6 +36,7 @@
 | [azure](azure/) | Dark (+ synthesized light) | [`theme.css`](azure/theme.css) |
 | [azure-glow](azure-glow/) | Dark (+ synthesized light) | [`theme.css`](azure-glow/theme.css) |
 | [bad-hand](bad-hand/) | Dark (+ synthesized light) | [`theme.css`](bad-hand/theme.css) |
+| [banish](banish/) | Dark (+ synthesized light) | [`theme.css`](banish/theme.css) |
 | [base16-tarot](base16-tarot/) | Dark (+ synthesized light) | [`theme.css`](base16-tarot/theme.css) |
 | [batman](batman/) | Dark (+ synthesized light) | [`theme.css`](batman/theme.css) |
 | [batou](batou/) | Dark (+ synthesized light) | [`theme.css`](batou/theme.css) |
@@ -48,6 +49,7 @@
 | [blackmoney](blackmoney/) | Dark (+ synthesized light) | [`theme.css`](blackmoney/theme.css) |
 | [blackturq](blackturq/) | Dark (+ synthesized light) | [`theme.css`](blackturq/theme.css) |
 | [blackwall](blackwall/) | Dark (+ synthesized light) | [`theme.css`](blackwall/theme.css) |
+| [blade-runner](blade-runner/) | Dark (+ synthesized light) | [`theme.css`](blade-runner/theme.css) |
 | [blood-moon](blood-moon/) | Dark (+ synthesized light) | [`theme.css`](blood-moon/theme.css) |
 | [blue-man-on-crane](blue-man-on-crane/) | Dark (+ synthesized light) | [`theme.css`](blue-man-on-crane/theme.css) |
 | [bluedotrb](bluedotrb/) | Dark (+ synthesized light) | [`theme.css`](bluedotrb/theme.css) |
@@ -120,6 +122,7 @@
 | [frost](frost/) | Dark (+ synthesized light) | [`theme.css`](frost/theme.css) |
 | [futurism](futurism/) | Dark (+ synthesized light) | [`theme.css`](futurism/theme.css) |
 | [ghost-pastel](ghost-pastel/) | Dark (+ synthesized light) | [`theme.css`](ghost-pastel/theme.css) |
+| [ghostwire](ghostwire/) | Dark (+ synthesized light) | [`theme.css`](ghostwire/theme.css) |
 | [glory-antic](glory-antic/) | Dark (+ synthesized light) | [`theme.css`](glory-antic/theme.css) |
 | [gojira](gojira/) | Dark (+ synthesized light) | [`theme.css`](gojira/theme.css) |
 | [gold-rush](gold-rush/) | Dark (+ synthesized light) | [`theme.css`](gold-rush/theme.css) |
@@ -200,6 +203,7 @@
 | [nes](nes/) | Dark (+ synthesized light) | [`theme.css`](nes/theme.css) |
 | [night-cat](night-cat/) | Dark (+ synthesized light) | [`theme.css`](night-cat/theme.css) |
 | [night-owl](night-owl/) | Dark (+ synthesized light) | [`theme.css`](night-owl/theme.css) |
+| [nightwire](nightwire/) | Dark (+ synthesized light) | [`theme.css`](nightwire/theme.css) |
 | [noctua](noctua/) | Dark (+ synthesized light) | [`theme.css`](noctua/theme.css) |
 | [nord](nord/) | Dark (+ synthesized light) | [`theme.css`](nord/theme.css) |
 | [nous](nous/) | Dark (+ synthesized light) | [`theme.css`](nous/theme.css) |
