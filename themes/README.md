@@ -1,6 +1,6 @@
 # Theme catalog
 
-292 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+293 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -219,6 +219,7 @@
 | [oxford](oxford/) | Dark (+ synthesized light) | [`theme.css`](oxford/theme.css) |
 | [oxocarbon](oxocarbon/) | Dark (+ synthesized light) | [`theme.css`](oxocarbon/theme.css) |
 | [pandora](pandora/) | Dark (+ synthesized light) | [`theme.css`](pandora/theme.css) |
+| [permafrost](permafrost/) | Dark (+ synthesized light) | [`theme.css`](permafrost/theme.css) |
 | [phosphor-os](phosphor-os/) | Dark (+ synthesized light) | [`theme.css`](phosphor-os/theme.css) |
 | [pina](pina/) | Dark (+ synthesized light) | [`theme.css`](pina/theme.css) |
 | [pink-blood-omarchy](pink-blood-omarchy/) | Dark (+ synthesized light) | [`theme.css`](pink-blood-omarchy/theme.css) |
