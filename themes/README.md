@@ -1,6 +1,6 @@
 # Theme catalog
 
-293 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+296 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -99,6 +99,7 @@
 | [eldritch](eldritch/) | Dark (+ synthesized light) | [`theme.css`](eldritch/theme.css) |
 | [elysian](elysian/) | Dark (+ synthesized light) | [`theme.css`](elysian/theme.css) |
 | [ember-n-ash](ember-n-ash/) | Dark (+ synthesized light) | [`theme.css`](ember-n-ash/theme.css) |
+| [emberveil](emberveil/) | Dark (+ synthesized light) | [`theme.css`](emberveil/theme.css) |
 | [ethereal](ethereal/) | Dark (+ synthesized light) | [`theme.css`](ethereal/theme.css) |
 | [eva01](eva01/) | Dark (+ synthesized light) | [`theme.css`](eva01/theme.css) |
 | [event-horizon](event-horizon/) | Dark (+ synthesized light) | [`theme.css`](event-horizon/theme.css) |
@@ -120,6 +121,7 @@
 | [forest-green](forest-green/) | Dark (+ synthesized light) | [`theme.css`](forest-green/theme.css) |
 | [frankenstein](frankenstein/) | Dark (+ synthesized light) | [`theme.css`](frankenstein/theme.css) |
 | [frost](frost/) | Dark (+ synthesized light) | [`theme.css`](frost/theme.css) |
+| [frostveil](frostveil/) | Dark (+ synthesized light) | [`theme.css`](frostveil/theme.css) |
 | [futurism](futurism/) | Dark (+ synthesized light) | [`theme.css`](futurism/theme.css) |
 | [ghost-pastel](ghost-pastel/) | Dark (+ synthesized light) | [`theme.css`](ghost-pastel/theme.css) |
 | [ghostwire](ghostwire/) | Dark (+ synthesized light) | [`theme.css`](ghostwire/theme.css) |
@@ -164,6 +166,7 @@
 | [ktm-390-enduro-r](ktm-390-enduro-r/) | Dark (+ synthesized light) | [`theme.css`](ktm-390-enduro-r/theme.css) |
 | [kurayami](kurayami/) | Dark (+ synthesized light) | [`theme.css`](kurayami/theme.css) |
 | [kurumi](kurumi/) | Dark (+ synthesized light) | [`theme.css`](kurumi/theme.css) |
+| [labra](labra/) | Dark (+ synthesized light) | [`theme.css`](labra/theme.css) |
 | [lain-omarchy](lain-omarchy/) | Dark (+ synthesized light) | [`theme.css`](lain-omarchy/theme.css) |
 | [lairetam](lairetam/) | Dark (+ synthesized light) | [`theme.css`](lairetam/theme.css) |
 | [last-of-us](last-of-us/) | Dark (+ synthesized light) | [`theme.css`](last-of-us/theme.css) |
