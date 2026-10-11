@@ -1,6 +1,6 @@
 # Theme catalog
 
-296 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+298 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -37,6 +37,7 @@
 | [azure-glow](azure-glow/) | Dark (+ synthesized light) | [`theme.css`](azure-glow/theme.css) |
 | [bad-hand](bad-hand/) | Dark (+ synthesized light) | [`theme.css`](bad-hand/theme.css) |
 | [banish](banish/) | Dark (+ synthesized light) | [`theme.css`](banish/theme.css) |
+| [barbie](barbie/) | Dark (+ synthesized light) | [`theme.css`](barbie/theme.css) |
 | [base16-tarot](base16-tarot/) | Dark (+ synthesized light) | [`theme.css`](base16-tarot/theme.css) |
 | [batman](batman/) | Dark (+ synthesized light) | [`theme.css`](batman/theme.css) |
 | [batou](batou/) | Dark (+ synthesized light) | [`theme.css`](batou/theme.css) |
@@ -82,6 +83,7 @@
 | [darky](darky/) | Dark (+ synthesized light) | [`theme.css`](darky/theme.css) |
 | [deadspace](deadspace/) | Dark (+ synthesized light) | [`theme.css`](deadspace/theme.css) |
 | [deckard](deckard/) | Dark (+ synthesized light) | [`theme.css`](deckard/theme.css) |
+| [dedsec](dedsec/) | Dark (+ synthesized light) | [`theme.css`](dedsec/theme.css) |
 | [delete](delete/) | Dark (+ synthesized light) | [`theme.css`](delete/theme.css) |
 | [delorean](delorean/) | Dark (+ synthesized light) | [`theme.css`](delorean/theme.css) |
 | [demon](demon/) | Dark (+ synthesized light) | [`theme.css`](demon/theme.css) |
