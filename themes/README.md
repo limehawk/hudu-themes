@@ -1,6 +1,6 @@
 # Theme catalog
 
-298 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+299 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -12,6 +12,7 @@
 | [agentuity-theme](agentuity-theme/) | Dark (+ synthesized light) | [`theme.css`](agentuity-theme/theme.css) |
 | [akane](akane/) | Dark (+ synthesized light) | [`theme.css`](akane/theme.css) |
 | [all-hallows-eve](all-hallows-eve/) | Dark (+ synthesized light) | [`theme.css`](all-hallows-eve/theme.css) |
+| [amber-oled](amber-oled/) | Dark (+ synthesized light) | [`theme.css`](amber-oled/theme.css) |
 | [amberbyte](amberbyte/) | Dark (+ synthesized light) | [`theme.css`](amberbyte/theme.css) |
 | [ame-quattro](ame-quattro/) | Dark (+ synthesized light) | [`theme.css`](ame-quattro/theme.css) |
 | [amekoji](amekoji/) | Dark (+ synthesized light) | [`theme.css`](amekoji/theme.css) |
