@@ -1,9 +1,10 @@
 # Theme catalog
 
-299 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+320 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
+| [1800](1800/) | Dark (+ synthesized light) | [`theme.css`](1800/theme.css) |
 | [2-haxorz](2-haxorz/) | Dark (+ synthesized light) | [`theme.css`](2-haxorz/theme.css) |
 | [aamis](aamis/) | Dark (+ synthesized light) | [`theme.css`](aamis/theme.css) |
 | [ado](ado/) | Dark (+ synthesized light) | [`theme.css`](ado/theme.css) |
@@ -17,6 +18,7 @@
 | [ame-quattro](ame-quattro/) | Dark (+ synthesized light) | [`theme.css`](ame-quattro/theme.css) |
 | [amekoji](amekoji/) | Dark (+ synthesized light) | [`theme.css`](amekoji/theme.css) |
 | [anonymous](anonymous/) | Dark (+ synthesized light) | [`theme.css`](anonymous/theme.css) |
+| [another-world](another-world/) | Dark (+ synthesized light) | [`theme.css`](another-world/theme.css) |
 | [apocalypse](apocalypse/) | Dark (+ synthesized light) | [`theme.css`](apocalypse/theme.css) |
 | [arc-blueberry](arc-blueberry/) | Dark (+ synthesized light) | [`theme.css`](arc-blueberry/theme.css) |
 | [arc-raiders](arc-raiders/) | Dark (+ synthesized light) | [`theme.css`](arc-raiders/theme.css) |
@@ -24,6 +26,7 @@
 | [archwave](archwave/) | Dark (+ synthesized light) | [`theme.css`](archwave/theme.css) |
 | [artzen](artzen/) | Dark (+ synthesized light) | [`theme.css`](artzen/theme.css) |
 | [ash](ash/) | Dark (+ synthesized light) | [`theme.css`](ash/theme.css) |
+| [asphalt-legends](asphalt-legends/) | Dark (+ synthesized light) | [`theme.css`](asphalt-legends/theme.css) |
 | [astrochy](astrochy/) | Dark (+ synthesized light) | [`theme.css`](astrochy/theme.css) |
 | [astrodark](astrodark/) | Dark (+ synthesized light) | [`theme.css`](astrodark/theme.css) |
 | [atari](atari/) | Dark (+ synthesized light) | [`theme.css`](atari/theme.css) |
@@ -71,10 +74,12 @@
 | [cobalt2](cobalt2/) | Dark (+ synthesized light) | [`theme.css`](cobalt2/theme.css) |
 | [colored-darkness](colored-darkness/) | Dark (+ synthesized light) | [`theme.css`](colored-darkness/theme.css) |
 | [coppernight](coppernight/) | Dark (+ synthesized light) | [`theme.css`](coppernight/theme.css) |
+| [counter-strike](counter-strike/) | Dark (+ synthesized light) | [`theme.css`](counter-strike/theme.css) |
 | [covenant](covenant/) | Dark (+ synthesized light) | [`theme.css`](covenant/theme.css) |
 | [cpunk](cpunk/) | Dark (+ synthesized light) | [`theme.css`](cpunk/theme.css) |
 | [crimson](crimson/) | Dark (+ synthesized light) | [`theme.css`](crimson/theme.css) |
 | [crimson-gold](crimson-gold/) | Dark (+ synthesized light) | [`theme.css`](crimson-gold/theme.css) |
+| [cyber-shadow](cyber-shadow/) | Dark (+ synthesized light) | [`theme.css`](cyber-shadow/theme.css) |
 | [cyberphunk](cyberphunk/) | Dark (+ synthesized light) | [`theme.css`](cyberphunk/theme.css) |
 | [cyberpunk-cyan](cyberpunk-cyan/) | Dark (+ synthesized light) | [`theme.css`](cyberpunk-cyan/theme.css) |
 | [cyberpunky](cyberpunky/) | Dark (+ synthesized light) | [`theme.css`](cyberpunky/theme.css) |
@@ -89,7 +94,10 @@
 | [delorean](delorean/) | Dark (+ synthesized light) | [`theme.css`](delorean/theme.css) |
 | [demon](demon/) | Dark (+ synthesized light) | [`theme.css`](demon/theme.css) |
 | [desert-twilight](desert-twilight/) | Dark (+ synthesized light) | [`theme.css`](desert-twilight/theme.css) |
+| [dionysus](dionysus/) | Dark (+ synthesized light) | [`theme.css`](dionysus/theme.css) |
 | [dolomites](dolomites/) | Dark (+ synthesized light) | [`theme.css`](dolomites/theme.css) |
+| [doom-2016](doom-2016/) | Dark (+ synthesized light) | [`theme.css`](doom-2016/theme.css) |
+| [doom-eternal](doom-eternal/) | Dark (+ synthesized light) | [`theme.css`](doom-eternal/theme.css) |
 | [dos-moos](dos-moos/) | Dark (+ synthesized light) | [`theme.css`](dos-moos/theme.css) |
 | [dotrb](dotrb/) | Dark (+ synthesized light) | [`theme.css`](dotrb/theme.css) |
 | [drac](drac/) | Dark (+ synthesized light) | [`theme.css`](drac/theme.css) |
@@ -146,9 +154,11 @@
 | [habamax-omarchy](habamax-omarchy/) | Dark (+ synthesized light) | [`theme.css`](habamax-omarchy/theme.css) |
 | [hackerman](hackerman/) | Dark (+ synthesized light) | [`theme.css`](hackerman/theme.css) |
 | [hakkar-green-better-contrast](hakkar-green-better-contrast/) | Dark (+ synthesized light) | [`theme.css`](hakkar-green-better-contrast/theme.css) |
+| [half-life-caged](half-life-caged/) | Dark (+ synthesized light) | [`theme.css`](half-life-caged/theme.css) |
 | [harbordark](harbordark/) | Dark (+ synthesized light) | [`theme.css`](harbordark/theme.css) |
 | [hardlight](hardlight/) | Dark (+ synthesized light) | [`theme.css`](hardlight/theme.css) |
 | [helios](helios/) | Dark (+ synthesized light) | [`theme.css`](helios/theme.css) |
+| [hev-suit](hev-suit/) | Dark (+ synthesized light) | [`theme.css`](hev-suit/theme.css) |
 | [hex](hex/) | Dark (+ synthesized light) | [`theme.css`](hex/theme.css) |
 | [himalaya](himalaya/) | Dark (+ synthesized light) | [`theme.css`](himalaya/theme.css) |
 | [hinterlands](hinterlands/) | Dark (+ synthesized light) | [`theme.css`](hinterlands/theme.css) |
@@ -161,7 +171,9 @@
 | [inkypinky](inkypinky/) | Dark (+ synthesized light) | [`theme.css`](inkypinky/theme.css) |
 | [kanagawa](kanagawa/) | Dark (+ synthesized light) | [`theme.css`](kanagawa/theme.css) |
 | [kanso](kanso/) | Dark (+ synthesized light) | [`theme.css`](kanso/theme.css) |
+| [kato-megumi-dark](kato-megumi-dark/) | Dark (+ synthesized light) | [`theme.css`](kato-megumi-dark/theme.css) |
 | [kawasaki-foundry](kawasaki-foundry/) | Dark (+ synthesized light) | [`theme.css`](kawasaki-foundry/theme.css) |
+| [killer-instinct](killer-instinct/) | Dark (+ synthesized light) | [`theme.css`](killer-instinct/theme.css) |
 | [kimiko](kimiko/) | Dark (+ synthesized light) | [`theme.css`](kimiko/theme.css) |
 | [koda](koda/) | Dark (+ synthesized light) | [`theme.css`](koda/theme.css) |
 | [koyanagi](koyanagi/) | Dark (+ synthesized light) | [`theme.css`](koyanagi/theme.css) |
@@ -189,6 +201,7 @@
 | [matte-black](matte-black/) | Dark (+ synthesized light) | [`theme.css`](matte-black/theme.css) |
 | [mechanoonna](mechanoonna/) | Dark (+ synthesized light) | [`theme.css`](mechanoonna/theme.css) |
 | [memento-mori](memento-mori/) | Dark (+ synthesized light) | [`theme.css`](memento-mori/theme.css) |
+| [metal-gear-rising](metal-gear-rising/) | Dark (+ synthesized light) | [`theme.css`](metal-gear-rising/theme.css) |
 | [miasma](miasma/) | Dark (+ synthesized light) | [`theme.css`](miasma/theme.css) |
 | [miasma-oldjobobo](miasma-oldjobobo/) | Dark (+ synthesized light) | [`theme.css`](miasma-oldjobobo/theme.css) |
 | [miles-morales](miles-morales/) | Dark (+ synthesized light) | [`theme.css`](miles-morales/theme.css) |
@@ -221,7 +234,9 @@
 | [omarchy](omarchy/) | Dark (+ synthesized light) | [`theme.css`](omarchy/theme.css) |
 | [one-dark-pro](one-dark-pro/) | Dark (+ synthesized light) | [`theme.css`](one-dark-pro/theme.css) |
 | [one-dark-pro-darker](one-dark-pro-darker/) | Dark (+ synthesized light) | [`theme.css`](one-dark-pro-darker/theme.css) |
+| [operation-galuga](operation-galuga/) | Dark (+ synthesized light) | [`theme.css`](operation-galuga/theme.css) |
 | [osaka-jade](osaka-jade/) | Dark (+ synthesized light) | [`theme.css`](osaka-jade/theme.css) |
+| [outpost](outpost/) | Dark (+ synthesized light) | [`theme.css`](outpost/theme.css) |
 | [oxford](oxford/) | Dark (+ synthesized light) | [`theme.css`](oxford/theme.css) |
 | [oxocarbon](oxocarbon/) | Dark (+ synthesized light) | [`theme.css`](oxocarbon/theme.css) |
 | [pandora](pandora/) | Dark (+ synthesized light) | [`theme.css`](pandora/theme.css) |
@@ -263,14 +278,17 @@
 | [solarized](solarized/) | Light + dark | [`theme.css`](solarized/theme.css) |
 | [solarizedosaka](solarizedosaka/) | Dark (+ synthesized light) | [`theme.css`](solarizedosaka/theme.css) |
 | [solitude](solitude/) | Dark (+ synthesized light) | [`theme.css`](solitude/theme.css) |
+| [space-marine](space-marine/) | Dark (+ synthesized light) | [`theme.css`](space-marine/theme.css) |
 | [space-monkey](space-monkey/) | Dark (+ synthesized light) | [`theme.css`](space-monkey/theme.css) |
 | [spectra](spectra/) | Dark (+ synthesized light) | [`theme.css`](spectra/theme.css) |
 | [spectral-violet](spectral-violet/) | Dark (+ synthesized light) | [`theme.css`](spectral-violet/theme.css) |
+| [stanley-parable](stanley-parable/) | Dark (+ synthesized light) | [`theme.css`](stanley-parable/theme.css) |
 | [steam-modern](steam-modern/) | Dark (+ synthesized light) | [`theme.css`](steam-modern/theme.css) |
 | [stellar](stellar/) | Dark (+ synthesized light) | [`theme.css`](stellar/theme.css) |
 | [stillmoon](stillmoon/) | Dark (+ synthesized light) | [`theme.css`](stillmoon/theme.css) |
 | [stills-in-motion-omarchy](stills-in-motion-omarchy/) | Dark (+ synthesized light) | [`theme.css`](stills-in-motion-omarchy/theme.css) |
 | [stillwood](stillwood/) | Dark (+ synthesized light) | [`theme.css`](stillwood/theme.css) |
+| [street-fighter-6](street-fighter-6/) | Dark (+ synthesized light) | [`theme.css`](street-fighter-6/theme.css) |
 | [sunkissed](sunkissed/) | Dark (+ synthesized light) | [`theme.css`](sunkissed/theme.css) |
 | [sunset](sunset/) | Dark (+ synthesized light) | [`theme.css`](sunset/theme.css) |
 | [sunset-drive](sunset-drive/) | Dark (+ synthesized light) | [`theme.css`](sunset-drive/theme.css) |
@@ -279,12 +297,15 @@
 | [taikami](taikami/) | Dark (+ synthesized light) | [`theme.css`](taikami/theme.css) |
 | [temerald](temerald/) | Dark (+ synthesized light) | [`theme.css`](temerald/theme.css) |
 | [terafox](terafox/) | Dark (+ synthesized light) | [`theme.css`](terafox/theme.css) |
+| [terminator-2d-no-fate](terminator-2d-no-fate/) | Dark (+ synthesized light) | [`theme.css`](terminator-2d-no-fate/theme.css) |
 | [terramour](terramour/) | Dark (+ synthesized light) | [`theme.css`](terramour/theme.css) |
 | [tokyo-night](tokyo-night/) | Dark (+ synthesized light) | [`theme.css`](tokyo-night/theme.css) |
 | [tokyoled](tokyoled/) | Dark (+ synthesized light) | [`theme.css`](tokyoled/theme.css) |
 | [turbonite](turbonite/) | Dark (+ synthesized light) | [`theme.css`](turbonite/theme.css) |
+| [turner](turner/) | Dark (+ synthesized light) | [`theme.css`](turner/theme.css) |
 | [tycho](tycho/) | Dark (+ synthesized light) | [`theme.css`](tycho/theme.css) |
 | [type17](type17/) | Dark (+ synthesized light) | [`theme.css`](type17/theme.css) |
+| [ultra-street-fighter-iv](ultra-street-fighter-iv/) | Dark (+ synthesized light) | [`theme.css`](ultra-street-fighter-iv/theme.css) |
 | [untitled](untitled/) | Dark (+ synthesized light) | [`theme.css`](untitled/theme.css) |
 | [van-gogh](van-gogh/) | Dark (+ synthesized light) | [`theme.css`](van-gogh/theme.css) |
 | [vantablack](vantablack/) | Dark (+ synthesized light) | [`theme.css`](vantablack/theme.css) |
