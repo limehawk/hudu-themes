@@ -1,6 +1,6 @@
 # Theme catalog
 
-320 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+322 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -69,6 +69,7 @@
 | [catppuccin-dark](catppuccin-dark/) | Dark (+ synthesized light) | [`theme.css`](catppuccin-dark/theme.css) |
 | [catppuccin-glass](catppuccin-glass/) | Dark (+ synthesized light) | [`theme.css`](catppuccin-glass/theme.css) |
 | [catppuccin-mocha](catppuccin-mocha/) | Dark (+ synthesized light) | [`theme.css`](catppuccin-mocha/theme.css) |
+| [cats-from-the-hood](cats-from-the-hood/) | Dark (+ synthesized light) | [`theme.css`](cats-from-the-hood/theme.css) |
 | [citrus-cynapse](citrus-cynapse/) | Dark (+ synthesized light) | [`theme.css`](citrus-cynapse/theme.css) |
 | [city-783](city-783/) | Dark (+ synthesized light) | [`theme.css`](city-783/theme.css) |
 | [cobalt2](cobalt2/) | Dark (+ synthesized light) | [`theme.css`](cobalt2/theme.css) |
@@ -111,6 +112,7 @@
 | [elysian](elysian/) | Dark (+ synthesized light) | [`theme.css`](elysian/theme.css) |
 | [ember-n-ash](ember-n-ash/) | Dark (+ synthesized light) | [`theme.css`](ember-n-ash/theme.css) |
 | [emberveil](emberveil/) | Dark (+ synthesized light) | [`theme.css`](emberveil/theme.css) |
+| [enter-the-matrix](enter-the-matrix/) | Dark (+ synthesized light) | [`theme.css`](enter-the-matrix/theme.css) |
 | [ethereal](ethereal/) | Dark (+ synthesized light) | [`theme.css`](ethereal/theme.css) |
 | [eva01](eva01/) | Dark (+ synthesized light) | [`theme.css`](eva01/theme.css) |
 | [event-horizon](event-horizon/) | Dark (+ synthesized light) | [`theme.css`](event-horizon/theme.css) |
