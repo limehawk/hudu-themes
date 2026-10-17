@@ -1,6 +1,6 @@
 # Theme catalog
 
-323 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+324 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -207,6 +207,7 @@
 | [metal-gear-rising](metal-gear-rising/) | Dark (+ synthesized light) | [`theme.css`](metal-gear-rising/theme.css) |
 | [miasma](miasma/) | Dark (+ synthesized light) | [`theme.css`](miasma/theme.css) |
 | [miasma-oldjobobo](miasma-oldjobobo/) | Dark (+ synthesized light) | [`theme.css`](miasma-oldjobobo/theme.css) |
+| [midnight](midnight/) | Dark (+ synthesized light) | [`theme.css`](midnight/theme.css) |
 | [miles-morales](miles-morales/) | Dark (+ synthesized light) | [`theme.css`](miles-morales/theme.css) |
 | [monochrome](monochrome/) | Dark (+ synthesized light) | [`theme.css`](monochrome/theme.css) |
 | [monokai](monokai/) | Dark (+ synthesized light) | [`theme.css`](monokai/theme.css) |
