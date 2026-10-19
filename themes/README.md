@@ -1,6 +1,6 @@
 # Theme catalog
 
-324 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+327 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -137,6 +137,7 @@
 | [frost](frost/) | Dark (+ synthesized light) | [`theme.css`](frost/theme.css) |
 | [frostveil](frostveil/) | Dark (+ synthesized light) | [`theme.css`](frostveil/theme.css) |
 | [futurism](futurism/) | Dark (+ synthesized light) | [`theme.css`](futurism/theme.css) |
+| [ghost-of-tsushima](ghost-of-tsushima/) | Dark (+ synthesized light) | [`theme.css`](ghost-of-tsushima/theme.css) |
 | [ghost-pastel](ghost-pastel/) | Dark (+ synthesized light) | [`theme.css`](ghost-pastel/theme.css) |
 | [ghostwire](ghostwire/) | Dark (+ synthesized light) | [`theme.css`](ghostwire/theme.css) |
 | [glory-antic](glory-antic/) | Dark (+ synthesized light) | [`theme.css`](glory-antic/theme.css) |
@@ -165,11 +166,13 @@
 | [hex](hex/) | Dark (+ synthesized light) | [`theme.css`](hex/theme.css) |
 | [himalaya](himalaya/) | Dark (+ synthesized light) | [`theme.css`](himalaya/theme.css) |
 | [hinterlands](hinterlands/) | Dark (+ synthesized light) | [`theme.css`](hinterlands/theme.css) |
+| [hitch-dreyse](hitch-dreyse/) | Dark (+ synthesized light) | [`theme.css`](hitch-dreyse/theme.css) |
 | [hollow-knight](hollow-knight/) | Dark (+ synthesized light) | [`theme.css`](hollow-knight/theme.css) |
 | [hydra-pressure](hydra-pressure/) | Dark (+ synthesized light) | [`theme.css`](hydra-pressure/theme.css) |
 | [hyprblue](hyprblue/) | Dark (+ synthesized light) | [`theme.css`](hyprblue/theme.css) |
 | [ibm](ibm/) | Dark (+ synthesized light) | [`theme.css`](ibm/theme.css) |
 | [infernium-dark](infernium-dark/) | Dark (+ synthesized light) | [`theme.css`](infernium-dark/theme.css) |
+| [ingolstadt-1792](ingolstadt-1792/) | Dark (+ synthesized light) | [`theme.css`](ingolstadt-1792/theme.css) |
 | [inkblade](inkblade/) | Dark (+ synthesized light) | [`theme.css`](inkblade/theme.css) |
 | [inkypinky](inkypinky/) | Dark (+ synthesized light) | [`theme.css`](inkypinky/theme.css) |
 | [kanagawa](kanagawa/) | Dark (+ synthesized light) | [`theme.css`](kanagawa/theme.css) |
