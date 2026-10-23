@@ -1,6 +1,6 @@
 # Theme catalog
 
-327 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+331 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -172,6 +172,7 @@
 | [hyprblue](hyprblue/) | Dark (+ synthesized light) | [`theme.css`](hyprblue/theme.css) |
 | [ibm](ibm/) | Dark (+ synthesized light) | [`theme.css`](ibm/theme.css) |
 | [infernium-dark](infernium-dark/) | Dark (+ synthesized light) | [`theme.css`](infernium-dark/theme.css) |
+| [infrared-snooze](infrared-snooze/) | Dark (+ synthesized light) | [`theme.css`](infrared-snooze/theme.css) |
 | [ingolstadt-1792](ingolstadt-1792/) | Dark (+ synthesized light) | [`theme.css`](ingolstadt-1792/theme.css) |
 | [inkblade](inkblade/) | Dark (+ synthesized light) | [`theme.css`](inkblade/theme.css) |
 | [inkypinky](inkypinky/) | Dark (+ synthesized light) | [`theme.css`](inkypinky/theme.css) |
@@ -224,6 +225,7 @@
 | [nature-dark](nature-dark/) | Dark (+ synthesized light) | [`theme.css`](nature-dark/theme.css) |
 | [nebulite](nebulite/) | Dark (+ synthesized light) | [`theme.css`](nebulite/theme.css) |
 | [neo-sploosh](neo-sploosh/) | Dark (+ synthesized light) | [`theme.css`](neo-sploosh/theme.css) |
+| [neon-district](neon-district/) | Dark (+ synthesized light) | [`theme.css`](neon-district/theme.css) |
 | [neonstreet](neonstreet/) | Dark (+ synthesized light) | [`theme.css`](neonstreet/theme.css) |
 | [neovoid](neovoid/) | Dark (+ synthesized light) | [`theme.css`](neovoid/theme.css) |
 | [nes](nes/) | Dark (+ synthesized light) | [`theme.css`](nes/theme.css) |
@@ -267,6 +269,7 @@
 | [ristretto](ristretto/) | Dark (+ synthesized light) | [`theme.css`](ristretto/theme.css) |
 | [robco](robco/) | Dark (+ synthesized light) | [`theme.css`](robco/theme.css) |
 | [robco-mojave](robco-mojave/) | Dark (+ synthesized light) | [`theme.css`](robco-mojave/theme.css) |
+| [rosary](rosary/) | Dark (+ synthesized light) | [`theme.css`](rosary/theme.css) |
 | [rose-pine-dark](rose-pine-dark/) | Dark (+ synthesized light) | [`theme.css`](rose-pine-dark/theme.css) |
 | [royal](royal/) | Dark (+ synthesized light) | [`theme.css`](royal/theme.css) |
 | [rustleaf](rustleaf/) | Dark (+ synthesized light) | [`theme.css`](rustleaf/theme.css) |
@@ -283,6 +286,7 @@
 | [softteal](softteal/) | Dark (+ synthesized light) | [`theme.css`](softteal/theme.css) |
 | [soho](soho/) | Dark (+ synthesized light) | [`theme.css`](soho/theme.css) |
 | [solarized](solarized/) | Light + dark | [`theme.css`](solarized/theme.css) |
+| [solarized-japan](solarized-japan/) | Dark (+ synthesized light) | [`theme.css`](solarized-japan/theme.css) |
 | [solarizedosaka](solarizedosaka/) | Dark (+ synthesized light) | [`theme.css`](solarizedosaka/theme.css) |
 | [solitude](solitude/) | Dark (+ synthesized light) | [`theme.css`](solitude/theme.css) |
 | [space-marine](space-marine/) | Dark (+ synthesized light) | [`theme.css`](space-marine/theme.css) |
