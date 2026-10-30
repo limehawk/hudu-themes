@@ -1,6 +1,6 @@
 # Theme catalog
 
-331 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+332 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -302,6 +302,7 @@
 | [street-fighter-6](street-fighter-6/) | Dark (+ synthesized light) | [`theme.css`](street-fighter-6/theme.css) |
 | [sunkissed](sunkissed/) | Dark (+ synthesized light) | [`theme.css`](sunkissed/theme.css) |
 | [sunset](sunset/) | Dark (+ synthesized light) | [`theme.css`](sunset/theme.css) |
+| [sunset-at-the-beach](sunset-at-the-beach/) | Dark (+ synthesized light) | [`theme.css`](sunset-at-the-beach/theme.css) |
 | [sunset-drive](sunset-drive/) | Dark (+ synthesized light) | [`theme.css`](sunset-drive/theme.css) |
 | [super-game-bro](super-game-bro/) | Dark (+ synthesized light) | [`theme.css`](super-game-bro/theme.css) |
 | [synthwave84](synthwave84/) | Dark (+ synthesized light) | [`theme.css`](synthwave84/theme.css) |
