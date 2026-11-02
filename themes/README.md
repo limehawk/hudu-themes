@@ -1,6 +1,6 @@
 # Theme catalog
 
-332 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+335 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -141,6 +141,7 @@
 | [ghost-pastel](ghost-pastel/) | Dark (+ synthesized light) | [`theme.css`](ghost-pastel/theme.css) |
 | [ghostwire](ghostwire/) | Dark (+ synthesized light) | [`theme.css`](ghostwire/theme.css) |
 | [glory-antic](glory-antic/) | Dark (+ synthesized light) | [`theme.css`](glory-antic/theme.css) |
+| [glowing-city](glowing-city/) | Dark (+ synthesized light) | [`theme.css`](glowing-city/theme.css) |
 | [gojira](gojira/) | Dark (+ synthesized light) | [`theme.css`](gojira/theme.css) |
 | [gold-rush](gold-rush/) | Dark (+ synthesized light) | [`theme.css`](gold-rush/theme.css) |
 | [gotham-city](gotham-city/) | Dark (+ synthesized light) | [`theme.css`](gotham-city/theme.css) |
@@ -234,6 +235,7 @@
 | [nightwire](nightwire/) | Dark (+ synthesized light) | [`theme.css`](nightwire/theme.css) |
 | [noctua](noctua/) | Dark (+ synthesized light) | [`theme.css`](noctua/theme.css) |
 | [nord](nord/) | Dark (+ synthesized light) | [`theme.css`](nord/theme.css) |
+| [nordic-nightfall](nordic-nightfall/) | Dark (+ synthesized light) | [`theme.css`](nordic-nightfall/theme.css) |
 | [nous](nous/) | Dark (+ synthesized light) | [`theme.css`](nous/theme.css) |
 | [nous-research-purple](nous-research-purple/) | Dark (+ synthesized light) | [`theme.css`](nous-research-purple/theme.css) |
 | [nyc](nyc/) | Dark (+ synthesized light) | [`theme.css`](nyc/theme.css) |
@@ -277,6 +279,7 @@
 | [saga](saga/) | Dark (+ synthesized light) | [`theme.css`](saga/theme.css) |
 | [sakura](sakura/) | Dark (+ synthesized light) | [`theme.css`](sakura/theme.css) |
 | [sapphire](sapphire/) | Dark (+ synthesized light) | [`theme.css`](sapphire/theme.css) |
+| [scanner-darkly](scanner-darkly/) | Dark (+ synthesized light) | [`theme.css`](scanner-darkly/theme.css) |
 | [serenity](serenity/) | Dark (+ synthesized light) | [`theme.css`](serenity/theme.css) |
 | [sf](sf/) | Dark (+ synthesized light) | [`theme.css`](sf/theme.css) |
 | [shadesofjade](shadesofjade/) | Dark (+ synthesized light) | [`theme.css`](shadesofjade/theme.css) |
