@@ -1,6 +1,6 @@
 # Theme catalog
 
-335 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+336 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -283,6 +283,7 @@
 | [serenity](serenity/) | Dark (+ synthesized light) | [`theme.css`](serenity/theme.css) |
 | [sf](sf/) | Dark (+ synthesized light) | [`theme.css`](sf/theme.css) |
 | [shadesofjade](shadesofjade/) | Dark (+ synthesized light) | [`theme.css`](shadesofjade/theme.css) |
+| [shinchan](shinchan/) | Dark (+ synthesized light) | [`theme.css`](shinchan/theme.css) |
 | [shinsekai](shinsekai/) | Dark (+ synthesized light) | [`theme.css`](shinsekai/theme.css) |
 | [shuiro](shuiro/) | Dark (+ synthesized light) | [`theme.css`](shuiro/theme.css) |
 | [snow-black](snow-black/) | Dark (+ synthesized light) | [`theme.css`](snow-black/theme.css) |
