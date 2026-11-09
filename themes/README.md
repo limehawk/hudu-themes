@@ -1,6 +1,6 @@
 # Theme catalog
 
-336 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+337 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -268,6 +268,7 @@
 | [retro-fallout](retro-fallout/) | Dark (+ synthesized light) | [`theme.css`](retro-fallout/theme.css) |
 | [retropc](retropc/) | Dark (+ synthesized light) | [`theme.css`](retropc/theme.css) |
 | [reverie](reverie/) | Dark (+ synthesized light) | [`theme.css`](reverie/theme.css) |
+| [reze](reze/) | Dark (+ synthesized light) | [`theme.css`](reze/theme.css) |
 | [ristretto](ristretto/) | Dark (+ synthesized light) | [`theme.css`](ristretto/theme.css) |
 | [robco](robco/) | Dark (+ synthesized light) | [`theme.css`](robco/theme.css) |
 | [robco-mojave](robco-mojave/) | Dark (+ synthesized light) | [`theme.css`](robco-mojave/theme.css) |
