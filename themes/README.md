@@ -1,6 +1,6 @@
 # Theme catalog
 
-337 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+338 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -238,6 +238,7 @@
 | [nordic-nightfall](nordic-nightfall/) | Dark (+ synthesized light) | [`theme.css`](nordic-nightfall/theme.css) |
 | [nous](nous/) | Dark (+ synthesized light) | [`theme.css`](nous/theme.css) |
 | [nous-research-purple](nous-research-purple/) | Dark (+ synthesized light) | [`theme.css`](nous-research-purple/theme.css) |
+| [nujabes](nujabes/) | Dark (+ synthesized light) | [`theme.css`](nujabes/theme.css) |
 | [nyc](nyc/) | Dark (+ synthesized light) | [`theme.css`](nyc/theme.css) |
 | [ochre](ochre/) | Dark (+ synthesized light) | [`theme.css`](ochre/theme.css) |
 | [omacarchy](omacarchy/) | Dark (+ synthesized light) | [`theme.css`](omacarchy/theme.css) |
