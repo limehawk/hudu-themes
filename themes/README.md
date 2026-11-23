@@ -1,6 +1,6 @@
 # Theme catalog
 
-338 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
+345 themes. Hand-made: [flexoki](flexoki/). The rest are generated from [omarchy](https://omarchy.org) palettes — most sourced from the [omarchytheme.com](https://omarchytheme.com) registry — via [`tools/omarchy-to-hudu`](../tools/omarchy-to-hudu/). Each theme's README documents its palette and provenance.
 
 | Theme | Modes | Source |
 |-------|-------|--------|
@@ -111,6 +111,7 @@
 | [dustyfog](dustyfog/) | Dark (+ synthesized light) | [`theme.css`](dustyfog/theme.css) |
 | [eldritch](eldritch/) | Dark (+ synthesized light) | [`theme.css`](eldritch/theme.css) |
 | [elysian](elysian/) | Dark (+ synthesized light) | [`theme.css`](elysian/theme.css) |
+| [ember-drive](ember-drive/) | Dark (+ synthesized light) | [`theme.css`](ember-drive/theme.css) |
 | [ember-n-ash](ember-n-ash/) | Dark (+ synthesized light) | [`theme.css`](ember-n-ash/theme.css) |
 | [emberveil](emberveil/) | Dark (+ synthesized light) | [`theme.css`](emberveil/theme.css) |
 | [enter-the-matrix](enter-the-matrix/) | Dark (+ synthesized light) | [`theme.css`](enter-the-matrix/theme.css) |
@@ -131,6 +132,7 @@
 | [flat-dracula](flat-dracula/) | Dark (+ synthesized light) | [`theme.css`](flat-dracula/theme.css) |
 | [flexoki](flexoki/) | Light + dark | [`theme.css`](flexoki/theme.css) |
 | [florida-man](florida-man/) | Dark (+ synthesized light) | [`theme.css`](florida-man/theme.css) |
+| [flower-fruit-mountain](flower-fruit-mountain/) | Dark (+ synthesized light) | [`theme.css`](flower-fruit-mountain/theme.css) |
 | [fluid-glass](fluid-glass/) | Dark (+ synthesized light) | [`theme.css`](fluid-glass/theme.css) |
 | [forest-green](forest-green/) | Dark (+ synthesized light) | [`theme.css`](forest-green/theme.css) |
 | [frankenstein](frankenstein/) | Dark (+ synthesized light) | [`theme.css`](frankenstein/theme.css) |
@@ -156,6 +158,7 @@
 | [gruvu](gruvu/) | Dark (+ synthesized light) | [`theme.css`](gruvu/theme.css) |
 | [gruvy-glass](gruvy-glass/) | Dark (+ synthesized light) | [`theme.css`](gruvy-glass/theme.css) |
 | [gta](gta/) | Dark (+ synthesized light) | [`theme.css`](gta/theme.css) |
+| [gta6](gta6/) | Dark (+ synthesized light) | [`theme.css`](gta6/theme.css) |
 | [habamax-omarchy](habamax-omarchy/) | Dark (+ synthesized light) | [`theme.css`](habamax-omarchy/theme.css) |
 | [hackerman](hackerman/) | Dark (+ synthesized light) | [`theme.css`](hackerman/theme.css) |
 | [hakkar-green-better-contrast](hakkar-green-better-contrast/) | Dark (+ synthesized light) | [`theme.css`](hakkar-green-better-contrast/theme.css) |
@@ -233,6 +236,7 @@
 | [night-cat](night-cat/) | Dark (+ synthesized light) | [`theme.css`](night-cat/theme.css) |
 | [night-owl](night-owl/) | Dark (+ synthesized light) | [`theme.css`](night-owl/theme.css) |
 | [nightwire](nightwire/) | Dark (+ synthesized light) | [`theme.css`](nightwire/theme.css) |
+| [no-mans-sky](no-mans-sky/) | Dark (+ synthesized light) | [`theme.css`](no-mans-sky/theme.css) |
 | [noctua](noctua/) | Dark (+ synthesized light) | [`theme.css`](noctua/theme.css) |
 | [nord](nord/) | Dark (+ synthesized light) | [`theme.css`](nord/theme.css) |
 | [nordic-nightfall](nordic-nightfall/) | Dark (+ synthesized light) | [`theme.css`](nordic-nightfall/theme.css) |
@@ -280,11 +284,13 @@
 | [ryu](ryu/) | Dark (+ synthesized light) | [`theme.css`](ryu/theme.css) |
 | [saga](saga/) | Dark (+ synthesized light) | [`theme.css`](saga/theme.css) |
 | [sakura](sakura/) | Dark (+ synthesized light) | [`theme.css`](sakura/theme.css) |
+| [sandstone-dark](sandstone-dark/) | Dark (+ synthesized light) | [`theme.css`](sandstone-dark/theme.css) |
 | [sapphire](sapphire/) | Dark (+ synthesized light) | [`theme.css`](sapphire/theme.css) |
 | [scanner-darkly](scanner-darkly/) | Dark (+ synthesized light) | [`theme.css`](scanner-darkly/theme.css) |
 | [serenity](serenity/) | Dark (+ synthesized light) | [`theme.css`](serenity/theme.css) |
 | [sf](sf/) | Dark (+ synthesized light) | [`theme.css`](sf/theme.css) |
 | [shadesofjade](shadesofjade/) | Dark (+ synthesized light) | [`theme.css`](shadesofjade/theme.css) |
+| [shadow](shadow/) | Dark (+ synthesized light) | [`theme.css`](shadow/theme.css) |
 | [shinchan](shinchan/) | Dark (+ synthesized light) | [`theme.css`](shinchan/theme.css) |
 | [shinsekai](shinsekai/) | Dark (+ synthesized light) | [`theme.css`](shinsekai/theme.css) |
 | [shuiro](shuiro/) | Dark (+ synthesized light) | [`theme.css`](shuiro/theme.css) |
@@ -295,6 +301,7 @@
 | [solarized-japan](solarized-japan/) | Dark (+ synthesized light) | [`theme.css`](solarized-japan/theme.css) |
 | [solarizedosaka](solarizedosaka/) | Dark (+ synthesized light) | [`theme.css`](solarizedosaka/theme.css) |
 | [solitude](solitude/) | Dark (+ synthesized light) | [`theme.css`](solitude/theme.css) |
+| [sovereign](sovereign/) | Dark (+ synthesized light) | [`theme.css`](sovereign/theme.css) |
 | [space-marine](space-marine/) | Dark (+ synthesized light) | [`theme.css`](space-marine/theme.css) |
 | [space-monkey](space-monkey/) | Dark (+ synthesized light) | [`theme.css`](space-monkey/theme.css) |
 | [spectra](spectra/) | Dark (+ synthesized light) | [`theme.css`](spectra/theme.css) |
